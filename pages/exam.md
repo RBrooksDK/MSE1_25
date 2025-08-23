@@ -1,30 +1,30 @@
-<h1 align="center">Eksamen</h1>
+<h1 align="center">Exam</h1>
 
-### Eksamensforudsætninger: 
-Ingen
+### Exam Prerequisites: 
+None
 
-### Eksamenstype
-Eksamen består af to dele:
+### Exam Type
+The exam consists of two parts:
 
-- Første del er en Flowlock-eksamen i Wiseflow.
-- Anden del er en Wiseflow-eksamen uden Flowlock.
-- 
-Anden del skal gennemføres i Jupyter Notebook, og svarene skal indsendes i Wiseflow.
+- The first part is a Flowlock exam in Wiseflow.
+- The second part is a Wiseflow exam without Flowlock.
 
-Del 1 har en varighed på 3 timer, og del 2 har en varighed på 1 time. Eksamen har en samlet varighed på 4 timer.
+The second part must be completed in Jupyter Notebook, and the answers must be submitted in Wiseflow.
 
-Den studerende vil ikke kunne få adgang til anden del, før første del er afsluttet.
+Part 1 has a duration of 3 hours, and Part 2 has a duration of 1 hour. The total duration of the exam is 4 hours.
 
-### Tilladte hjælpemidler 
-I første del må de studerende bruge noter, bøger og/eller andet skriftligt/trykt materiale og vil have adgang til PDF-filer på deres bærbare computer.
+Students will not be able to access the second part until the first part is completed.
 
-Til første (og anden) del må de studerende medbringe egen lommeregner, men får også adgang til en online lommeregner, som kan anvendes under eksamen.
+### Allowed Aids 
+In the first part, students may use notes, books, and/or other written/printed materials and will have access to PDF files on their laptops.
 
-I anden del er alle supplerende materialer og hjælpemidler tilladt, f.eks. brug af en computer som opslagsværk. Internetadgang er ikke tilladt, medmindre det sker i forbindelse med brug af Wiseflow.
+For both the first and second parts, students may bring their own calculators but will also have access to an online calculator that can be used during the exam.
 
-Det er dog ikke tilladt at bruge AI-værktøjer som Copilot, ChatGPT, Bing osv.
+In the second part, all supplementary materials and aids are allowed, such as using a computer as a reference tool. Internet access is not allowed unless it is in connection with using Wiseflow.
 
-Kommunikation af enhver art er ikke tilladt under eksamen og vil føre til bortvisning af alle involverede parter fra eksamen.
+However, the use of AI tools such as Copilot, ChatGPT, Bing, etc., is not permitted.
 
-### Re-eksamen
-Re-eksamener kan være mundtlige.
+Communication of any kind is not allowed during the exam and will result in the expulsion of all involved parties from the exam.
+
+### Re-exam
+Re-exams may be oral.

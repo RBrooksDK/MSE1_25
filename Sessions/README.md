@@ -1,22 +1,22 @@
-<h1 align="center">Sessioner</h1>
+<h1 align="center">Sessions</h1>
 
-Klik på en session til venstre (eller nedenfor) for at få adgang til en plan for en specifik session og yderligere ressourcer til den pågældende session. Alle sessioner er planlagt fra **8:20 til 9:55** mandage og torsdage. Før den første session og mellem de to skemalagte sessioner forventes, at den studerende forbereder sig. Sessionerne er som følger:
+Click on a session on the left (or below) to access a plan for a specific session and additional resources for that session. A session consists of 2 x 45 minute lecture followed by 4 x 45 minutes of hands-on exercises. The students are not expected to work on the exercises at home but at the scheduled tutorials. The sessions are as follows:
 
 <div markdown="1" style="text-align:center;">
 
-| Session | Uge                 | Emne                        |
+| Session | Week                | Topic                        |
 | ------- | :----:              | ---------------------------- |
-| 01      | Uge 35              | [Grundlæggende aritmetik og funktioner](/MSE1_DK_25/01/) |
-| 02      | Uge 36              | [Talsystemer](/MSE1_DK_25/02/) |
-| 03      | Uge 37              | [Mængdelære](/MSE1_DK_25/03/) |
-| 04      | Uge 38              | [Kombinatorik og sandsynlighedsteori](/MSE1_DK_25/04/) |
-| 05      | Uge 39              | [Betingede sandsynligheder og Bayes' Teorem](/MSE1_DK_25/05/) |
-| 06      | Uge 40              | [Beskrivende Statistik](/MSE1_DK_25/06/) |
-| 07      | Uge 41              | [Introduktion til lineær algebra](/MSE1_DK_25/07/) |
-| 08      | Uge 43              | [Vektorer og matricer](/MSE1_DK_25/08/) |
-| 09      | Uge 44              | [Matrix algebra og determinanter](/MSE1_DK_25/09/) |
-| 10      | Uge 45              | [Differentiering af simple funktioner](/MSE1_DK_25/10/) |
-| 11      | Uge 46              | [Gradienter og partiel afledte](/MSE1_DK_25/11/) |
-| 12      | Uge 47              | [Afslutning og spørgetime](/MSE1_DK_25/12/) |
+| 01      | Week 35             | [Basic Arithmetic and Functions](/MSE1_25/01/) |
+| 02      | Week 36             | [Numeral Systems](/MSE1_25/02/) |
+| 03      | Week 37             | [Set Theory](/MSE1_25/03/) |
+| 04      | Week 38             | [Combinatorics and Probability Theory](/MSE1_25/04/) |
+| 05      | Week 39             | [Conditional Probabilities and Bayes' Theorem](/MSE1_25/05/) |
+| 06      | Week 40             | [Descriptive Statistics](/MSE1_25/06/) |
+| 07      | Week 41             | [Introduction to Linear Algebra](/MSE1_25/07/) |
+| 08      | Week 43             | [Vectors and Matrices](/MSE1_25/08/) |
+| 09      | Week 44             | [Matrix Algebra and Determinants](/MSE1_25/09/) |
+| 10      | Week 45             | [Differentiation of Simple Functions](/MSE1_25/10/) |
+| 11      | Week 46             | [Gradients and Partial Derivatives](/MSE1_25/11/) |
+| 12      | Week 47             | [Conclusion and Q&A Session](/MSE1_25/12/) |
 
 </div>

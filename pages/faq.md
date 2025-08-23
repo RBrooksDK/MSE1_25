@@ -1,93 +1,94 @@
 <h1 align="center">FAQ</h1>
 
-### Generel information
+### General Information
 
-??? question "Findes der en FAQ for kurset?"
-    Ja, du kigger på den lige nu! Denne FAQ er designet til at besvare nogle af de mest almindelige spørgsmål om kurset. Hvis du har et spørgsmål, der ikke besvares her, er du velkommen til at kontakte den kursusansvarlige, [Richard Brooks](mailto: rib@via.dk)
+??? question "Is there a FAQ for the course?"
+    Yes, you are looking at it right now! This FAQ is designed to answer some of the most common questions about the course. If you have a question that is not answered here, feel free to contact the course coordinator, [Richard Brooks](mailto: rib@via.dk).
 
-??? question "Hvad handler kurset om?"
-    Kurset dækker en introduktion til udvalgte emner inden for matematik, der har særlig relevans for softwareingeniører. En dybdegående beskrivelse kan findes i [kursusbeskrivelsen](https://www.via.dk/TMH/Courses/matematik-for-softwareingenioerer-ts-under-opdatering?education=sw) eller ved at gennemgå beskrivelsen af hver session i Sessionsmenuen.
+??? question "What is the course about?"
+    The course covers an introduction to selected topics in mathematics that are particularly relevant for software engineers. A detailed description can be found in the [course description](https://en.via.dk/tmh-courses/mathematics-for-software-engineering?education=ict) or by reviewing the description of each session in the Sessions menu.
 
-??? question "Hvordan relaterer kurset sig til studieordningen?"
-    Kurset relaterer sig primært til studieordningen ved at give et fundament for at forstå og anvende matematik i ingeniørmæssig sammenhæng, især inden for data science og machine learning samt computergrafik.
+??? question "How does the course relate to the curriculum?"
+    The course primarily relates to the curriculum by providing a foundation for understanding and applying mathematics in an engineering context, especially within data science, machine learning, and computer graphics.
 
-??? question "Hvad er forudsætningerne for kurset?"
-    Det er vigtigt, at du har en grundlæggende forståelse af matematik og algebra, da kurset bygger videre på disse emner. Det anbefales at have gennemgået gymnasiets matematikpensum, især emner som funktioner, ligninger og grundlæggende algebra.
+??? question "What are the prerequisites for the course?"
+    It is important that you have a basic understanding of mathematics and algebra, as the course builds on these topics. It is recommended to have completed high school mathematics, especially topics such as functions, equations, and basic algebra.
 
-??? question "Er fremmøde obligatorisk?"
-    Fremmøde er ikke obligatorisk, men det anbefales kraftigt. Kurset er designet til at være interaktivt og praktisk, så deltagelse vil hjælpe dig med at forstå materialet bedre. Hvis du ikke kan deltage i den synkrone del, skal du sørge for at indhente det materiale, der er blevet gennemgået.
-
----
-
-### Hvem skal man kontakte?
-
-??? question "Hvem skal jeg kontakte, hvis jeg har spørgsmål til kursets indhold?"
-    Du kan kontakte den kursusansvarlige, [Richard Brooks](mailto:rib@via.dk), hvis du har spørgsmål til kursets indhold.
-
-??? question "Hvem skal jeg kontakte, hvis jeg har spørgsmål til eksamen?"
-    Du skal altid kontakte [Studieservice](mailto: studieservice.hs@via.dk), hvis du har spørgsmål til eksamen.
-
-??? question "Hvem skal jeg kontakte, hvis jeg har spørgsmål til skemaet?"
-    Du kan kontakte vores [skemalægger](mailto: giba@via.dk), hvis du har spørgsmål til skemaet.
-
-??? question "Hvem skal jeg kontakte, hvis jeg har skemakonflikter?"
-    Du kan kontakte vores [skemalægger](mailto: giba@via.dk), hvis du har spørgsmål om skemakonflikter.
-
-??? question "Hvem skal jeg kontakte, hvis jeg vil vide, om dette kursus er obligatorisk for en      kandidatuddannelse, eller om det opfylder et specifikt krav? "
-    Du kan kontakte [Studievejledningen](mailto: eng.studycounselling@via.dk).
+??? question "Is attendance mandatory?"
+    Yes, the course has a mandatory attendance policy which means you will be unable to attend the exam if your attendance surpasses 25%.
+    
 
 ---
 
-### Eksamen og bedømmelse
+### Who to Contact?
 
-??? question "Hvilken type eksamen afslutter kurset?"
-    Se venligst afsnittet "Eksamen" i fanen foroven for detaljeret information om eksamen.
+??? question "Who should I contact if I have questions about the course content?"
+    You can contact the course coordinator, [Richard Brooks](mailto:rib@via.dk), if you have questions about the course content.
 
-??? question "Hvornår afholdes eksamen og reeksamen?"
-    Eksamen afholdes typisk i januar og reeksamen ligger oftest i starten af februar. Du er velkommen til at kontakte [Studieservice](mailto: studieservice.hs@via.dk) for mere information.
+??? question "Who should I contact if I have questions about the exam?"
+    You should always contact [Student Services](mailto: studieservice.hs@via.dk) if you have questions about the exam.
 
-??? question "Hvad er karakterskalaen for kurset?"
-    Karakterskalaen for kurset er 7-trinsskalaen.
+??? question "Who should I contact if I have questions about the schedule?"
+    You can contact our [scheduler](mailto: giba@via.dk) if you have questions about the schedule.
 
-??? question "Hvordan beregnes den endelige karakter?"
-    Den endelige karakter beregnes på baggrund af eksamen. Eksamenen består af to dele: en Flowlock-eksamen i Wiseflow og en Wiseflow-eksamen uden Flowlock. De to dele har ikke særskilte vægtninger, og vurderingen og karakteren gives på baggrund af en helhedsvurdering. Se venligst afsnittet "Eksamen" i fanen ovenfor for mere information.
+??? question "Who should I contact if I have scheduling conflicts?"
+    You can contact our [scheduler](mailto: giba@via.dk) if you have questions about scheduling conflicts.
 
-??? question "Hvordan foregår reeksamen?"
-    Reeksamen kan være mundtlig. Se venligst afsnittet "Eksamen" i fanen ovenfor for mere information.
-
-??? question "Hvad sker der, hvis jeg dumper eksamen?"
-    Hvis du dumper eksamen, får du mulighed for at tage en reeksamen. Se venligst afsnittet "Eksamen" i fanen ovenfor for mere information.
-
-??? question "Hvad sker der, hvis jeg dumper reeksamen?"
-    Hvis du dumper reeksamen, skal du vente, til kurset afholdes igen, for at tage eksamen igen. I særlige tilfælde kan vi muligvis tilbyde dig en mundtlig reeksamen. Se venligst afsnittet "Eksamen" i fanen ovenfor for mere information.
-
-??? question "Hvor mange procentpoint skal jeg have for at bestå eksamen?"
-    Eksamen bedømmes efter 7-trinsskalaen. For at bestå eksamen skal du have en karakter på 02 eller højere. For at opnå 02 skal du score mindst 50% af de samlede point på eksamen. Denne score kan variere fra år til år, men er aldrig højere end 50%.
+??? question "Who should I contact to find out if this course is mandatory for a graduate program or if it fulfills a specific requirement?"
+    You can contact [Study Guidance](mailto: eng.studycounselling@via.dk).
 
 ---
 
-## Ressourcer
+### Exam and Assessment
 
-??? question "Er kursusbogen obligatorisk?"
-    Kursusbogen er ikke obligatorisk, men jeg anbefaler at finde nogle ressourcer, der kan hjælpe dig med at forstå materialet. Kursusbogen er en god ressource, men der er mange andre ressourcer tilgængelige online. Se også afsnittet Ressourcer i menuen ovenfor.
+??? question "What type of exam concludes the course?"
+    Please see the "Exam" section in the tab above for detailed information about the exam.
 
-??? question "Er Python obligatorisk?"
-    Python er obligatorisk for kurset. Du skal bruge Python til at løse opgaverne og til eksamen. Kurset forudsætter ikke kendskab til Python og det vil blive grundigt introduceret. Vi hjælper med at installere Python og de nødvendige biblioteker i introdagene.
+??? question "When are the exam and re-exam held?"
+    The exam is typically held in January, and the re-exam is usually in early February. Feel free to contact [Student Services](mailto: studieservice.hs@via.dk) for more information.
 
-??? question "Er Jupyter Notebook obligatorisk?"
-    Jupyter Notebook er obligatorisk for kurset. Du skal bruge Jupyter Notebook til at løse opgaverne og til eksamen. Du kan installere et plugin i VSCode for at køre Jupyter Notebooks.  Vi hjælper med at installere Jupyter Notebook og de nødvendige biblioteker i introdagene.
+??? question "What is the grading scale for the course?"
+    The grading scale for the course is the 7-point scale.
 
-??? question "Er kursusmaterialet tilgængeligt online?"
-    Ja, kursusmaterialet er tilgængeligt online. Du kan finde alt materiale ved at navigere i menuen ovenfor.
+??? question "How is the final grade calculated?"
+    The final grade is based on the exam. The exam consists of two parts: a Flowlock exam in Wiseflow and a Wiseflow exam without Flowlock. The two parts do not have separate weightings, and the assessment and grade are based on an overall evaluation. Please see the "Exam" section in the tab above for more information.
 
-??? question "Findes der en anbefalet studieplan?"
-    Ja, jeg anbefaler at følge studieplanen, der er beskrevet i kursusmaterialet. Du kan finde studieplanen i kursusmaterialet ved at navigere i menuen ovenfor.
+??? question "How is the re-exam conducted?"
+    The re-exam may be oral. Please see the "Exam" section in the tab above for more information.
 
-??? question "Hvor finder jeg materiale såsom gamle eksamenssæt, løsninger og andre ressourcer?"
-    Du kan finde alt materiale ved at navigere i menuen ovenfor.
+??? question "What happens if I fail the exam?"
+    If you fail the exam, you will have the opportunity to take a re-exam. Please see the "Exam" section in the tab above for more information.
 
-??? question "Findes der yderligere ressourcer?"
-    Ja, der er mange yderligere ressourcer tilgængelige online. Se også fanen Ressourcer i fanen ovenfor.
+??? question "What happens if I fail the re-exam?"
+    If you fail the re-exam, you will have to wait until the course is offered again to take the exam again. In special cases, we may be able to offer you an oral re-exam. Please see the "Exam" section in the tab above for more information.
 
-??? question "Hvad er Wiseflow-koden?"
-    Wiseflow-koden for kurset er 0000. Til eksamen vil du dog få udleveret specifikke koder.
+??? question "What percentage do I need to pass the exam?"
+    The exam is graded according to the 7-point scale. To pass the exam, you need a grade of 02 or higher. To achieve 02, you must score at least 50% of the total points on the exam. This score may vary from year to year but is never higher than 50%.
+
+---
+
+## Resources
+
+??? question "Is the course book mandatory?"
+    The course book is not mandatory, but I recommend finding resources that can help you understand the material. The course book is a good resource, but there are many other resources available online. See also the Resources section in the menu above.
+
+??? question "Is Python mandatory?"
+    Python is mandatory for the course. You will need Python to complete the assignments and for the exam. The course does not assume prior knowledge of Python, and it will be thoroughly introduced. We will help install Python and the necessary libraries during the introductory days.
+
+??? question "Is Jupyter Notebook mandatory?"
+    Jupyter Notebook is mandatory for the course. You will need Jupyter Notebook to complete the assignments and for the exam. You can install a plugin in VSCode to run Jupyter Notebooks. We will help install Jupyter Notebook and the necessary libraries during the introductory days.
+
+??? question "Is the course material available online?"
+    Yes, the course material is available online. You can find all materials by navigating the menu above.
+
+??? question "Is there a recommended study plan?"
+    Yes, I recommend following the study plan described in the course material. You can find the study plan in the course material by navigating the menu above.
+
+??? question "Where can I find materials such as past exam sets, solutions, and other resources?"
+    You can find all materials by navigating the menu above.
+
+??? question "Are there additional resources?"
+    Yes, there are many additional resources available online. See also the Resources tab in the menu above.
+
+??? question "What is the Wiseflow code?"
+    The Wiseflow code for the course is 0000. For the exam, you will be given specific codes.

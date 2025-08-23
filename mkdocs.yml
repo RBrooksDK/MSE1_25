@@ -1,13 +1,13 @@
 # Project information
-site_name: Matematik for Softwareingeniører
-site_url: https://rbrooksdk.github.io/MSE1_DK_25
+site_name: Mathematics for Software Engineering
+site_url: https://rbrooksdk.github.io/MSE1_25
 site_author: Richard Brooks
-site_description: Kursusside for Matematik for Softwareingeniører
+site_description: Course Page for Mathematics for Software Engineering
 docs_dir: .
 site_dir: ../site
 # Repository information
 repo_name: Github
-repo_url: https://github.com/RBrooksDK/MSE1_DK_25
+repo_url: https://github.com/RBrooksDK/MSE1_25
 
 # Copyright
 copyright: Copyright &copy; 2025 Richard Brooks
@@ -15,7 +15,7 @@ copyright: Copyright &copy; 2025 Richard Brooks
 # Configurations
 theme:
   name: material
-  language: da
+  language: en
   # custom_dir: overrides
   favicon: billeder/vialogo_white.png
   logo: billeder/vialogo.png
@@ -70,8 +70,7 @@ plugins:
   - same-dir
   - blog
   - search
-  - mkdocs_quiz:
-      lang: da
+  - mkdocs_quiz                                     
 
 # Extensions
 markdown_extensions:
@@ -137,36 +136,22 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Forside: README.md
-  - Sessioner:
-    - Sessioner: Sessions/README.md
-    - 01 Grundlæggende aritmetik og funktioner:
-      - 01/README.md
-      - M1 - Forberedelse: 01/M1.md
-      - M2 - Undervisning 1: 01/M2.md
-      - M3 - Øvelser og tutorials:
-        - 01/M3/index.md
-        - T1 - Regneregler: 01/M3/T1.md
-        - E1 - Øvelser: 01/M3/E1.md
-      - M4 - Undervisning 2: 01/M4.md
-    - 02 Talsystemer:
-      - 02/README.md
-      - M1 - Forberedelse: 02/M1.md
-      - M2 - Undervisning 1: 02/M2.md
-      - M3 - Øvelser tutorials: 02/M3.md
-      - M4 - Undervisning 2: 02/M4.md
-    - 03 Mængdelære: 03/README.md
-    - 04 Kombinatorik og sandsynlighedsteori: 04/README.md
-    - 05 Betingede sandsynligheder og Bayes' Teorem: 05/README.md
-    - 06 Beskrivende Statistik: 06/README.md
-    - 07 Introduktion til lineær algebra: 07/README.md
-    - 08 Vektorer og matricer: 08/README.md
-    - 09 Matrix algebra og determinanter: 09/README.md
-    - 10 Differentiering af simple funktioner: 10/README.md
-    - 11 Gradienter og partiel afledte: 11/README.md
-    - 12 Afslutning og spørgetime: 12/README.md    
-  - Videoer: pages/videos.md
-  - Ressourcer: pages/online_resources.md
-  - Eksamen: pages/exam.md
+  - Home: README.md
+  - Sessions: 
+    - Sessions/README.md
+    - 01 Basic Arithmetic and Functions: 01/README.md
+    - 02 Numeral Systems: 02/README.md
+    - 03 Set Theory: 03/README.md
+    - 04 Combinatorics and Probability Theory: 04/README.md
+    - 05 Conditional Probabilities and Bayes' Theorem: 05/README.md
+    - 06 Descriptive Statistics: 06/README.md
+    - 07 Introduction to Linear Algebra: 07/README.md
+    - 08 Vectors and Matrices: 08/README.md
+    - 09 Matrix Algebra and Determinants: 09/README.md
+    - 10 Differentiation of Simple Functions: 10/README.md
+    - 11 Gradients and Partial Derivatives: 11/README.md
+    - 12 Conclusion and Q&A Session: 12/README.md
+  - Resources: pages/online_resources.md
+  - Exam: pages/exam.md
   - FAQ: pages/faq.md
-  - Om: https://rbrooksdk.github.io
+  - About: https://rbrooksdk.github.io

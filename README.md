@@ -1,84 +1,157 @@
 <p align="center">
-    <h1 align="center">Matematik for Softwareingeniører - 2025</h1>
-    <p align="center">Kursusside for <a href="https://www.via.dk/TMH/Courses/matematik-for-softwareingenioerer-ts?education=sw">MSE1</a> på VIA</p>
+    <h1 align="center">Mathematics for Software Engineering - 2025</h1>
+    <p align="center">Course page for <a href="https://en.via.dk/tmh-courses/mathematics-for-software-engineering?education=ict">MSE1</a> at VIA</p>
 </p>
 
 <p align="center">
-  <a href="https://rbrooksdk.github.io/MSE1_DK_25">
+  <a href="https://rbrooksdk.github.io/MSE1_25">
     <video class="video-light custom-video" width="700" autoplay loop muted src="figures/introvid2.mp4"></video>
     <video class="video-dark custom-video" width="700" autoplay loop muted src="figures/introvid.mp4"></video>
   </a>
 </p>
 
-## <i class="fas fa-circle-info" style="color:#6CA2C6"></i> Kursusinformation
+## <i class="fas fa-circle-info" style="color:#6CA2C6"></i> Course Information
 
-Dette kursus giver en grundlæggende introduktion til de områder af matematik, der er mest relevante for softwareingeniører. Kurset kan tages online, dog er den skriftlige eksamen i januar på Campus Horsens.
+This course provides a basic introduction to the areas of mathematics most relevant to software engineers.
 
-* **Kursusansvarlig:** [Richard Brooks](https://rbrooksdk.github.io), <rib@via.dk>
-* **Omfang:** 5 ECTS (European Credit Transfer System), svarende til 130 arbejdstimer
-* **Niveau:** Bachelor
-* **Bedømmelsesform:** 4-timers skriftlig eksamen med fysisk fremmøde i henhold til 7-trinsskalaen (se eksamensbeskrivelse i menuen)
+* **Course Responsible:** [Richard Brooks](https://rbrooksdk.github.io), <rib@via.dk>
+* **Credits:** 5 ECTS (European Credit Transfer System), equivalent to 130 working hours
+* **Level:** Bachelor
+* **Assessment:** 4-hour written exam with physical attendance, graded according to the 7-point scale (see exam description in the menu)
 
-## <i class="fas fa-solid fa-list-check" style="color:#6CA2C6"></i> Forudsætninger
+## <i class="fas fa-solid fa-list-check" style="color:#6CA2C6"></i> Prerequisites
 
-Matematik svarende til A-niveau fra gymnasiet forudsættes. Hvis det er flere år siden, du har arbejdet med matematik, anbefaler vi, at du deltager i vores screeningsforløb. Det er typisk de grundlæggende emner, der volder problemer, og derfor bør du sikre dig, at du har styr på netop disse.
+Mathematics equivalent to high school A-level is assumed. If it has been several years since you last worked with mathematics, we recommend participating in our screening program. Typically, the basic topics cause the most problems, so you should ensure you have a solid understanding of these.
 
-## <i class="fas fa-vector-square" style="color:#6CA2C6"></i> Undervisning og kursusstruktur
+## <i class="fas fa-vector-square" style="color:#6CA2C6"></i> Teaching and Course Structure
 
-Kurset starter i uge 36 og slutter 13 uger efter, hvor der dog ikke undervises i uge 42. Vi definerer en session som bestående af fire aktiviteter:
+The course starts in week 36 and ends 13 weeks later, with no classes in week 42. A session is defined as consisting of two activities:
 
-1. **Asynkron** forberedelse, der består af videoer, tutorials og læsning af kapitler fra bogen.
-2. **Synkron** praktisk anvendelse af teorien og gennemgang af eksempler online.
-3. **Asynkron** opgaveregning (fx i selvvalgte grupper).
-4. **Synkron** opgaveløsning og opsamling på de opgaver, der er lavet i (3).
+1. **Lecture**: A 2 x 45 minute lecture held by the instructor.
+2. **Tutorial** 4 x 45 minutes working on and going through exercises with the teaching assistant (TA).
 
-Dette gentages fra (1) ved starten af næste session.
+There are no mandatory submissions, though there will be other mandatory course activities.
 
-Der er ingen obligatoriske afleveringer. Hvert af de fire aktiviteter forventes at tage 2 timer, hvilket giver i alt 8 timer pr. uge. Det er vigtigt at deltage aktivt i alle aktiviteter for at få det optimale udbytte af kurset.
+## <i class="fas fa-users" style="color:#6CA2C6"></i> About Us
 
-## <i class="fas fa-wave-square" style="color:#6CA2C6"></i> Kursusindhold og læringsmål
+<div class="grid cards" markdown>
 
-Kurset fokuserer på anvendelsen af matematiske begreber og metoder i softwareudvikling og datalogi:
+- <img src="billeder/IMG_20220925_112931_Bokeh.jpg" alt="Richard Brooks" style="height:120px;width:120px;float:right;border-radius:50%;object-fit:cover;">
+
+    **Richard Brooks**  
+    Associate Professor  
+
+    Teaches: DK  
+    Contact: [:material-email:](mailto:rib@via.dk)
+
+- <img src="billeder/1644852387437.jpg" alt="Navn" style="height:120px;width:120px;float:right;border-radius:50%;object-fit:cover;">
+
+    **Markéta Tranberg**  
+    Part-Time Lecturer
+
+    Teaches: X, Y, and DK 
+    Contact: [:material-email:](mailto:mlap@via.dk)
+
+- <img src="billeder/eddie.jpg" alt="Navn" style="height:120px;width:120px;float:right;border-radius:50%;object-fit:cover;">
+
+    **Eduard Fekete**  
+    TA
+
+    Teaches: X     
+    Contact: [:material-email:](mailto:355323@via.dk)
 
 
-- **Aritmetik**: Grundlæggende aritmetiske operationer og deres anvendelse.
-- **Funktioner**: Forståelse af funktioner, inkl. domæne, værdimængde og grafisk repræsentation.
-- **Mængdelære**: Introduktion til mængder, inkl. union, snit og komplement samt de Morgan's love.
-- **Kombinatorik:** Grundlæggende principper for tælling, inkl. permutationer og kombinationer.
-- **Sandsynlighed**: Grundlæggende sandsynlighedsteori, inkl. betinget sandsynlighed og uafhængighed.
-- **Statistik**: Introduktion til statistiske begreber, inkl. middelværdi, median, varians og standardafvigelse.
-- **Lineær algebra**: Grundlæggende begreber i lineær algebra, inkl. vektorer, matricer og determinantberegning.
-- **Differentialregning**: Grundlæggende begreber i differentialregning, inkl. grænseværdier, kontinuitet og differentiabilitet samt gradient og hældning.
 
-## <i class="fas fa-book-open" style="color:#6CA2C6"></i> Materialer
+- <img src="billeder/carolina.jpg" alt="Navn" style="height:120px;width:120px;float:right;border-radius:50%;object-fit:cover;">
 
-**Lærebog:** Kurset er baseret på bogen "Mathematics for Software Engineering" af Richard Brooks. Bogen er tilgængelig som e-bog og kan findes i Ressource-fanen øverst.
+    **Carolina Zavidei**  
+    TA
 
-**Videomateriale:** Der er tilknyttet videoer til hvert session, som kan findes øverst under Sessioner.
+    Teaches: Y   
+    Contact: [:material-email:](mailto:354825@via.dk)
+</div>
 
-**Tutorials og opgaver:** Er tilgængelige til hver session og kan findes øverst under "Sessioner".
+<style>
+.instructor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr !important; /* Force exactly 2 columns */
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 800px; /* Prevents grid from stretching too wide */
+}
+@media (max-width: 700px) {
+  .instructor-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 95vw;
+  }
+}
+.instructor-card {
+  background: rgba(20,30,40,0.15);
+  border-radius: 1.2rem;
+  padding: 1.2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.instructor-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.instructor-info a {
+  text-decoration: none;
+}
+.instructor-info a:hover {
+  text-decoration: underline;
+}
 
-**Andre online ressourcer:** Jeg har linket til en del online materiale, som kan findes i Ressource-fanen øverst. Disse er ikke obligatoriske.
+</style>
 
-**Software til kurset:** Sørg for at installere en fungerende version af Jupyter Notebook og Python version 3.7 eller nyere. Du kan frit vælge, hvilket IDE du vil arbejde i, så længe det kan håndtere Jupyter Notebooks. Installation af VS Code med Jupyter Notebook-udvidelsen er et populært valg. Du kan også med fordel anskaffe dig en lommeregner, da det kan være en fordel at have en til eksamen.
+## <i class="fas fa-wave-square" style="color:#6CA2C6"></i> Course Content and Learning Objectives
+
+The course focuses on the application of mathematical concepts and methods in software development and computer science:
+
+
+- **Arithmetic**: Basic arithmetic operations and their applications.
+- **Functions**: Understanding functions, including domain, range, and graphical representation.
+- **Set Theory**: Introduction to sets, including union, intersection, complement, and De Morgan's laws.
+- **Combinatorics:** Basic principles of counting, including permutations and combinations.
+- **Probability**: Basic probability theory, including conditional probability and independence.
+- **Statistics**: Introduction to statistical concepts, including mean, median, variance, and standard deviation.
+- **Linear Algebra**: Basic concepts in linear algebra, including vectors, matrices, and determinant calculation.
+- **Differential Calculus**: Basic concepts in differential calculus, including limits, continuity, differentiability, gradient, and slope.
+
+## <i class="fas fa-book-open" style="color:#6CA2C6"></i> Materials
+
+**Textbook:** The course is based on the book "Mathematics for Software Engineering" by Richard Brooks. The book is available as an e-book and can be found in the Resources tab above.
+
+**Exercises:** Available for each session and can be found under "Sessions" above.
+
+**Other Online Resources:** We have linked to several online materials, which can be found in the Resources tab above. These are not mandatory.
+
+**Course Software:** Ensure you have a working version of Jupyter Notebook and Python version 3.7 or newer installed. You are free to choose which IDE to work in, as long as it supports Jupyter Notebooks. Installing VS Code with the Jupyter Notebook extension is a popular choice. You may also find it helpful to have a calculator for the exam.
 
 ---
 
-Wiseflow-koden til alle flows, der bruges under kurset, er altid 0000. Dette er dog ikke koden til selve eksamen i januar.
+The Wiseflow code for all flows used during the course is always 0000. However, this is not the code for the exam in January.
 
 ---
 
-## <i class="fa fa-history" style="color:#6CA2C6"></i> Historiske noter
+## <i class="fa fa-history" style="color:#6CA2C6"></i> Historical Notes
 
-Matematik for Softwareingeniører blev første gang udbudt i 2017 og undervises 1 gang om året. Kursusansvarlig er [Richard Brooks (RIB)](https://rbrooksdk.github.io).
+Mathematics for Software Engineering was first offered in 2017 and is taught once a year. The course responsible is [Richard Brooks (RIB)](https://rbrooksdk.github.io).
 
 <center>
-  <h3 align="center">Karakterfordeling 2024 (kun ordinær eksamen)</h3>
+  <h3 align="center">Grade Distribution 2024 (only regular exam)</h3>
     <table>
       <thead>
         <tr>
-          <th style="text-align:center;">Karakter</th>
-          <th style="text-align:center;">Antal</th>
+          <th style="text-align:center;">Grade</th>
+          <th style="text-align:center;">Count</th>
         </tr>
       </thead>
       <tbody>
