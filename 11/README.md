@@ -1,4 +1,4 @@
-<h1 align="center">Gradienter og partiel afledte</h1>
+<h1 align="center">Gradients and Partial Derivatives</h1>
 
 ### Session Preparation:
 

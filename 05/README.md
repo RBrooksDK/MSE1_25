@@ -1,4 +1,4 @@
-<h1 align="center">Betingede sandsynligheder og Bayes' Teorem</h1>
+<h1 align="center">Conditional Probabilities and Bayes' Theorem</h1>
 
 ### Session Preparation:
 

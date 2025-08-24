@@ -1,4 +1,4 @@
-<h1 align="center">Vektorer og matricer</h1>
+<h1 align="center">Vectors and Matrices</h1>
 
 ### Session Preparation
 

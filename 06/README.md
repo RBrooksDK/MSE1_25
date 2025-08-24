@@ -1,4 +1,4 @@
-<h1 align="center">Beskrivende Statistik</h1>
+<h1 align="center">Descriptive Statistics</h1>
 
 ### Session Preparation:
 

@@ -1,4 +1,4 @@
-<h1 align="center">Kombinatorik og sandsynlighedsteori</h1>
+<h1 align="center">Combinatorics and Probability Theory</h1>
 
 ### Session Preparation:
 

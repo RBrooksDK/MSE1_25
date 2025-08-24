@@ -1,4 +1,4 @@
-<h1 align="center">Introduktion til lineær algebra</h1>
+<h1 align="center">Introduction to Linear Algebra</h1>
 
 ### Session Preparation
 

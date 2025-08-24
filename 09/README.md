@@ -1,4 +1,4 @@
-<h1 align="center">Matrix algebra og determinanter</h1>
+<h1 align="center">Matrix Algebra and Determinants</h1>
 
 ### Session Preparation
 

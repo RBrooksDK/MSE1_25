@@ -1,4 +1,4 @@
-<h1 align="center">Differentiering af simple funktioner</h1>
+<h1 align="center">Differentiation of Simple Functions</h1>
 
 ### Session Preparation
 

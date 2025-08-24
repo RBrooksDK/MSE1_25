@@ -1,4 +1,4 @@
-<h1 align="center">Mængdelære</h1>
+<h1 align="center">Set Theory</h1>
 
 ### Session Preparation:
 
