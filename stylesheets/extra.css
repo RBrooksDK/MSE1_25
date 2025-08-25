@@ -345,3 +345,16 @@ body, .md-typeset, .md-content, .md-main, .md-typeset p, .md-typeset li, .md-typ
   color: #2DB499; /* Green for collapsible indicator */
 }
 }
+
+/* ========================================================================
+   Ordered List Styling - Display as lowercase letters
+   ------------------------------------------------------------------------
+   Makes all ordered lists display as a, b, c instead of 1, 2, 3
+   while keeping the annotation functionality intact
+   ======================================================================== */
+body[data-md-color-scheme] .md-content ol {
+  list-style-type: lower-alpha;
+}
+body[data-md-color-scheme] .md-content ol li {
+  padding-left: 10px;
+}

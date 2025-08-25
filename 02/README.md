@@ -14,20 +14,19 @@ tags:
     - Positional Notation
     - Binary Addition
     - Binary Multiplication
-    - Real Numbers
-    - Rational Numbers
-    - Irrational Numbers
 ---
 
-<h1 align="center">Numeral Systems</h1>
+<h1 align="center">Number Systems</h1>
 
 In this session, we delve into number systems and their fundamental importance in software development. We begin by exploring the world of numbers, from basic number theory to the various number systems that form the foundation of modern computing. We focus particularly on binary, decimal, and hexadecimal notation, which are essential in programming and computer architecture.
 
-The session includes a thorough review of number conversion between different systems, binary addition and multiplication, as well as positional notation. We also examine the different classes of numbers, such as real, rational, and irrational numbers, and their properties. Special emphasis is placed on binary operations and hexadecimal notation, as these play a crucial role in software development, data representation, and digital electronics.
+The session includes a thorough review of number conversion between different systems, binary addition and multiplication, as well as positional notation. Special emphasis is placed on binary operations and hexadecimal notation, as these play a crucial role in software development, data representation, and digital electronics.
+
+<hr/>
 
 ### Session Preparation:
 
-Brooks: [Chapter 1](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf).
+Brooks: [Chapter 2](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf).
 
 ### Resources
 
@@ -35,141 +34,124 @@ Brooks: [Chapter 1](https://docs.google.com/viewer?url=https://raw.githubusercon
 
 [Session materials]()
 
-In this introductory session, we lay the foundation for the mathematics used in software development. We begin with an overview of the course structure, learning objectives, and expectations. Then, we focus on key arithmetic rules and the fundamental properties of functions, which form the basis for the more advanced topics covered later in the course.
-
-The session includes understanding and applying rules of powers, roots, exponents, and logarithms. We also explore the definition of functions as well as their domains and ranges. Finally, we introduce the concepts of inverse and composite functions, which are essential for further work in the course. Special emphasis is placed on logarithms and their applications in software development, as they play a central role in many algorithms and data processing methods.
+<hr/>
 
 ### Exercises
 
-<style>
-body[data-md-color-scheme] .md-content ol       { list-style-type: lower-alpha; }
-body[data-md-color-scheme] .md-content ol li    { padding-left: 10px; }
-</style>
+#### Exercise 1: Binary to Decimal
 
-#### Exercise 1:
+Convert the following binary numbers into decimal numbers.
 
-Solve the following equations:
+1. $110$ (1)
+{ .annotate }
 
-1. $\ 2-\frac{4 x+3}{x+x^2}=\frac{2 x}{x+1}-\frac{5}{x}$
-2. $\ -2+2 \ln 3 x=17$
-3. $\ \ln (x+1)^2=2$
-4. $\ \ln \left(x^2+1\right)=8$
-5. $\ 5^{3 x+2}=25^{x-1}$
-6. $\ 2^{x+1}=4^{x-2}$
+    1. $6_{10}$
+
+2. $1110111100_2$(1)
+{ .annotate }
+
+    1. $956_{10}$
+
+3. $1001101110110_2$(1)
+{ .annotate }
+
+    1. $4982_{10}$
+
+#### Exercise 2: Decimal to Binary
+State the binary expansion of the following values and then state the number in binary. 
+
+1. $49_{10}$
+
+    ??? answer "&nbsp;"
+        $1\cdot2^5 + 1\cdot2^4 + 0\cdot2^3 + 0\cdot 2^2 + 0\cdot 2^1 + 1\cdot2^0$
+
+        $110001$
+
+2. $212_{10}$
+
+    ??? answer "&nbsp;"
+        $1\cdot 2^7 + 1\cdot 2^6 + 1 \cdot 2^4 + 1 \cdot 2^2$
+
+        $11010100_2$
+
+#### Exercise 3: Convert to Decimal
+State the hexadecimal expansion of the following values and then state the number in decimal. 
+
+1. $37D_{16}$
+
+    ??? answer "&nbsp;"
+
+        $3 \cdot 16^2 + 7 \cdot 16^1 + 13 \cdot 16^0$
+
+        $893_{10}$
+
+2. $1A9_{16}$
+
+    ??? answer "&nbsp;"
+
+        $1 \cdot 16^2 + 10 \cdot 16^1 + 9 \cdot 16^0$
+
+        $425$
+
+#### Exercise 4: Hex and Binary
+
+Solve the “crossbins” below. The clues are in hexadecimal, and the answers should be in binary.  
+**Note**: If your number is too short, add zeros in front!
+
+<img src="src/crossbin1.png" alt="Crossbin 1" width="400"/>
 
 ??? answer "&nbsp;"
+    <img src="src/crossbin1sol-1.jpg" alt="Crossbin 1" width="400"/>
 
-    1. $x = -\frac{2}{3}$
-    2. $x = \frac{e^{\frac{19}{2}}}{3}$
-    3. $x = -1 \pm e$
-    4. $x = \pm \sqrt{e^8 - 1}$
-    5. $x = -4$
-    6. $x = 5$
+<img src="src/crossbin2.png" alt="Crossbin 2" width="350"/>
 
-#### Exercise 2:
+??? answer "&nbsp;"
+    <img src="src/crossbinsol-1 1.jpg" alt="Crossbin 2" width="350"/>
 
-According to Einstein's theory of relativity, the mass of a particle is given by:
+#### Exercise 5: Hex and Binary
 
-$$
-m=\frac{m_0}{\sqrt{1-\left(\frac{v}{c}\right)^2}}
-$$
+Let $S$ be the set of all binary numbers with 7 characters, and let $f$ be a function from $S$ to $\mathbb{Z}$ given by $f(x_2) = x_{10}$.
 
-where
-$m_0$ is the rest mass of the particle,
-$v$ is the velocity of the particle, and
-$c$ is the speed of light in a vacuum.
+1. Determine $f(111010)$.(1)
+{ .annotate }
 
-1. Make $v$ the subject of the formula given $v>0$.
+    1. 58
 
-    ??? answer "&nbsp;"
+2. The order of a set is the number of elements in a set. For instance the order of ${1, 5, 7, 19, 27, 39}$ is 6. Determine the order of the set $S$. (1)
+{ .annotate }
 
-        $v=c \cdot \sqrt{1-\left(\frac{m_0}{m}\right)^2}$
+    1. 128
 
-2. Find the velocity required to increase the mass of a particle to three times its rest mass. Provide the value for $v$ as a fraction of $c$ (or as a decimal).
+#### Exercise 6: Binary Addition
 
-    ??? answer "&nbsp;"
+Perform the following binary addition operations. Show your work by carrying over as necessary.
 
-        $v=0.943 c$
+1. $1011_2 + 1101_2$ (1)
+{ .annotate }
 
-#### Exercise 3
-Determine the domain and range for each of the real functions below. It is a good idea to plot the functions using software (e.g., Geogebra, WolframAlpha, etc.):
+    1. $11000_2$ (which equals $24_{10}$)
 
-1. $\ f(x)=\frac{1}{x-7}$
+2. $10110101_2 + 1101110_2$ (1)
+{ .annotate }
 
-    ??? answer "&nbsp;"
+    1. $100100011_2$ (which equals $291_{10}$)
 
-        Domain: $\mathbb{R} \backslash\{7\}$;
+#### Exercise 7: Binary Multiplication
 
-        Range: $\mathbb{R} \backslash\{0\}$
+Perform the following binary multiplication operations. Show your work using the standard multiplication algorithm.
 
-2. $\ f(x)=\sqrt{x+3}$
+1. $101_2 \times 11_2$ (1)
+{ .annotate }
 
-    ??? answer "&nbsp;"
+    1. $1111_2$ (which equals $15_{10}$)
 
-        Domain: $\mathbb{R}_ {\geq-3}$;
+2. $1101_2 \times 110_2$ (1)
+{ .annotate }
 
-        Range: $\mathbb{R}_ {\geq 0}$
+    1. $1001110_2$ (which equals $78_{10}$)
 
-#### Exercise 4
-Find each of the following composite functions:
+3. $10111_2 \times 1011_2$ (1)
+{ .annotate }
 
-1. $\ g \circ f$ when $f(x)=3 x+1$ and $g(x)=x^2$.
+    1. $11111101_2$ (which equals $253_{10}$)
 
-    ??? answer "&nbsp;"
-
-        $(g \circ f)(x)=9 x^2+1+6 x$
-
-2. $f \circ g$ when $f(x)=x^2+1$ and $g(x)=\frac{1}{x}$.
-
-    ??? answer "&nbsp;"
-
-        $(f \circ g)(x)=\frac{1}{x^2}+1$
-
-3. $\ g \circ f$ when $f$ and $g$ are defined as in exercise (2).
-
-    ??? answer "&nbsp;"
-
-        $(g \circ f)(x)=\frac{1}{x^2+1}$
-
-#### Exercise 5
-Find the inverse function:
-
-1. $\ f(x)=\frac{6}{5-x}$
-
-    ??? answer "&nbsp;"
-
-        $f^{-1}(x)=5-\frac{6}{x}$
-
-2. $\ f(x)=-\ln (1-2 x)+1$
-
-    ??? answer "&nbsp;"
-
-        $f^{-1}(x)=\left(1-e^{1-x}\right) / 2$
-
-3. $\ f(x)=2 \cdot 10^{3 x}-1$
-
-    ??? answer "&nbsp;"
-
-        $f^{-1}(x)=\frac{\log \left(\frac{x+1}{2}\right)}{3}$
-
-#### Exercise 6
-
-A bacterial culture starts with 1000 bacteria at time $t=0$, and the number doubles every 40 minutes.
-
-1. Find a functional expression for the number of bacteria at time $t$ (measured in minutes).
-
-    ??? answer "&nbsp;"
-
-        $f(t)=1000 \cdot 2^{t / 40}$
-
-2. Find the number of bacteria after one hour.
-
-    ??? answer "&nbsp;"
-
-        $f(60) \approx 2828$
-
-3. After how many minutes will there be 50000 bacteria?
-
-    ??? answer "&nbsp;"
-
-        approx. 225.75 minutes
