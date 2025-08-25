@@ -1019,162 +1019,147 @@
   
 
 
-<h1 align="center">Numeral Systems</h1>
+<h1 align="center">Number Systems</h1>
 
 <p>In this session, we delve into number systems and their fundamental importance in software development. We begin by exploring the world of numbers, from basic number theory to the various number systems that form the foundation of modern computing. We focus particularly on binary, decimal, and hexadecimal notation, which are essential in programming and computer architecture.</p>
-<p>The session includes a thorough review of number conversion between different systems, binary addition and multiplication, as well as positional notation. We also examine the different classes of numbers, such as real, rational, and irrational numbers, and their properties. Special emphasis is placed on binary operations and hexadecimal notation, as these play a crucial role in software development, data representation, and digital electronics.</p>
+<p>The session includes a thorough review of number conversion between different systems, binary addition and multiplication, as well as positional notation. Special emphasis is placed on binary operations and hexadecimal notation, as these play a crucial role in software development, data representation, and digital electronics.</p>
+<hr/>
+
 <h3 id="session-preparation">Session Preparation:<a class="headerlink" href="#session-preparation" title="Permanent link">&para;</a></h3>
-<p>Brooks: <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf">Chapter 1</a>.</p>
+<p>Brooks: <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf">Chapter 2</a>.</p>
 <h3 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h3>
 <p><a href="">Lecture notes</a></p>
 <p><a href="">Session materials</a></p>
-<p>In this introductory session, we lay the foundation for the mathematics used in software development. We begin with an overview of the course structure, learning objectives, and expectations. Then, we focus on key arithmetic rules and the fundamental properties of functions, which form the basis for the more advanced topics covered later in the course.</p>
-<p>The session includes understanding and applying rules of powers, roots, exponents, and logarithms. We also explore the definition of functions as well as their domains and ranges. Finally, we introduce the concepts of inverse and composite functions, which are essential for further work in the course. Special emphasis is placed on logarithms and their applications in software development, as they play a central role in many algorithms and data processing methods.</p>
-<h3 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">&para;</a></h3>
-<style>
-body[data-md-color-scheme] .md-content ol       { list-style-type: lower-alpha; }
-body[data-md-color-scheme] .md-content ol li    { padding-left: 10px; }
-</style>
+<hr/>
 
-<h4 id="exercise-1">Exercise 1:<a class="headerlink" href="#exercise-1" title="Permanent link">&para;</a></h4>
-<p>Solve the following equations:</p>
-<ol>
-<li><span class="arithmatex">\(\ 2-\frac{4 x+3}{x+x^2}=\frac{2 x}{x+1}-\frac{5}{x}\)</span></li>
-<li><span class="arithmatex">\(\ -2+2 \ln 3 x=17\)</span></li>
-<li><span class="arithmatex">\(\ \ln (x+1)^2=2\)</span></li>
-<li><span class="arithmatex">\(\ \ln \left(x^2+1\right)=8\)</span></li>
-<li><span class="arithmatex">\(\ 5^{3 x+2}=25^{x-1}\)</span></li>
-<li><span class="arithmatex">\(\ 2^{x+1}=4^{x-2}\)</span></li>
-</ol>
-<details class="answer">
-<summary>&nbsp;</summary>
-<ol>
-<li><span class="arithmatex">\(x = -\frac{2}{3}\)</span></li>
-<li><span class="arithmatex">\(x = \frac{e^{\frac{19}{2}}}{3}\)</span></li>
-<li><span class="arithmatex">\(x = -1 \pm e\)</span></li>
-<li><span class="arithmatex">\(x = \pm \sqrt{e^8 - 1}\)</span></li>
-<li><span class="arithmatex">\(x = -4\)</span></li>
-<li><span class="arithmatex">\(x = 5\)</span></li>
-</ol>
-</details>
-<h4 id="exercise-2">Exercise 2:<a class="headerlink" href="#exercise-2" title="Permanent link">&para;</a></h4>
-<p>According to Einstein's theory of relativity, the mass of a particle is given by:</p>
-<div class="arithmatex">\[
-m=\frac{m_0}{\sqrt{1-\left(\frac{v}{c}\right)^2}}
-\]</div>
-<p>where
-<span class="arithmatex">\(m_0\)</span> is the rest mass of the particle,
-<span class="arithmatex">\(v\)</span> is the velocity of the particle, and
-<span class="arithmatex">\(c\)</span> is the speed of light in a vacuum.</p>
+<h3 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">&para;</a></h3>
+<h4 id="exercise-1-binary-to-decimal">Exercise 1: Binary to Decimal<a class="headerlink" href="#exercise-1-binary-to-decimal" title="Permanent link">&para;</a></h4>
+<p>Convert the following binary numbers into decimal numbers.</p>
 <ol>
 <li>
-<p>Make <span class="arithmatex">\(v\)</span> the subject of the formula given <span class="arithmatex">\(v&gt;0\)</span>.</p>
+<p class="annotate"><span class="arithmatex">\(110\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(6_{10}\)</span></li>
+</ol>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(1110111100_2\)</span>(1)</p>
+<ol>
+<li><span class="arithmatex">\(956_{10}\)</span></li>
+</ol>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(1001101110110_2\)</span>(1)</p>
+<ol>
+<li><span class="arithmatex">\(4982_{10}\)</span></li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-2-decimal-to-binary">Exercise 2: Decimal to Binary<a class="headerlink" href="#exercise-2-decimal-to-binary" title="Permanent link">&para;</a></h4>
+<p>State the binary expansion of the following values and then state the number in binary. </p>
+<ol>
+<li>
+<p><span class="arithmatex">\(49_{10}\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
-<p><span class="arithmatex">\(v=c \cdot \sqrt{1-\left(\frac{m_0}{m}\right)^2}\)</span></p>
+<p><span class="arithmatex">\(1\cdot2^5 + 1\cdot2^4 + 0\cdot2^3 + 0\cdot 2^2 + 0\cdot 2^1 + 1\cdot2^0\)</span></p>
+<p><span class="arithmatex">\(110001\)</span></p>
 </details>
 </li>
 <li>
-<p>Find the velocity required to increase the mass of a particle to three times its rest mass. Provide the value for <span class="arithmatex">\(v\)</span> as a fraction of <span class="arithmatex">\(c\)</span> (or as a decimal).</p>
+<p><span class="arithmatex">\(212_{10}\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
-<p><span class="arithmatex">\(v=0.943 c\)</span></p>
+<p><span class="arithmatex">\(1\cdot 2^7 + 1\cdot 2^6 + 1 \cdot 2^4 + 1 \cdot 2^2\)</span></p>
+<p><span class="arithmatex">\(11010100_2\)</span></p>
 </details>
 </li>
 </ol>
-<h4 id="exercise-3">Exercise 3<a class="headerlink" href="#exercise-3" title="Permanent link">&para;</a></h4>
-<p>Determine the domain and range for each of the real functions below. It is a good idea to plot the functions using software (e.g., Geogebra, WolframAlpha, etc.):</p>
+<h4 id="exercise-3-convert-to-decimal">Exercise 3: Convert to Decimal<a class="headerlink" href="#exercise-3-convert-to-decimal" title="Permanent link">&para;</a></h4>
+<p>State the hexadecimal expansion of the following values and then state the number in decimal. </p>
 <ol>
 <li>
-<p><span class="arithmatex">\(\ f(x)=\frac{1}{x-7}\)</span></p>
+<p><span class="arithmatex">\(37D_{16}\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
-<p>Domain: <span class="arithmatex">\(\mathbb{R} \backslash\{7\}\)</span>;</p>
-<p>Range: <span class="arithmatex">\(\mathbb{R} \backslash\{0\}\)</span></p>
+<p><span class="arithmatex">\(3 \cdot 16^2 + 7 \cdot 16^1 + 13 \cdot 16^0\)</span></p>
+<p><span class="arithmatex">\(893_{10}\)</span></p>
 </details>
 </li>
 <li>
-<p><span class="arithmatex">\(\ f(x)=\sqrt{x+3}\)</span></p>
+<p><span class="arithmatex">\(1A9_{16}\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
-<p>Domain: <span class="arithmatex">\(\mathbb{R}_ {\geq-3}\)</span>;</p>
-<p>Range: <span class="arithmatex">\(\mathbb{R}_ {\geq 0}\)</span></p>
+<p><span class="arithmatex">\(1 \cdot 16^2 + 10 \cdot 16^1 + 9 \cdot 16^0\)</span></p>
+<p><span class="arithmatex">\(425\)</span></p>
 </details>
 </li>
 </ol>
-<h4 id="exercise-4">Exercise 4<a class="headerlink" href="#exercise-4" title="Permanent link">&para;</a></h4>
-<p>Find each of the following composite functions:</p>
+<h4 id="exercise-4-hex-and-binary">Exercise 4: Hex and Binary<a class="headerlink" href="#exercise-4-hex-and-binary" title="Permanent link">&para;</a></h4>
+<p>Solve the “crossbins” below. The clues are in hexadecimal, and the answers should be in binary.<br />
+<strong>Note</strong>: If your number is too short, add zeros in front!</p>
+<p><img src="src/crossbin1.png" alt="Crossbin 1" width="400"/></p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><img src="src/crossbin1sol-1.jpg" alt="Crossbin 1" width="400"/></p>
+</details>
+<p><img src="src/crossbin2.png" alt="Crossbin 2" width="350"/></p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><img src="src/crossbinsol-1 1.jpg" alt="Crossbin 2" width="350"/></p>
+</details>
+<h4 id="exercise-5-hex-and-binary">Exercise 5: Hex and Binary<a class="headerlink" href="#exercise-5-hex-and-binary" title="Permanent link">&para;</a></h4>
+<p>Let <span class="arithmatex">\(S\)</span> be the set of all binary numbers with 7 characters, and let <span class="arithmatex">\(f\)</span> be a function from <span class="arithmatex">\(S\)</span> to <span class="arithmatex">\(\mathbb{Z}\)</span> given by <span class="arithmatex">\(f(x_2) = x_{10}\)</span>.</p>
 <ol>
 <li>
-<p><span class="arithmatex">\(\ g \circ f\)</span> when <span class="arithmatex">\(f(x)=3 x+1\)</span> and <span class="arithmatex">\(g(x)=x^2\)</span>.</p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\((g \circ f)(x)=9 x^2+1+6 x\)</span></p>
-</details>
+<p class="annotate">Determine <span class="arithmatex">\(f(111010)\)</span>.(1)</p>
+<ol>
+<li>58</li>
+</ol>
 </li>
 <li>
-<p><span class="arithmatex">\(f \circ g\)</span> when <span class="arithmatex">\(f(x)=x^2+1\)</span> and <span class="arithmatex">\(g(x)=\frac{1}{x}\)</span>.</p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\((f \circ g)(x)=\frac{1}{x^2}+1\)</span></p>
-</details>
-</li>
-<li>
-<p><span class="arithmatex">\(\ g \circ f\)</span> when <span class="arithmatex">\(f\)</span> and <span class="arithmatex">\(g\)</span> are defined as in exercise (2).</p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\((g \circ f)(x)=\frac{1}{x^2+1}\)</span></p>
-</details>
+<p class="annotate">The order of a set is the number of elements in a set. For instance the order of <span class="arithmatex">\({1, 5, 7, 19, 27, 39}\)</span> is 6. Determine the order of the set <span class="arithmatex">\(S\)</span>. (1)</p>
+<ol>
+<li>128</li>
+</ol>
 </li>
 </ol>
-<h4 id="exercise-5">Exercise 5<a class="headerlink" href="#exercise-5" title="Permanent link">&para;</a></h4>
-<p>Find the inverse function:</p>
+<h4 id="exercise-6-binary-addition">Exercise 6: Binary Addition<a class="headerlink" href="#exercise-6-binary-addition" title="Permanent link">&para;</a></h4>
+<p>Perform the following binary addition operations. Show your work by carrying over as necessary.</p>
 <ol>
 <li>
-<p><span class="arithmatex">\(\ f(x)=\frac{6}{5-x}\)</span></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(f^{-1}(x)=5-\frac{6}{x}\)</span></p>
-</details>
+<p class="annotate"><span class="arithmatex">\(1011_2 + 1101_2\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(11000_2\)</span> (which equals <span class="arithmatex">\(24_{10}\)</span>)</li>
+</ol>
 </li>
 <li>
-<p><span class="arithmatex">\(\ f(x)=-\ln (1-2 x)+1\)</span></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(f^{-1}(x)=\left(1-e^{1-x}\right) / 2\)</span></p>
-</details>
-</li>
-<li>
-<p><span class="arithmatex">\(\ f(x)=2 \cdot 10^{3 x}-1\)</span></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(f^{-1}(x)=\frac{\log \left(\frac{x+1}{2}\right)}{3}\)</span></p>
-</details>
+<p class="annotate"><span class="arithmatex">\(10110101_2 + 1101110_2\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(100100011_2\)</span> (which equals <span class="arithmatex">\(291_{10}\)</span>)</li>
+</ol>
 </li>
 </ol>
-<h4 id="exercise-6">Exercise 6<a class="headerlink" href="#exercise-6" title="Permanent link">&para;</a></h4>
-<p>A bacterial culture starts with 1000 bacteria at time <span class="arithmatex">\(t=0\)</span>, and the number doubles every 40 minutes.</p>
+<h4 id="exercise-7-binary-multiplication">Exercise 7: Binary Multiplication<a class="headerlink" href="#exercise-7-binary-multiplication" title="Permanent link">&para;</a></h4>
+<p>Perform the following binary multiplication operations. Show your work using the standard multiplication algorithm.</p>
 <ol>
 <li>
-<p>Find a functional expression for the number of bacteria at time <span class="arithmatex">\(t\)</span> (measured in minutes).</p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(f(t)=1000 \cdot 2^{t / 40}\)</span></p>
-</details>
+<p class="annotate"><span class="arithmatex">\(101_2 \times 11_2\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(1111_2\)</span> (which equals <span class="arithmatex">\(15_{10}\)</span>)</li>
+</ol>
 </li>
 <li>
-<p>Find the number of bacteria after one hour.</p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(f(60) \approx 2828\)</span></p>
-</details>
+<p class="annotate"><span class="arithmatex">\(1101_2 \times 110_2\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(1001110_2\)</span> (which equals <span class="arithmatex">\(78_{10}\)</span>)</li>
+</ol>
 </li>
 <li>
-<p>After how many minutes will there be 50000 bacteria?</p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p>approx. 225.75 minutes</p>
-</details>
+<p class="annotate"><span class="arithmatex">\(10111_2 \times 1011_2\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(11111101_2\)</span> (which equals <span class="arithmatex">\(253_{10}\)</span>)</li>
+</ol>
 </li>
 </ol>
 
