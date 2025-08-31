@@ -24,11 +24,10 @@ The session includes understanding and applying rules of powers, roots, exponent
 
 Brooks: [Chapter 1](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf).
 
-### Resources
+### Resources Danish Class
+[Lecture notes](https://drive.google.com/file/d/1b4RxsUGG_Mwa5OHSsLZ1Xymlc0V2cLcc/view?usp=sharing)
 
-[Lecture notes]()
-
-[Session materials]()
+[Session materials](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EtdW6vDKB6FHsPZdtO6XUhMB5n3uwC00IoyfXj5g1O6JlA?e=HPKxg0)
 
 <hr/>
 
