@@ -127,7 +127,7 @@ The course focuses on the application of mathematical concepts and methods in so
 
 ## <i class="fas fa-book-open" style="color:#6CA2C6"></i> Materials
 
-**Textbook:** The course is based on the book "Mathematics for Software Engineering" by Richard Brooks. The book is available as an e-book and can be found in the Resources tab above.
+**Textbook:** The course is based on the book "Mathematics for Software Engineering" by Richard Brooks. The book is available as an e-book and can be found in the Resources tab.
 
 **Exercises:** Available for each session and can be found under "Sessions" above.
 
