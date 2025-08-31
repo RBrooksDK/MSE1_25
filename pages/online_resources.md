@@ -2,7 +2,7 @@
 Below are some recommended online resources that can help you with the course material. These resources are not mandatory, but they can be very helpful in understanding the concepts covered in the course.
 
 ## Textbook - Mathematics For Software Engineering
-The course is based on the book "Mathematics for Software Engineering". The latest version of the book is always available on [GitHub](https://github.com/RBrooksDK/MSE_book_v2/blob/main/main.pdf). This book gets updated periodically, both adding new topics and improving existing content, so it's a good idea to check for updates regularly.
+The course is based on the book "Mathematics for Software Engineering". The latest version of the book is always available here -> [MSE Textbook](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf). This book gets updated periodically, both adding new topics and improving existing content, so it's a good idea to check for updates regularly.
 
 ## 3blue1brown
 [3blue1brown](https://www.3blue1brown.com/) is a YouTube channel that provides visual explanations of various mathematical concepts. The videos are engaging and can help you understand the material better. The channel is run by Grant Sanderson, who has a knack for making complex topics accessible and enjoyable. The videos are well-produced and often include animations that illustrate the concepts being discussed. Content relevant for this course includes probability, linear algebra, calculus, and more.
