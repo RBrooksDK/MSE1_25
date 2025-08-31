@@ -57,7 +57,7 @@ There are no mandatory submissions, though there will be other mandatory course 
     **Eduard Fekete**  
     TA
 
-    Teaches: X     
+    Teaches: Y     
     Contact: [:material-email:](mailto:355323@via.dk)
 
 
@@ -67,7 +67,7 @@ There are no mandatory submissions, though there will be other mandatory course 
     **Carolina Zavidei**  
     TA
 
-    Teaches: Y   
+    Teaches: X   
     Contact: [:material-email:](mailto:354825@via.dk)
 </div>
 
