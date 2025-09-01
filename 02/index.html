@@ -615,6 +615,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#challenge-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenge Exercises
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1000,6 +1009,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#challenge-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenge Exercises
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1160,6 +1178,156 @@
 <ol>
 <li><span class="arithmatex">\(11111101_2\)</span> (which equals <span class="arithmatex">\(253_{10}\)</span>)</li>
 </ol>
+</li>
+</ol>
+<h3 id="challenge-exercises">Challenge Exercises<a class="headerlink" href="#challenge-exercises" title="Permanent link">&para;</a></h3>
+<h4 id="challenge-exercise-1-binary-fractions">Challenge Exercise 1: Binary fractions<a class="headerlink" href="#challenge-exercise-1-binary-fractions" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p>In a binary number the digits to the left of the decimal point represent <span class="arithmatex">\((1,2,4,8, \ldots)-\left(2^0, 2^1, 2^2, 2^3, \ldots\right)\)</span>. What do you think the digits to the right of the decimal point represent? Calculate the values corresponding to the first 4 digits.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\frac{1}{2}-0.5 ; \quad \frac{1}{4}-0.25 ; \quad \frac{1}{8}-0.125 ; \quad \frac{1}{16}-0.0625\)</span></p>
+</details>
+</li>
+<li>
+<p>Convert 0.75 to binary.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(0.11_2\)</span></p>
+</details>
+</li>
+<li>
+<p>Convert 14.6875 to binary.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(1110.1011_2\)</span></p>
+</details>
+</li>
+</ol>
+<h4 id="challenge-exercise-2-base32">Challenge Exercise 2: Base32<a class="headerlink" href="#challenge-exercise-2-base32" title="Permanent link">&para;</a></h4>
+<p>In some contexts, it is an advantage to use even more than 16 symbols to represent numbers - for example, this allows generating shorter web-addresses. One choice is base32, for which the most popular encoding <span class="arithmatex">\((R F C 4648)\)</span> is as shown in the table below (note that the symbols "0" and "1" are not used. This is due to their similarity to the letters "O" and "I"):</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">0</th>
+<th style="text-align: left;">A</th>
+<th style="text-align: right;">8</th>
+<th style="text-align: left;">I</th>
+<th style="text-align: left;">16</th>
+<th style="text-align: left;">Q</th>
+<th style="text-align: left;">24</th>
+<th style="text-align: left;">Y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">J</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">R</td>
+<td style="text-align: left;">25</td>
+<td style="text-align: left;">Z</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">C</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">K</td>
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">S</td>
+<td style="text-align: left;">26</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">D</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: left;">L</td>
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">T</td>
+<td style="text-align: left;">27</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">E</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">M</td>
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">U</td>
+<td style="text-align: left;">28</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">F</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: left;">N</td>
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">V</td>
+<td style="text-align: left;">29</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">G</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">22</td>
+<td style="text-align: left;">W</td>
+<td style="text-align: left;">30</td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">H</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">P</td>
+<td style="text-align: left;">23</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">31</td>
+<td style="text-align: left;">7</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>
+<p>Convert the number <span class="arithmatex">\(L 5 T_{32}\)</span> to decimal.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(12211\)</span></p>
+</details>
+</li>
+<li>
+<p>Convert the number 93678 to base32.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(2D2E_{32}\)</span></p>
+</details>
+</li>
+<li>
+<p>Converting between binary and hexadecimal is easy, because each digit in hexadecimal corresponds to exactly four digits in binary. Is there  similar symmetry between binary and base32?</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Each digit in base32 corresponds to five digits in binary.</p>
+</details>
+</li>
+<li>
+<p>Convert <span class="arithmatex">\(1001011011_2\)</span> to base32.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(S3_{32}\)</span></p>
+</details>
+</li>
+<li>
+<p>Convert <span class="arithmatex">\(BATMAN_{32}\)</span> to binary.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(0000100000010011011000000001101_2\)</span></p>
+</details>
 </li>
 </ol>
 
