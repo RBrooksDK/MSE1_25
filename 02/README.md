@@ -155,3 +155,68 @@ Perform the following binary multiplication operations. Show your work using the
 
     1. $11111101_2$ (which equals $253_{10}$)
 
+### Challenge Exercises
+
+#### Challenge Exercise 1: Binary fractions
+
+1. In a binary number the digits to the left of the decimal point represent $(1,2,4,8, \ldots)-\left(2^0, 2^1, 2^2, 2^3, \ldots\right)$. What do you think the digits to the right of the decimal point represent? Calculate the values corresponding to the first 4 digits.
+
+    ??? answer "&nbsp;"
+
+        $\frac{1}{2}-0.5 ; \quad \frac{1}{4}-0.25 ; \quad \frac{1}{8}-0.125 ; \quad \frac{1}{16}-0.0625$
+
+2. Convert 0.75 to binary.
+
+    ??? answer "&nbsp;"
+
+        $0.11_2$
+
+3. Convert 14.6875 to binary.
+
+    ??? answer "&nbsp;"
+
+        $1110.1011_2$
+
+#### Challenge Exercise 2: Base32
+
+In some contexts, it is an advantage to use even more than 16 symbols to represent numbers - for example, this allows generating shorter web-addresses. One choice is base32, for which the most popular encoding $(R F C 4648)$ is as shown in the table below (note that the symbols "0" and "1" are not used. This is due to their similarity to the letters "O" and "I"):
+
+| 0 | A | 8 | I | 16 | Q | 24 | Y |
+| :--- | :--- | ---: | :--- | :--- | :--- | :--- | :--- |
+| 1 | B | 9 | J | 17 | R | 25 | Z |
+| 2 | C | 10 | K | 18 | S | 26 | 2 |
+| 3 | D | 11 | L | 19 | T | 27 | 3 |
+| 4 | E | 12 | M | 20 | U | 28 | 4 |
+| 5 | F | 13 | N | 21 | V | 29 | 5 |
+| 6 | G | 14 | O | 22 | W | 30 | 6 |
+| 7 | H | 15 | P | 23 | X | 31 | 7 |
+
+1. Convert the number $L 5 T_{32}$ to decimal.
+
+    ??? answer "&nbsp;"
+
+        $12211$
+
+2. Convert the number 93678 to base32.
+
+    ??? answer "&nbsp;"
+
+        $2D2E_{32}$
+
+3. Converting between binary and hexadecimal is easy, because each digit in hexadecimal corresponds to exactly four digits in binary. Is there  similar symmetry between binary and base32?
+
+    ??? answer "&nbsp;"
+
+        Each digit in base32 corresponds to five digits in binary.
+
+4. Convert $1001011011_2$ to base32.
+
+    ??? answer "&nbsp;"
+
+        $S3_{32}$
+
+5. Convert $BATMAN_{32}$ to binary.
+
+    ??? answer "&nbsp;"
+
+        $0000100000010011011000000001101_2$
