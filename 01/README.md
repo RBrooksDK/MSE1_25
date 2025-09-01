@@ -160,3 +160,27 @@ A bacterial culture starts with 1000 bacteria at time $t=0$, and the number doub
     ??? answer "&nbsp;"
 
         approx. 225.75 minutes
+
+#### Exercise 7
+
+Determine whether the given function is invertible by checking if it is injective (one-to-one) and surjective (onto). If you conclude that the function is invertible, determine it's inverse function.
+
+1. $f: R \backslash\{1\} \rightarrow R \backslash\{0\}, f(x)=\frac{2}{x-1}$
+
+    ??? answer "&nbsp;"
+
+        The function is invertible.
+
+        $f^{-1}(x)=\frac{2}{x}+1$
+
+2. $f: R \backslash\{3\} \rightarrow R, f(x)=\frac{x+1}{x-3}$
+
+    ??? answer "&nbsp;"
+
+        The function is not surjective, thus it is not invertible.
+
+3. $f: R \rightarrow R, f(x)=x^3-3 x$
+
+    ??? answer "&nbsp;"
+
+        The function is not injective, thus it is not invertible.
