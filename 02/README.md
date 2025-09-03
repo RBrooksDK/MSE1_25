@@ -155,6 +155,28 @@ Perform the following binary multiplication operations. Show your work using the
 
     1. $11111101_2$ (which equals $253_{10}$)
 
+#### Exercise 8: Octal
+
+In each subproblem, perform the first conversion and denote the result as x. Then, convert x further into the requested numeral system.
+
+1. $(1101011)_2 \longrightarrow x_8 \longrightarrow x_{10}$
+
+    ??? answer "&nbsp;"
+
+        $(153)_8$ = $107_{10}$
+
+2. $(782)_{10} \longrightarrow x_8 \longrightarrow x_2$
+
+    ??? answer "&nbsp;"
+    
+        $(1416)_8$ = $1100001110_2$
+
+3. $\left(5 B_7\right)_{16} \rightarrow x_2 \rightarrow x_8$
+
+    ??? answer "&nbsp;"
+
+        $(10110110111)_2$ = $(2667)_8$
+
 ### Challenge Exercises
 
 #### Challenge Exercise 1: Binary fractions
