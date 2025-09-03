@@ -311,7 +311,7 @@ Common easy-to-implement strategies for storing a series of event results includ
 
     ??? answer "&nbsp;"
 
-        Base 10 and base 100 both achieve the same perfect efficiency in this case. Both can represent 100 outcomes with a whole number of digits (no remainder means no wasted space).
+        Base 10 and base 100 both achieve the same perfect efficiency in this case. Both can represent 100 outcomes with a whole number of digits (no remainder means no wasted space). Note that mixed bases could also be used to achieve this efficiency and for finding all possible bases you just need to find all divisors of 100. (except unary wouldn't really be suitable for this)
 
 #### Challenge Exercise 5: Entropy Advanced
 
