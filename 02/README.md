@@ -220,3 +220,94 @@ In some contexts, it is an advantage to use even more than 16 symbols to represe
     ??? answer "&nbsp;"
 
         $0000100000010011011000000001101_2$
+
+#### Challenge Exercise 3: Shannon's Entropy
+
+In information theory, Shannon's entropy is a measure of the uncertainty in a set of possible outcomes. It is defined as:
+
+$$H(X) = -\sum_{i=1}^{n} p(x_i) \log_2 p(x_i)$$
+
+where $H(X)$ is the entropy of the random variable $X$, $p(x_i)$ is the probability of outcome $x_i$, and the sum is taken over all possible outcomes. Notice that because of the base 2 in the logarithm, the answer will be in bits, however, you can also calculate it in other units. 
+
+You can also think of it as a measure of the average amount of information produced by a stochastic source of data.
+
+Note: When talking about several tosses or other events in a row, it is always assumed these events are independent unless stated otherwise.
+
+1. Calculate the entropy of a fair coin toss. (2 equally likely outcomes, 50% chance of heads, 50% chance of tails)
+
+    ??? answer "&nbsp;"
+    
+        1 bit
+
+2. Calculate the entropy of a biased 70:30 coin toss with a precision of 4 decimal places. (2 outcomes, 70% chance of heads, 30% chance of tails)
+
+    ??? answer "&nbsp;"
+
+        0.8813 bits
+
+3. Calculate the entropy of rolling a fair six-sided die. (6 equally likely outcomes, each with a 1/6 chance)
+
+    ??? answer "&nbsp;"
+
+        2.5850 bits
+
+4. Calculate the total entropy of 100 biased 1:99 coin tosses. (1% chance of heads, 99% chance of tails)
+
+    ??? answer "&nbsp;"
+
+        app. 8 bits (8.0793)
+
+#### Challenge Exercise 4: Entropy application
+
+Common easy-to-implement strategies for storing a series of event results include storing one number representing the outcome of the event for each event, or storing a list of bits representing the possible outcomes with only the final outcome bit set to 1. As you know by now, these strategies may not be the most efficient ways of storing information, most importantly when the outcomes of the events are not equally as likely. In this exercise, try to think of creative solutions for optimizing such problems. 
+
+1. If you had 128 coin tosses and all of them would result in heads, except exactly one that would result in tails, what is the least amount of space in bits in which you could store the outcome of all throws? (order matters)
+
+    ??? answer "&nbsp;"
+
+        7 bits
+
+2. What is some strategy that uses as little space possible when storing the outcomes? Aim for achieving the theoretical minimum, or at least as little as you can.
+
+    ??? answer "&nbsp;"
+
+        For example storing only the position of the tails as a 7 bit number (1-128). This way, we can reconstruct all 128 toss results by for example going from 1 to 128 and checking if the position matches the stored number. If yes, we can output tails, otherwise heads. 
+
+3. Repeat the same for only 100 coin tosses, what is the least amount of space in bits in which you could store the outcome of all throws? (order matters)
+
+    ??? answer "&nbsp;"
+
+        6.6439 bits
+
+4. Most digital systems in real life use binary numbers to store information. For each digit, there are 2 possible states. Can the information of the 100 tosses mentioned earlier be stored with perfect efficiency in binary? (Hint: think about the number of outcomes your storage can represent and what it means to be efficient in these terms)
+
+    ??? answer "&nbsp;"
+
+        No. We can only use a natural number of bits and either we are able to represent more or less than 100 outcomes. (64 / 128, nothing in between). Being efficient in this case means to be able to represent exactly 100 outcomes without any wasted space.
+
+5. What number system could you use instead to store the information more efficiently? (Hint: try to change the base of the logarithm when calculating the entropy, look for whole number final results)
+
+    ??? answer "&nbsp;"
+
+        Base 10 and base 100 both achieve the same perfect efficiency in this case. Both can represent 100 outcomes with a whole number of digits (no remainder means no wasted space).
+
+#### Challenge Exercise 5: Entropy Advanced
+
+In the last exercise, it was guaranteed to get exactly one tails in the series of coin tosses. Now, we will drop that guarantee and instead calculate the entropy of a series of 100 coin tosses with a biased coin (99% chance of heads, 1% chance of tails).
+
+1. Calculate the entropy of a series of 100 biased coin tosses.
+
+    ??? answer "&nbsp;"
+
+        app. 8 bits (8.0793)
+
+2. Imagine we would continue tossing the coin forever. Can you use a similar strategy to store these outcomes compared to the previous exercise? Would it have the same efficiency?
+
+    ??? answer "&nbsp;"
+
+        Yes, as long as you account for the fact that we must continually add to this storage. An example strategy would be to store the numbers in 9 bit blocks that represent how many heads have been tossed between the tails. If the number is too large, we just fill the block with 1s and finish it up in the next block of 9 bits. 
+
+        The efficiency would approach being the same, remember the entropy is about averages, and over time we would approach the theoretical minimum or potential of our strategy but we can't guarantee that the next couple of tosses won't just be tails, hindering our storage-saving strategies. 
+
+3. Try to make a couple of these unfair tosses in a random number generator and try to use your strategy. Would you be saving space compared to fx. storing each toss as one bit? (if not, try to continue, and see if it improves)
+
