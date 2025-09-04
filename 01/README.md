@@ -112,7 +112,7 @@ Find each of the following composite functions:
 
         $(f \circ g)(x)=\frac{1}{x^2}+1$
 
-3. $\ g \circ f$ when $f$ and $g$ are defined as in exercise (2).
+3. $\ g \circ f$ when $f$ and $g$ are defined as in part b.
 
     ??? answer "&nbsp;"
 
