@@ -112,7 +112,7 @@ Find each of the following composite functions:
 
         $(f \circ g)(x)=\frac{1}{x^2}+1$
 
-3. $\ g \circ f$ when $f$ and $g$ are defined as in exercise (2).
+3. $\ g \circ f$ when $f$ and $g$ are defined as in part b.
 
     ??? answer "&nbsp;"
 
@@ -160,3 +160,95 @@ A bacterial culture starts with 1000 bacteria at time $t=0$, and the number doub
     ??? answer "&nbsp;"
 
         approx. 225.75 minutes
+
+#### Exercise 7
+
+Determine whether the given function is invertible by checking if it is injective (one-to-one) and surjective (onto). If you conclude that the function is invertible, determine it's inverse function.
+
+1. $f: R \backslash\{1\} \rightarrow R \backslash\{0\}, f(x)=\frac{2}{x-1}$
+
+    ??? answer "&nbsp;"
+
+        The function is invertible.
+
+        $f^{-1}(x)=\frac{2}{x}+1$
+
+2. $f: R \backslash\{3\} \rightarrow R, f(x)=\frac{x+1}{x-3}$
+
+    ??? answer "&nbsp;"
+
+        The function is not surjective, thus it is not invertible.
+
+3. $f: R \rightarrow R, f(x)=x^3-3 x$
+
+    ??? answer "&nbsp;"
+
+        The function is not injective, thus it is not invertible.
+
+### Challenge Exercises
+
+Some second order polynomials do not have any roots among the real numbers. For example, no real value of $x$ fulfills the equation $x^2+1=0$. However, if we define the imaginary number $i=\sqrt{-1}$, it is seen than the equation is true for $x= \pm i$ :
+
+$$
+i^2+1=-1+1=0 \quad \text { and } \quad(-i)^2+1=-1+1=0
+$$
+
+#### Challenge Exercise 1
+
+Solve the equations below (a second order equation with imaginary roots is solved the same way you would solve a regular second order equation.):
+
+1. $9 x^2+64=0$
+
+    ??? answer "&nbsp;"
+
+        $x= \pm \frac{8}{3} i$
+
+2. $x^2+10 x+169=0$
+
+    ??? answer "&nbsp;"
+
+        $x=-5 \pm 12 i$
+
+3. $6 x^2+13 ix-2=0$
+
+    ??? answer "&nbsp;"
+
+        $x=-\frac{1}{6} i$ or $x=-2 i$
+
+#### Challenge Exercise 2
+
+Show that the value of each of the expressions below is real (i.e. does not contain $i$ ):
+
+1. $(1+i)(1-i)$
+
+    ??? answer "&nbsp;"
+
+        $(1+i)(1-i)=2$
+
+2. $(a+b i)(a-b i)$
+
+    ??? answer "&nbsp;"
+
+        $(a+b i)(a-b i)=a^2-b^2 i^2=a^2+b^2$
+
+#### Challenge Exercise 3
+
+Calculate or reduce each of the expression below:
+
+1. $i^{2017}$
+
+    ??? answer "&nbsp;"
+
+        $i$
+
+2. $\frac{1}{2+3 i}+\frac{1}{2-3 i}$
+
+    ??? answer "&nbsp;"
+
+        $\frac{4}{13}$
+
+3. $\frac{1+i}{1-i}$
+
+    ??? answer "&nbsp;"
+
+        $i$
