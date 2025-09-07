@@ -28,11 +28,10 @@ The session includes a thorough review of number conversion between different sy
 
 Brooks: [Chapter 2](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf).
 
-### Resources
+### Resources Danish Class
+[Lecture notes](https://drive.google.com/file/d/1Ld5qGjQet-Ie8ka6PYilFxHkpzpa-ndP/view?usp=sharing)
 
-[Lecture notes]()
-
-[Session materials]()
+[Session materials](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EqAdL2IjxBJIuhBYvL12T8QBaS3fV4FBRbkdF18Koob8sQ?e=HyRXPM)
 
 <hr/>
 
