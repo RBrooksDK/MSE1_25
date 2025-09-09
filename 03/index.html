@@ -638,6 +638,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#challenge-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenge Exercises
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1000,6 +1009,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#challenge-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenge Exercises
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1054,68 +1072,35 @@
 </ol>
 </li>
 </ol>
-<h4 id="exercise-2-membership-in-notin">Exercise 2: Membership <span class="arithmatex">\(\in\)</span> / <span class="arithmatex">\(\notin\)</span><a class="headerlink" href="#exercise-2-membership-in-notin" title="Permanent link">&para;</a></h4>
-<p>Let <span class="arithmatex">\(U=\mathbb Z\)</span>, <span class="arithmatex">\(E=\{x\in\mathbb Z\mid x\equiv 0\pmod 2\}\)</span>, <span class="arithmatex">\(O=U\setminus E\)</span>.</p>
+<h4 id="exercise-2-set-operations-and-cardinality">Exercise 2: Set Operations and Cardinality<a class="headerlink" href="#exercise-2-set-operations-and-cardinality" title="Permanent link">&para;</a></h4>
+<p>Consider the sets <span class="arithmatex">\(A=\{e, f, g\}\)</span> and <span class="arithmatex">\(B=\{a, e, g, h\}\)</span>. Determine each set and its cardinality:</p>
 <ol>
 <li>
-<p class="annotate">Decide: <span class="arithmatex">\( -7\in E\ ?\)</span> (1)</p>
+<p class="annotate"><span class="arithmatex">\(A \cup B\)</span> and <span class="arithmatex">\(|A \cup B|\)</span> (1)</p>
 <ol>
-<li>No, <span class="arithmatex">\(-7\in O\)</span>.</li>
+<li><span class="arithmatex">\(\{a, e, f, g, h\}\)</span> and <span class="arithmatex">\(5\)</span>.</li>
 </ol>
 </li>
 <li>
-<p class="annotate">Decide: <span class="arithmatex">\(0\in E\ ?\)</span> (1)</p>
+<p class="annotate"><span class="arithmatex">\(A \cap B\)</span> and <span class="arithmatex">\(|A \cap B|\)</span> (1)</p>
 <ol>
-<li>Yes.</li>
+<li><span class="arithmatex">\(\{e, g\}\)</span> and <span class="arithmatex">\(2\)</span>.</li>
 </ol>
 </li>
 <li>
-<p class="annotate">Decide: <span class="arithmatex">\( \pi\in U\ ?\)</span> (1)</p>
+<p class="annotate"><span class="arithmatex">\(B-A\)</span> and <span class="arithmatex">\(|B-A|\)</span> (1)</p>
 <ol>
-<li>No, <span class="arithmatex">\(\pi\notin\mathbb Z\)</span>.</li>
-</ol>
-</li>
-</ol>
-<h4 id="exercise-3-subset-vs-proper-subset">Exercise 3: Subset vs. Proper Subset<a class="headerlink" href="#exercise-3-subset-vs-proper-subset" title="Permanent link">&para;</a></h4>
-<p>Let <span class="arithmatex">\(A=\{1,2\}\)</span>, <span class="arithmatex">\(B=\{1,2,3\}\)</span>, <span class="arithmatex">\(C=\{1,2\}\)</span>.</p>
-<ol>
-<li>
-<p class="annotate">Is <span class="arithmatex">\(A\subseteq B\)</span>? Is <span class="arithmatex">\(A\subset B\)</span>? (1)</p>
-<ol>
-<li>Yes; Yes (proper).</li>
+<li><span class="arithmatex">\(\{a, h\}\)</span> and <span class="arithmatex">\(2\)</span>.</li>
 </ol>
 </li>
 <li>
-<p class="annotate">Is <span class="arithmatex">\(A\subseteq C\)</span>? Is <span class="arithmatex">\(A\subset C\)</span>? (1)</p>
+<p class="annotate"><span class="arithmatex">\(A-B\)</span> and <span class="arithmatex">\(|A-B|\)</span> (1)</p>
 <ol>
-<li>Yes; No (equal, not proper).</li>
-</ol>
-</li>
-<li>
-<p class="annotate">Give an example of two <strong>disjoint</strong> nonempty subsets of <span class="arithmatex">\(\{1,2,3,4\}\)</span>. (1)</p>
-<ol>
-<li><span class="arithmatex">\(\{1,3\}\)</span> and <span class="arithmatex">\(\{2,4\}\)</span>.</li>
+<li><span class="arithmatex">\(\{f\}\)</span> and <span class="arithmatex">\(1\)</span>.</li>
 </ol>
 </li>
 </ol>
-<h4 id="exercise-4-cardinality-and-power-set">Exercise 4: Cardinality and Power Set<a class="headerlink" href="#exercise-4-cardinality-and-power-set" title="Permanent link">&para;</a></h4>
-<ol>
-<li>
-<p>Compute <span class="arithmatex">\(|\mathcal P(\{a,b,c\})|\)</span> and list <span class="arithmatex">\(\mathcal P\)</span>.</p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(2^3=8\)</span>. <span class="arithmatex">\(\{\emptyset,\{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a,b,c\}\}\)</span>.</p>
-</details>
-</li>
-<li>
-<p>For <span class="arithmatex">\(S=\{1,2,3,4,5\}\)</span>, how many subsets contain the element <span class="arithmatex">\(1\)</span>?</p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(2^{4}=16\)</span> (choose freely among the other 4).</p>
-</details>
-</li>
-</ol>
-<h4 id="exercise-5-core-operations-compute-explicitly">Exercise 5: Core Operations (compute explicitly)<a class="headerlink" href="#exercise-5-core-operations-compute-explicitly" title="Permanent link">&para;</a></h4>
+<h4 id="exercise-3-core-operations-compute-explicitly">Exercise 3: Core Operations (compute explicitly)<a class="headerlink" href="#exercise-3-core-operations-compute-explicitly" title="Permanent link">&para;</a></h4>
 <p>Let <span class="arithmatex">\(U=\{1,2,\dots,10\}\)</span>, <span class="arithmatex">\(A=\{1,3,4,8,10\}\)</span>, <span class="arithmatex">\(B=\{2,3,7,8\}\)</span>.</p>
 <ol>
 <li>
@@ -1149,7 +1134,68 @@
 </ol>
 </li>
 </ol>
-<h4 id="exercise-6-interval-notation-translation">Exercise 6: Interval Notation (translation)<a class="headerlink" href="#exercise-6-interval-notation-translation" title="Permanent link">&para;</a></h4>
+<h4 id="exercise-4-membership-in-notin">Exercise 4: Membership <span class="arithmatex">\(\in\)</span> / <span class="arithmatex">\(\notin\)</span><a class="headerlink" href="#exercise-4-membership-in-notin" title="Permanent link">&para;</a></h4>
+<p>Let <span class="arithmatex">\(U=\mathbb Z\)</span>, <span class="arithmatex">\(E=\{x\in\mathbb Z\mid x\equiv 0\pmod 2\}\)</span>, <span class="arithmatex">\(O=U\setminus E\)</span>.</p>
+<ol>
+<li>
+<p class="annotate">Decide: <span class="arithmatex">\( -7\in E\ ?\)</span> (1)</p>
+<ol>
+<li>No, <span class="arithmatex">\(-7\in O\)</span>.</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Decide: <span class="arithmatex">\(0\in E\ ?\)</span> (1)</p>
+<ol>
+<li>Yes.</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Decide: <span class="arithmatex">\( \pi\in U\ ?\)</span> (1)</p>
+<ol>
+<li>No, <span class="arithmatex">\(\pi\notin\mathbb Z\)</span>.</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-5-subset-vs-proper-subset">Exercise 5: Subset vs. Proper Subset<a class="headerlink" href="#exercise-5-subset-vs-proper-subset" title="Permanent link">&para;</a></h4>
+<p>Let <span class="arithmatex">\(A=\{1,2\}\)</span>, <span class="arithmatex">\(B=\{1,2,3\}\)</span>, <span class="arithmatex">\(C=\{1,2\}\)</span>.</p>
+<ol>
+<li>
+<p class="annotate">Is <span class="arithmatex">\(A\subseteq B\)</span>? Is <span class="arithmatex">\(A\subset B\)</span>? (1)</p>
+<ol>
+<li>Yes; Yes (proper).</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Is <span class="arithmatex">\(A\subseteq C\)</span>? Is <span class="arithmatex">\(A\subset C\)</span>? (1)</p>
+<ol>
+<li>Yes; No (equal, not proper).</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Give an example of two <strong>disjoint</strong> nonempty subsets of <span class="arithmatex">\(\{1,2,3,4\}\)</span>. (1)</p>
+<ol>
+<li><span class="arithmatex">\(\{1,3\}\)</span> and <span class="arithmatex">\(\{2,4\}\)</span>.</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-6-cardinality-and-power-set">Exercise 6: Cardinality and Power Set<a class="headerlink" href="#exercise-6-cardinality-and-power-set" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p>Compute <span class="arithmatex">\(|\mathcal P(\{a,b,c\})|\)</span> and list <span class="arithmatex">\(\mathcal P\)</span>.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(2^3=8\)</span>. <span class="arithmatex">\(\{\emptyset,\{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a,b,c\}\}\)</span>.</p>
+</details>
+</li>
+<li>
+<p>For <span class="arithmatex">\(S=\{1,2,3,4,5\}\)</span>, how many subsets contain the element <span class="arithmatex">\(1\)</span>?</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(2^{4}=16\)</span> (choose freely among the other 4).</p>
+</details>
+</li>
+</ol>
+<h4 id="exercise-7-interval-notation-translation">Exercise 7: Interval Notation (translation)<a class="headerlink" href="#exercise-7-interval-notation-translation" title="Permanent link">&para;</a></h4>
 <p>Translate between set-builder and interval notation in <span class="arithmatex">\(\mathbb R\)</span>.</p>
 <ol>
 <li>
@@ -1162,34 +1208,6 @@
 <p class="annotate"><span class="arithmatex">\((-∞,0]\cup(5,∞)\)</span> in builder form. (1)</p>
 <ol>
 <li><span class="arithmatex">\(\{x\in\mathbb R\mid x\le 0\ \text{or}\ x&gt;5\}\)</span>.</li>
-</ol>
-</li>
-</ol>
-<h4 id="exercise-7-set-operations-and-cardinality">Exercise 7: Set Operations and Cardinality<a class="headerlink" href="#exercise-7-set-operations-and-cardinality" title="Permanent link">&para;</a></h4>
-<p>Consider the sets <span class="arithmatex">\(A=\{e, f, g\}\)</span> and <span class="arithmatex">\(B=\{a, e, g, h\}\)</span>. Determine each set and its cardinality:</p>
-<ol>
-<li>
-<p class="annotate"><span class="arithmatex">\(A \cup B\)</span> and <span class="arithmatex">\(|A \cup B|\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(\{a, e, f, g, h\}\)</span> and <span class="arithmatex">\(5\)</span>.</li>
-</ol>
-</li>
-<li>
-<p class="annotate"><span class="arithmatex">\(A \cap B\)</span> and <span class="arithmatex">\(|A \cap B|\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(\{e, g\}\)</span> and <span class="arithmatex">\(2\)</span>.</li>
-</ol>
-</li>
-<li>
-<p class="annotate"><span class="arithmatex">\(B-A\)</span> and <span class="arithmatex">\(|B-A|\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(\{a, h\}\)</span> and <span class="arithmatex">\(2\)</span>.</li>
-</ol>
-</li>
-<li>
-<p class="annotate"><span class="arithmatex">\(A-B\)</span> and <span class="arithmatex">\(|A-B|\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(\{f\}\)</span> and <span class="arithmatex">\(1\)</span>.</li>
 </ol>
 </li>
 </ol>
@@ -1254,6 +1272,92 @@ A \cup (A \cap B)
   &amp;= A \cup B.
 \end{aligned}
 \]</div>
+</details>
+</li>
+</ol>
+<h3 id="challenge-exercises">Challenge Exercises<a class="headerlink" href="#challenge-exercises" title="Permanent link">&para;</a></h3>
+<h4 id="challenge-exercise-1-infinite-sets-and-countability">Challenge Exercise 1: Infinite sets and countability<a class="headerlink" href="#challenge-exercise-1-infinite-sets-and-countability" title="Permanent link">&para;</a></h4>
+<p>In set theory, we distinguish between finite, countably infinite, and uncountably infinite sets.<br />
+A set is <strong>countably infinite</strong> if its elements can be put into one-to-one correspondence with <span class="arithmatex">\(\mathbb{N}=\{0,1,2,\dots\}\)</span>.</p>
+<ol>
+<li>
+<p>Prove that the set of even integers <span class="arithmatex">\(E=\{2n \mid n\in\mathbb{Z}\}\)</span> is countably infinite.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Define bijection <span class="arithmatex">\(f:\mathbb{Z}\to E\)</span>, <span class="arithmatex">\(f(n)=2n\)</span>. Hence <span class="arithmatex">\(|E|=|\mathbb{Z}|\)</span>.</p>
+</details>
+</li>
+<li>
+<p>Show that the set of rational numbers <span class="arithmatex">\(\mathbb{Q}\)</span> is countably infinite.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Arrange fractions <span class="arithmatex">\(\tfrac{p}{q}\)</span> in a grid, traverse diagonally (Cantor zig-zag), and omit duplicates. This lists all rationals.</p>
+</details>
+</li>
+<li>
+<p>Argue why the set of real numbers <span class="arithmatex">\(\mathbb{R}\)</span> is <strong>uncountable</strong>.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Cantor’s diagonal: given any enumeration of decimals, construct a number differing in the <span class="arithmatex">\(i\)</span>-th digit from the <span class="arithmatex">\(i\)</span>-th entry. Contradiction → uncountable.</p>
+</details>
+</li>
+</ol>
+<h4 id="challenge-exercise-2-paradoxes-and-the-power-set">Challenge Exercise 2: Paradoxes and the power set<a class="headerlink" href="#challenge-exercise-2-paradoxes-and-the-power-set" title="Permanent link">&para;</a></h4>
+<p>For any set <span class="arithmatex">\(S\)</span>, its power set <span class="arithmatex">\(\mathcal{P}(S)\)</span> has strictly greater cardinality than <span class="arithmatex">\(S\)</span>.  </p>
+<ol>
+<li>
+<p>Prove that no function <span class="arithmatex">\(f:S\to\mathcal{P}(S)\)</span> can be surjective.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Suppose <span class="arithmatex">\(f\)</span> surjective. Define <span class="arithmatex">\(T=\{x\in S\mid x\notin f(x)\}\)</span>. Then <span class="arithmatex">\(T\in\mathcal{P}(S)\)</span>.<br />
+If <span class="arithmatex">\(T=f(y)\)</span>, contradiction: <span class="arithmatex">\(y\in T\iff y\notin f(y)=T\)</span>. Impossible.  </p>
+</details>
+</li>
+<li>
+<p>Interpret why this implies there is <strong>no largest infinity</strong>.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>If <span class="arithmatex">\(|\mathcal{P}(S)|&gt;|S|\)</span>, then starting with <span class="arithmatex">\(\mathbb{N}\)</span>, we get a hierarchy: <span class="arithmatex">\(\mathcal{P}(\mathbb{N}), \mathcal{P}(\mathcal{P}(\mathbb{N}))\)</span>, etc. Thus infinities form an endless ladder.</p>
+</details>
+</li>
+<li>
+<p>Reflect: what happens if we attempt to apply this idea to the “set of all sets”?  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Leads to <strong>Russell’s paradox</strong>: the “set of all sets not containing themselves” yields contradiction. Avoided in ZFC axioms.</p>
+</details>
+</li>
+</ol>
+<h4 id="challenge-exercise-3-encoding-sets-as-numbers">Challenge Exercise 3: Encoding sets as numbers<a class="headerlink" href="#challenge-exercise-3-encoding-sets-as-numbers" title="Permanent link">&para;</a></h4>
+<p>Any finite subset of <span class="arithmatex">\(\mathbb{N}\)</span> can be uniquely represented by a natural number. One standard method uses <strong>binary expansion</strong>:<br />
+For <span class="arithmatex">\(A \subseteq \{0,1,2,\dots,n-1\}\)</span>, define <span class="arithmatex">\(\operatorname{code}(A)=\sum_{i \in A} 2^i\)</span></p>
+<ol>
+<li>
+<p>Encode <span class="arithmatex">\(A=\{0,3,4\}\)</span> as a number.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(2^0+2^3+2^4=1+8+16=25\)</span>.  </p>
+</details>
+</li>
+<li>
+<p>Decode the number <span class="arithmatex">\(45\)</span> into its corresponding subset of <span class="arithmatex">\(\{0,1,2,3,4,5\}\)</span>.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(45=32+8+4+1=2^5+2^3+2^2+2^0\)</span>. Subset: <span class="arithmatex">\(\{0,2,3,5\}\)</span>.  </p>
+</details>
+</li>
+<li>
+<p>Explain why this coding gives a bijection between <span class="arithmatex">\(\mathcal{P}(\{0,1,\dots,n-1\})\)</span> and the integers <span class="arithmatex">\(0,1,\dots,2^n-1\)</span>.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Each subset has a unique binary mask, and each binary string corresponds to exactly one subset. Hence bijection.</p>
+</details>
+</li>
+<li>
+<p>How does this idea connect to computer science (bitsets, databases, logic)?  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>It’s the foundation of bitsets, permissions flags, and truth tables: subsets stored as integers enable efficient computation.</p>
 </details>
 </li>
 </ol>
