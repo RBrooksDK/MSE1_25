@@ -1,165 +1,236 @@
+---
+tags:
+    - Sets
+    - Set Theory
+    - Sets and Subsets
+    - Power Set
+    - Cardinality
+    - Union
+    - Intersection
+    - Complement
+    - Set Difference
+    - Symmetric Difference
+    - De Morgan’s Laws
+    - Set Identities
+    - Membership Tables
+    - Cartesian Product
+    - Tuples
+    - Bitsets   
+---
+
 <h1 align="center">Set Theory</h1>
+
+In this session, we cover the basics of set theory, including different ways to describe sets, fundamental set operations, and important properties and laws governing sets. 
+
+<hr/>
 
 ### Session Preparation:
 
-Brooks: [Chapter 3](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing).
+Brooks: [Chapter 3](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf).
 
-### Session Material:
+### Resources Danish Class:
 
-[Session notes](https://drive.google.com/file/d/1l257MXhxTxgXfmuQCqvEw-de3mvgyN1K/view?usp=sharing)
+[Session notes]()
 
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EqAdL2IjxBJIuhBYvL12T8QBaS3fV4FBRbkdF18Koob8sQ?e=EYK2t4)
+[Session Resources]()
 
---------------------------
+<hr/>
 
-### Topic Description
-Numeral systems are methods for expressing numbers using a consistent set of symbols. The four most commonly used numeral systems in computing and mathematics are decimal, binary, octal, and hexadecimal.
+### Exercises
 
-1. **Decimal (Base 10):**
-  
-    - The decimal system is the most familiar, used in everyday counting and calculations. It is a base-10 system, meaning it uses ten digits: 0 through 9. Each position in a decimal number represents a power of 10.
+#### Exercise 1: Roster vs. Set-Builder (equivalence)
 
-2. **Binary (Base 2):**
-    - The binary system is fundamental in computing and digital electronics. It is a base-2 system, meaning it uses only two digits: 0 and 1. Each position in a binary number represents a power of 2.
+For each pair, decide whether the two notations define the **same** set.
 
-3. **Octal (Base 8):**
-    - The octal system is a base-8 system, using eight digits: 0 through 7. Each position in an octal number represents a power of 8.
-
-4. **Hexadecimal (Base 16):**
-    - The hexadecimal system is widely used in computing to represent binary data in a more human-readable form. It is a base-16 system, using sixteen symbols: 0-9 and A-F, where A represents 10, B represents 11, and so on up to F, which represents 15. Each position in a hexadecimal number represents a power of 16.
-
-These numeral systems are used to simplify data representation, processing, and conversion.
-
-#### Key Concepts
-- Positional numeral systems
-- Binary expansion
-- Binary operations
-- Binary addition and multiplication
-- Converting between binary, decimal, octal, and hexadecimal
-
-
---------------------------
-### Exercises for recitation
-
-#### Exercise 1: Modular Arithmetic & GCD
-
-a. Find gcd(102, 38)(1)
+1. \(A=\{2,4,6,8\}\) and \(A=\{\,x\in\mathbb Z\mid 1\le x\le 8,\; x\text{ even}\,\}\). (1)
 { .annotate }
 
-1. $2$
+    1. Same.
 
-Two numbers, $a$ and $b$, are called *relatively* prime if gcd $(a, b)=1$. Based on this concept, answer b-c.
-
-b. Is 2 relatively prime to 5? (1)
+2. \(B=\{a,e,i,o,u\}\) and \(B=\{\,l\mid l\text{ is a vowel in English}\,\}\). (1)
 { .annotate }
 
-1. Yes
+    1. Same.
 
-c. Are 15 and 20 relatively prime to each other?(1)
+3. \(C=\{x\in\mathbb Z\mid x^2<10\}\) and \(C=\{-3,-2,-1,0,1,2,3\}\). (1)
 { .annotate }
 
-1. No
+    1. Same.
 
-If $n$ is some positive integer, we can calculate how many of the numbers between 1 and $n$ that are relatively prime to $n$ as $\varphi(n)$ - this function is called Euler's phi-function. Use Euler's phi-function to answer d-f.
+#### Exercise 2: Membership \(\in\) / \(\notin\)
 
-d. What is $\varphi(15)$?(1)
+Let \(U=\mathbb Z\), \(E=\{x\in\mathbb Z\mid x\equiv 0\pmod 2\}\), \(O=U\setminus E\).
+
+1. Decide: \( -7\in E\ ?\) (1)
 { .annotate }
 
-1. 8
+    1. No, \(-7\in O\).
 
-e. What is $\varphi(14)$? (1)
+2. Decide: \(0\in E\ ?\) (1)
 { .annotate }
 
-1. 6
+    1. Yes.
 
-f. How is the prime factorization linked to the concept of $\varphi(n)$?
-
-??? answer "&nbsp;"
-
-    If $n = pq$, where $p$ and $q$ are prime, then $\varphi(n) = (p-1)(q-1)$?
-
-#### Exercise 2: Binary to Decimal
-
-Convert the following binary numbers into decimal numbers.
-
-a. $110$ (1)
+3. Decide: \( \pi\in U\ ?\) (1)
 { .annotate }
 
-1. $6_{10}$
+    1. No, \(\pi\notin\mathbb Z\).
 
-b. $1110111100_2$(1)
+#### Exercise 3: Subset vs. Proper Subset
+
+Let \(A=\{1,2\}\), \(B=\{1,2,3\}\), \(C=\{1,2\}\).
+
+1. Is \(A\subseteq B\)? Is \(A\subset B\)? (1)
 { .annotate }
 
-1. $956_{10}$
+    1. Yes; Yes (proper).
 
-c. $1001101110110_2$(1)
+2. Is \(A\subseteq C\)? Is \(A\subset C\)? (1)
 { .annotate }
 
-1. $4982_{10}$
+    1. Yes; No (equal, not proper).
 
-#### Exercise 3: Decimal to Binary
-State the binary expansion of the following values and then state the number in binary. 
-
-a. $49_{10}$
-
-??? answer "&nbsp;"
-
-    $1\cdot2^5 + 1\cdot2^4 + 0\cdot2^3 + 0\cdot 2^2 + 0\cdot 2^1 + 1\cdot2^0$
-
-    $110001$
-
-b. $212_{10}$
-
-??? answer "&nbsp;"
-
-    $1\cdot 2^7 + 1\cdot 2^6 + 1 \cdot 2^4 + 1 \cdot 2^2$
-
-    $11010100_2$
-
-#### Exercise 4: Convert to Decimal
-State the hexadecimal expansion of the following values and then state the number in decimal. 
-
-a. $37D_{16}$
-
-??? answer "&nbsp;"
-
-    $3 \cdot 16^2 + 7 \cdot 16^1 + 13 \cdot 16^0$
-
-    $893_{10}$
-
-b. $1 A 9_{16}$
-
-??? answer "&nbsp;"
-
-    $1 \cdot 16^2 + 10 \cdot 16^1 + 9 \cdot 16^0$
-
-    $425$
-
-#### Exercise 5: Hex and Binary
-
-Solve the “crossbins” below. The clues are in hexadecimal, and the answers should be in binary.  
-**Note**: If your number is too short, add zeros in front!
-
-<img src="src/crossbin1.png" alt="Crossbin 1" width="400"/>
-
-??? answer "&nbsp;"
-    <img src="src/crossbin1sol-1.jpg" alt="Crossbin 1" width="400"/>
-
-<img src="src/crossbin2.png" alt="Crossbin 2" width="350"/>
-
-??? answer "&nbsp;"
-    <img src="src/crossbinsol-1 1.jpg" alt="Crossbin 2" width="350"/>
-
-#### Exercise 6: Hex and Binary
-
-Let $S$ be the set of all binary numbers with 7 characters, and let $f$ be a function from $S$ to $\mathbb{Z}$ given by $f(x_2) = x_{10}$.
-
-a. Determine $f(111010)$.(1)
+3. Give an example of two **disjoint** nonempty subsets of \(\{1,2,3,4\}\). (1)
 { .annotate }
 
-1. 58
+    1. \(\{1,3\}\) and \(\{2,4\}\).
 
-b. The order of a set is the number of elements in a set. For instance the order of ${1, 5, 7, 19, 27, 39}$ is 6. Determine the order of the set $S$. (1)
+#### Exercise 4: Cardinality and Power Set
+
+1. Compute \(|\mathcal P(\{a,b,c\})|\) and list \(\mathcal P\).
+
+    ??? answer "&nbsp;"
+
+        \(2^3=8\). \(\{\emptyset,\{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a,b,c\}\}\).
+
+2. For \(S=\{1,2,3,4,5\}\), how many subsets contain the element \(1\)?
+
+    ??? answer "&nbsp;"
+
+        \(2^{4}=16\) (choose freely among the other 4).
+
+#### Exercise 5: Core Operations (compute explicitly)
+
+Let \(U=\{1,2,\dots,10\}\), \(A=\{1,3,4,8,10\}\), \(B=\{2,3,7,8\}\).
+
+1. \(A\cup B\) (1)
 { .annotate }
 
-1. 128
+    1. \(\{1,2,3,4,7,8,10\}\).
+
+2. \(A\cap B\) (1)
+{ .annotate }
+
+    1. \(\{3,8\}\).
+
+3. \(A\setminus B\) and \(B\setminus A\) (1)
+{ .annotate }
+
+    1. \(A\setminus B=\{1,4,10\}\), \(B\setminus A=\{2,7\}\).
+
+4. \(A^\mathrm c\) (complement in \(U\)) (1)
+{ .annotate }
+
+    1. \(\{2,5,6,7,9\}\).
+
+5. \(A\oplus B\) (symmetric difference) (1)
+{ .annotate }
+
+    1. \(\{1,2,4,7,10\}\).
+
+#### Exercise 6: Interval Notation (translation)
+
+Translate between set-builder and interval notation in \(\mathbb R\).
+
+1. \(\{x\in\mathbb R\mid -2\le x<3\}\) (1)
+{ .annotate }
+
+    1. \([-2,3)\).
+
+2. \((-∞,0]\cup(5,∞)\) in builder form. (1)
+{ .annotate }
+
+    1. \(\{x\in\mathbb R\mid x\le 0\ \text{or}\ x>5\}\).
+
+#### Exercise 7: Set Operations and Cardinality
+
+Consider the sets $A=\{e, f, g\}$ and $B=\{a, e, g, h\}$. Determine each set and its cardinality:
+
+1. $A \cup B$ and $|A \cup B|$ (1)
+{ .annotate }
+
+    1. $\{a, e, f, g, h\}$ and $5$.
+
+2. $A \cap B$ and $|A \cap B|$ (1)
+{ .annotate }
+
+    1. $\{e, g\}$ and $2$.
+
+3. $B-A$ and $|B-A|$ (1)
+{ .annotate }
+
+    1. $\{a, h\}$ and $2$.
+
+4. $A-B$ and $|A-B|$ (1)
+{ .annotate }
+
+    1. $\{f\}$ and $1$.
+
+#### Exercise 8: Set Identities
+
+1. Prove that \(A \cup (A \cap B) = A\) using fundamental set identities.
+
+    ??? answer "&nbsp;"
+
+        \[
+        \begin{aligned}
+        A \cup (A \cap B)
+          &= (A \cup A)\,\cap\,(A \cup B) && \text{distributivity}\\
+          &= A \cap (A \cup B)            && \text{idempotence}\\
+          &= A                             && \text{absorption.}
+        \end{aligned}
+        \]
+
+2. Prove that \(\left(A \cap A^{c}\right) \cup (A \cap B) \cup \left(A^{c} \cap B\right) = B\) using set identities.
+
+    ??? answer "&nbsp;"
+
+        \[
+        \begin{aligned}
+        (A \cap A^c) \cup (A \cap B) \cup (A^c \cap B)
+          &= \varnothing \cup \big[(A \cap B) \cup (A^c \cap B)\big] && A \cap A^c=\varnothing \\
+          &= B \cap (A \cup A^c)                                    && \text{distributivity}\\
+          &= B \cap U                                               && \text{complement law}\\
+          &= B.                                                     && \text{identity}
+        \end{aligned}
+        \]
+
+3. Prove that \(\big((A^c \cup B)^c\big) \cup A = A\) using set identities.
+
+    ??? answer "&nbsp;"
+
+        \[
+        \begin{aligned}
+        \big((A^c \cup B)^c\big) \cup A
+          &= \big((A^c)^c \cap B^c\big) \cup A && \text{De Morgan}\\
+          &= (A \cap B^c) \cup A               && \text{double complement}\\
+          &= A \cup (A \cap B^c)               \\
+          &= A.                                 && \text{absorption}
+        \end{aligned}
+        \]
+
+4. Determine if \((A \oplus B) \cup A = A \cup B\) using set identities.
+
+    ??? answer "&nbsp;"
+
+        \[
+        \begin{aligned}
+        (A \oplus B) \cup A
+          &= \big((A \cap B^c) \cup (A^c \cap B)\big) \cup A && \text{def.\ of }\oplus\\
+          &= \big(A \cap B^c\big) \cup A \cup \big(A^c \cap B\big)\\
+          &= A \cup \big(A^c \cap B\big)                    && A \cup (A \cap X)=A\\
+          &= (A \cup A^c)\cap (A \cup B)                    && \text{distributivity}\\
+          &= U \cap (A \cup B)\\
+          &= A \cup B.
+        \end{aligned}
+        \]
