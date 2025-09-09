@@ -621,27 +621,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#session-material" class="md-nav__link">
+  <a href="#resources-danish-class" class="md-nav__link">
     <span class="md-ellipsis">
-      Session Material:
+      Resources Danish Class:
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#topic-description" class="md-nav__link">
+  <a href="#exercises" class="md-nav__link">
     <span class="md-ellipsis">
-      Topic Description
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exercises-for-recitation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exercises for recitation
+      Exercises
     </span>
   </a>
   
@@ -992,27 +983,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#session-material" class="md-nav__link">
+  <a href="#resources-danish-class" class="md-nav__link">
     <span class="md-ellipsis">
-      Session Material:
+      Resources Danish Class:
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#topic-description" class="md-nav__link">
+  <a href="#exercises" class="md-nav__link">
     <span class="md-ellipsis">
-      Topic Description
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exercises-for-recitation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exercises for recitation
+      Exercises
     </span>
   </a>
   
@@ -1039,143 +1021,241 @@
 
 <h1 align="center">Set Theory</h1>
 
+<p>In this session, we cover the basics of set theory, including different ways to describe sets, fundamental set operations, and important properties and laws governing sets. </p>
+<hr/>
+
 <h3 id="session-preparation">Session Preparation:<a class="headerlink" href="#session-preparation" title="Permanent link">&para;</a></h3>
-<p>Brooks: <a href="https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing">Chapter 3</a>.</p>
-<h3 id="session-material">Session Material:<a class="headerlink" href="#session-material" title="Permanent link">&para;</a></h3>
-<p><a href="https://drive.google.com/file/d/1l257MXhxTxgXfmuQCqvEw-de3mvgyN1K/view?usp=sharing">Session notes</a></p>
-<p><a href="https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EqAdL2IjxBJIuhBYvL12T8QBaS3fV4FBRbkdF18Koob8sQ?e=EYK2t4">Session Resources</a></p>
-<hr />
-<h3 id="topic-description">Topic Description<a class="headerlink" href="#topic-description" title="Permanent link">&para;</a></h3>
-<p>Numeral systems are methods for expressing numbers using a consistent set of symbols. The four most commonly used numeral systems in computing and mathematics are decimal, binary, octal, and hexadecimal.</p>
+<p>Brooks: <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf">Chapter 3</a>.</p>
+<h3 id="resources-danish-class">Resources Danish Class:<a class="headerlink" href="#resources-danish-class" title="Permanent link">&para;</a></h3>
+<p><a href="">Session notes</a></p>
+<p><a href="">Session Resources</a></p>
+<hr/>
+
+<h3 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">&para;</a></h3>
+<h4 id="exercise-1-roster-vs-set-builder-equivalence">Exercise 1: Roster vs. Set-Builder (equivalence)<a class="headerlink" href="#exercise-1-roster-vs-set-builder-equivalence" title="Permanent link">&para;</a></h4>
+<p>For each pair, decide whether the two notations define the <strong>same</strong> set.</p>
 <ol>
 <li>
-<p><strong>Decimal (Base 10):</strong></p>
-<ul>
-<li>The decimal system is the most familiar, used in everyday counting and calculations. It is a base-10 system, meaning it uses ten digits: 0 through 9. Each position in a decimal number represents a power of 10.</li>
-</ul>
+<p class="annotate"><span class="arithmatex">\(A=\{2,4,6,8\}\)</span> and <span class="arithmatex">\(A=\{\,x\in\mathbb Z\mid 1\le x\le 8,\; x\text{ even}\,\}\)</span>. (1)</p>
+<ol>
+<li>Same.</li>
+</ol>
 </li>
 <li>
-<p><strong>Binary (Base 2):</strong></p>
-<ul>
-<li>The binary system is fundamental in computing and digital electronics. It is a base-2 system, meaning it uses only two digits: 0 and 1. Each position in a binary number represents a power of 2.</li>
-</ul>
+<p class="annotate"><span class="arithmatex">\(B=\{a,e,i,o,u\}\)</span> and <span class="arithmatex">\(B=\{\,l\mid l\text{ is a vowel in English}\,\}\)</span>. (1)</p>
+<ol>
+<li>Same.</li>
+</ol>
 </li>
 <li>
-<p><strong>Octal (Base 8):</strong></p>
-<ul>
-<li>The octal system is a base-8 system, using eight digits: 0 through 7. Each position in an octal number represents a power of 8.</li>
-</ul>
+<p class="annotate"><span class="arithmatex">\(C=\{x\in\mathbb Z\mid x^2&lt;10\}\)</span> and <span class="arithmatex">\(C=\{-3,-2,-1,0,1,2,3\}\)</span>. (1)</p>
+<ol>
+<li>Same.</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-2-membership-in-notin">Exercise 2: Membership <span class="arithmatex">\(\in\)</span> / <span class="arithmatex">\(\notin\)</span><a class="headerlink" href="#exercise-2-membership-in-notin" title="Permanent link">&para;</a></h4>
+<p>Let <span class="arithmatex">\(U=\mathbb Z\)</span>, <span class="arithmatex">\(E=\{x\in\mathbb Z\mid x\equiv 0\pmod 2\}\)</span>, <span class="arithmatex">\(O=U\setminus E\)</span>.</p>
+<ol>
+<li>
+<p class="annotate">Decide: <span class="arithmatex">\( -7\in E\ ?\)</span> (1)</p>
+<ol>
+<li>No, <span class="arithmatex">\(-7\in O\)</span>.</li>
+</ol>
 </li>
 <li>
-<p><strong>Hexadecimal (Base 16):</strong></p>
-<ul>
-<li>The hexadecimal system is widely used in computing to represent binary data in a more human-readable form. It is a base-16 system, using sixteen symbols: 0-9 and A-F, where A represents 10, B represents 11, and so on up to F, which represents 15. Each position in a hexadecimal number represents a power of 16.</li>
-</ul>
+<p class="annotate">Decide: <span class="arithmatex">\(0\in E\ ?\)</span> (1)</p>
+<ol>
+<li>Yes.</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Decide: <span class="arithmatex">\( \pi\in U\ ?\)</span> (1)</p>
+<ol>
+<li>No, <span class="arithmatex">\(\pi\notin\mathbb Z\)</span>.</li>
+</ol>
 </li>
 </ol>
-<p>These numeral systems are used to simplify data representation, processing, and conversion.</p>
-<h4 id="key-concepts">Key Concepts<a class="headerlink" href="#key-concepts" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Positional numeral systems</li>
-<li>Binary expansion</li>
-<li>Binary operations</li>
-<li>Binary addition and multiplication</li>
-<li>Converting between binary, decimal, octal, and hexadecimal</li>
-</ul>
-<hr />
-<h3 id="exercises-for-recitation">Exercises for recitation<a class="headerlink" href="#exercises-for-recitation" title="Permanent link">&para;</a></h3>
-<h4 id="exercise-1-modular-arithmetic-gcd">Exercise 1: Modular Arithmetic &amp; GCD<a class="headerlink" href="#exercise-1-modular-arithmetic-gcd" title="Permanent link">&para;</a></h4>
-<p class="annotate">a. Find gcd(102, 38)(1)</p>
+<h4 id="exercise-3-subset-vs-proper-subset">Exercise 3: Subset vs. Proper Subset<a class="headerlink" href="#exercise-3-subset-vs-proper-subset" title="Permanent link">&para;</a></h4>
+<p>Let <span class="arithmatex">\(A=\{1,2\}\)</span>, <span class="arithmatex">\(B=\{1,2,3\}\)</span>, <span class="arithmatex">\(C=\{1,2\}\)</span>.</p>
 <ol>
-<li><span class="arithmatex">\(2\)</span></li>
-</ol>
-<p>Two numbers, <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span>, are called <em>relatively</em> prime if gcd <span class="arithmatex">\((a, b)=1\)</span>. Based on this concept, answer b-c.</p>
-<p class="annotate">b. Is 2 relatively prime to 5? (1)</p>
+<li>
+<p class="annotate">Is <span class="arithmatex">\(A\subseteq B\)</span>? Is <span class="arithmatex">\(A\subset B\)</span>? (1)</p>
 <ol>
-<li>Yes</li>
+<li>Yes; Yes (proper).</li>
 </ol>
-<p class="annotate">c. Are 15 and 20 relatively prime to each other?(1)</p>
+</li>
+<li>
+<p class="annotate">Is <span class="arithmatex">\(A\subseteq C\)</span>? Is <span class="arithmatex">\(A\subset C\)</span>? (1)</p>
 <ol>
-<li>No</li>
+<li>Yes; No (equal, not proper).</li>
 </ol>
-<p>If <span class="arithmatex">\(n\)</span> is some positive integer, we can calculate how many of the numbers between 1 and <span class="arithmatex">\(n\)</span> that are relatively prime to <span class="arithmatex">\(n\)</span> as <span class="arithmatex">\(\varphi(n)\)</span> - this function is called Euler's phi-function. Use Euler's phi-function to answer d-f.</p>
-<p class="annotate">d. What is <span class="arithmatex">\(\varphi(15)\)</span>?(1)</p>
+</li>
+<li>
+<p class="annotate">Give an example of two <strong>disjoint</strong> nonempty subsets of <span class="arithmatex">\(\{1,2,3,4\}\)</span>. (1)</p>
 <ol>
-<li>8</li>
+<li><span class="arithmatex">\(\{1,3\}\)</span> and <span class="arithmatex">\(\{2,4\}\)</span>.</li>
 </ol>
-<p class="annotate">e. What is <span class="arithmatex">\(\varphi(14)\)</span>? (1)</p>
+</li>
+</ol>
+<h4 id="exercise-4-cardinality-and-power-set">Exercise 4: Cardinality and Power Set<a class="headerlink" href="#exercise-4-cardinality-and-power-set" title="Permanent link">&para;</a></h4>
 <ol>
-<li>6</li>
-</ol>
-<p>f. How is the prime factorization linked to the concept of <span class="arithmatex">\(\varphi(n)\)</span>?</p>
+<li>
+<p>Compute <span class="arithmatex">\(|\mathcal P(\{a,b,c\})|\)</span> and list <span class="arithmatex">\(\mathcal P\)</span>.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
-<p>If <span class="arithmatex">\(n = pq\)</span>, where <span class="arithmatex">\(p\)</span> and <span class="arithmatex">\(q\)</span> are prime, then <span class="arithmatex">\(\varphi(n) = (p-1)(q-1)\)</span>?</p>
+<p><span class="arithmatex">\(2^3=8\)</span>. <span class="arithmatex">\(\{\emptyset,\{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a,b,c\}\}\)</span>.</p>
 </details>
-<h4 id="exercise-2-binary-to-decimal">Exercise 2: Binary to Decimal<a class="headerlink" href="#exercise-2-binary-to-decimal" title="Permanent link">&para;</a></h4>
-<p>Convert the following binary numbers into decimal numbers.</p>
-<p class="annotate">a. <span class="arithmatex">\(110\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(6_{10}\)</span></li>
+</li>
+<li>
+<p>For <span class="arithmatex">\(S=\{1,2,3,4,5\}\)</span>, how many subsets contain the element <span class="arithmatex">\(1\)</span>?</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(2^{4}=16\)</span> (choose freely among the other 4).</p>
+</details>
+</li>
 </ol>
-<p class="annotate">b. <span class="arithmatex">\(1110111100_2\)</span>(1)</p>
+<h4 id="exercise-5-core-operations-compute-explicitly">Exercise 5: Core Operations (compute explicitly)<a class="headerlink" href="#exercise-5-core-operations-compute-explicitly" title="Permanent link">&para;</a></h4>
+<p>Let <span class="arithmatex">\(U=\{1,2,\dots,10\}\)</span>, <span class="arithmatex">\(A=\{1,3,4,8,10\}\)</span>, <span class="arithmatex">\(B=\{2,3,7,8\}\)</span>.</p>
 <ol>
-<li><span class="arithmatex">\(956_{10}\)</span></li>
+<li>
+<p class="annotate"><span class="arithmatex">\(A\cup B\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(\{1,2,3,4,7,8,10\}\)</span>.</li>
 </ol>
-<p class="annotate">c. <span class="arithmatex">\(1001101110110_2\)</span>(1)</p>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(A\cap B\)</span> (1)</p>
 <ol>
-<li><span class="arithmatex">\(4982_{10}\)</span></li>
+<li><span class="arithmatex">\(\{3,8\}\)</span>.</li>
 </ol>
-<h4 id="exercise-3-decimal-to-binary">Exercise 3: Decimal to Binary<a class="headerlink" href="#exercise-3-decimal-to-binary" title="Permanent link">&para;</a></h4>
-<p>State the binary expansion of the following values and then state the number in binary. </p>
-<p>a. <span class="arithmatex">\(49_{10}\)</span></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(1\cdot2^5 + 1\cdot2^4 + 0\cdot2^3 + 0\cdot 2^2 + 0\cdot 2^1 + 1\cdot2^0\)</span></p>
-<p><span class="arithmatex">\(110001\)</span></p>
-</details>
-<p>b. <span class="arithmatex">\(212_{10}\)</span></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(1\cdot 2^7 + 1\cdot 2^6 + 1 \cdot 2^4 + 1 \cdot 2^2\)</span></p>
-<p><span class="arithmatex">\(11010100_2\)</span></p>
-</details>
-<h4 id="exercise-4-convert-to-decimal">Exercise 4: Convert to Decimal<a class="headerlink" href="#exercise-4-convert-to-decimal" title="Permanent link">&para;</a></h4>
-<p>State the hexadecimal expansion of the following values and then state the number in decimal. </p>
-<p>a. <span class="arithmatex">\(37D_{16}\)</span></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(3 \cdot 16^2 + 7 \cdot 16^1 + 13 \cdot 16^0\)</span></p>
-<p><span class="arithmatex">\(893_{10}\)</span></p>
-</details>
-<p>b. <span class="arithmatex">\(1 A 9_{16}\)</span></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><span class="arithmatex">\(1 \cdot 16^2 + 10 \cdot 16^1 + 9 \cdot 16^0\)</span></p>
-<p><span class="arithmatex">\(425\)</span></p>
-</details>
-<h4 id="exercise-5-hex-and-binary">Exercise 5: Hex and Binary<a class="headerlink" href="#exercise-5-hex-and-binary" title="Permanent link">&para;</a></h4>
-<p>Solve the “crossbins” below. The clues are in hexadecimal, and the answers should be in binary.<br />
-<strong>Note</strong>: If your number is too short, add zeros in front!</p>
-<p><img src="src/crossbin1.png" alt="Crossbin 1" width="400"/></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><img src="src/crossbin1sol-1.jpg" alt="Crossbin 1" width="400"/></p>
-</details>
-<p><img src="src/crossbin2.png" alt="Crossbin 2" width="350"/></p>
-<details class="answer">
-<summary>&nbsp;</summary>
-<p><img src="src/crossbinsol-1 1.jpg" alt="Crossbin 2" width="350"/></p>
-</details>
-<h4 id="exercise-6-hex-and-binary">Exercise 6: Hex and Binary<a class="headerlink" href="#exercise-6-hex-and-binary" title="Permanent link">&para;</a></h4>
-<p>Let <span class="arithmatex">\(S\)</span> be the set of all binary numbers with 7 characters, and let <span class="arithmatex">\(f\)</span> be a function from <span class="arithmatex">\(S\)</span> to <span class="arithmatex">\(\mathbb{Z}\)</span> given by <span class="arithmatex">\(f(x_2) = x_{10}\)</span>.</p>
-<p class="annotate">a. Determine <span class="arithmatex">\(f(111010)\)</span>.(1)</p>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(A\setminus B\)</span> and <span class="arithmatex">\(B\setminus A\)</span> (1)</p>
 <ol>
-<li>58</li>
+<li><span class="arithmatex">\(A\setminus B=\{1,4,10\}\)</span>, <span class="arithmatex">\(B\setminus A=\{2,7\}\)</span>.</li>
 </ol>
-<p class="annotate">b. The order of a set is the number of elements in a set. For instance the order of <span class="arithmatex">\({1, 5, 7, 19, 27, 39}\)</span> is 6. Determine the order of the set <span class="arithmatex">\(S\)</span>. (1)</p>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(A^\mathrm c\)</span> (complement in <span class="arithmatex">\(U\)</span>) (1)</p>
 <ol>
-<li>128</li>
+<li><span class="arithmatex">\(\{2,5,6,7,9\}\)</span>.</li>
+</ol>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(A\oplus B\)</span> (symmetric difference) (1)</p>
+<ol>
+<li><span class="arithmatex">\(\{1,2,4,7,10\}\)</span>.</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-6-interval-notation-translation">Exercise 6: Interval Notation (translation)<a class="headerlink" href="#exercise-6-interval-notation-translation" title="Permanent link">&para;</a></h4>
+<p>Translate between set-builder and interval notation in <span class="arithmatex">\(\mathbb R\)</span>.</p>
+<ol>
+<li>
+<p class="annotate"><span class="arithmatex">\(\{x\in\mathbb R\mid -2\le x&lt;3\}\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\([-2,3)\)</span>.</li>
+</ol>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\((-∞,0]\cup(5,∞)\)</span> in builder form. (1)</p>
+<ol>
+<li><span class="arithmatex">\(\{x\in\mathbb R\mid x\le 0\ \text{or}\ x&gt;5\}\)</span>.</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-7-set-operations-and-cardinality">Exercise 7: Set Operations and Cardinality<a class="headerlink" href="#exercise-7-set-operations-and-cardinality" title="Permanent link">&para;</a></h4>
+<p>Consider the sets <span class="arithmatex">\(A=\{e, f, g\}\)</span> and <span class="arithmatex">\(B=\{a, e, g, h\}\)</span>. Determine each set and its cardinality:</p>
+<ol>
+<li>
+<p class="annotate"><span class="arithmatex">\(A \cup B\)</span> and <span class="arithmatex">\(|A \cup B|\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(\{a, e, f, g, h\}\)</span> and <span class="arithmatex">\(5\)</span>.</li>
+</ol>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(A \cap B\)</span> and <span class="arithmatex">\(|A \cap B|\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(\{e, g\}\)</span> and <span class="arithmatex">\(2\)</span>.</li>
+</ol>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(B-A\)</span> and <span class="arithmatex">\(|B-A|\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(\{a, h\}\)</span> and <span class="arithmatex">\(2\)</span>.</li>
+</ol>
+</li>
+<li>
+<p class="annotate"><span class="arithmatex">\(A-B\)</span> and <span class="arithmatex">\(|A-B|\)</span> (1)</p>
+<ol>
+<li><span class="arithmatex">\(\{f\}\)</span> and <span class="arithmatex">\(1\)</span>.</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-8-set-identities">Exercise 8: Set Identities<a class="headerlink" href="#exercise-8-set-identities" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p>Prove that <span class="arithmatex">\(A \cup (A \cap B) = A\)</span> using fundamental set identities.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<div class="arithmatex">\[
+\begin{aligned}
+A \cup (A \cap B)
+  &amp;= (A \cup A)\,\cap\,(A \cup B) &amp;&amp; \text{distributivity}\\
+  &amp;= A \cap (A \cup B)            &amp;&amp; \text{idempotence}\\
+  &amp;= A                             &amp;&amp; \text{absorption.}
+\end{aligned}
+\]</div>
+</details>
+</li>
+<li>
+<p>Prove that <span class="arithmatex">\(\left(A \cap A^{c}\right) \cup (A \cap B) \cup \left(A^{c} \cap B\right) = B\)</span> using set identities.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<div class="arithmatex">\[
+\begin{aligned}
+(A \cap A^c) \cup (A \cap B) \cup (A^c \cap B)
+  &amp;= \varnothing \cup \big[(A \cap B) \cup (A^c \cap B)\big] &amp;&amp; A \cap A^c=\varnothing \\
+  &amp;= B \cap (A \cup A^c)                                    &amp;&amp; \text{distributivity}\\
+  &amp;= B \cap U                                               &amp;&amp; \text{complement law}\\
+  &amp;= B.                                                     &amp;&amp; \text{identity}
+\end{aligned}
+\]</div>
+</details>
+</li>
+<li>
+<p>Prove that <span class="arithmatex">\(\big((A^c \cup B)^c\big) \cup A = A\)</span> using set identities.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<div class="arithmatex">\[
+\begin{aligned}
+\big((A^c \cup B)^c\big) \cup A
+  &amp;= \big((A^c)^c \cap B^c\big) \cup A &amp;&amp; \text{De Morgan}\\
+  &amp;= (A \cap B^c) \cup A               &amp;&amp; \text{double complement}\\
+  &amp;= A \cup (A \cap B^c)               \\
+  &amp;= A.                                 &amp;&amp; \text{absorption}
+\end{aligned}
+\]</div>
+</details>
+</li>
+<li>
+<p>Determine if <span class="arithmatex">\((A \oplus B) \cup A = A \cup B\)</span> using set identities.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<div class="arithmatex">\[
+\begin{aligned}
+(A \oplus B) \cup A
+  &amp;= \big((A \cap B^c) \cup (A^c \cap B)\big) \cup A &amp;&amp; \text{def.\ of }\oplus\\
+  &amp;= \big(A \cap B^c\big) \cup A \cup \big(A^c \cap B\big)\\
+  &amp;= A \cup \big(A^c \cap B\big)                    &amp;&amp; A \cup (A \cap X)=A\\
+  &amp;= (A \cup A^c)\cap (A \cup B)                    &amp;&amp; \text{distributivity}\\
+  &amp;= U \cap (A \cup B)\\
+  &amp;= A \cup B.
+\end{aligned}
+\]</div>
+</details>
+</li>
 </ol>
 
 
@@ -1183,6 +1263,9 @@
 
 
 
+
+  
+  
 
 
 
