@@ -57,59 +57,31 @@ For each pair, decide whether the two notations define the **same** set.
 
     1. Same.
 
-#### Exercise 2: Membership \(\in\) / \(\notin\)
+#### Exercise 2: Set Operations and Cardinality
 
-Let \(U=\mathbb Z\), \(E=\{x\in\mathbb Z\mid x\equiv 0\pmod 2\}\), \(O=U\setminus E\).
+Consider the sets $A=\{e, f, g\}$ and $B=\{a, e, g, h\}$. Determine each set and its cardinality:
 
-1. Decide: \( -7\in E\ ?\) (1)
+1. $A \cup B$ and $|A \cup B|$ (1)
 { .annotate }
 
-    1. No, \(-7\in O\).
+    1. $\{a, e, f, g, h\}$ and $5$.
 
-2. Decide: \(0\in E\ ?\) (1)
+2. $A \cap B$ and $|A \cap B|$ (1)
 { .annotate }
 
-    1. Yes.
+    1. $\{e, g\}$ and $2$.
 
-3. Decide: \( \pi\in U\ ?\) (1)
+3. $B-A$ and $|B-A|$ (1)
 { .annotate }
 
-    1. No, \(\pi\notin\mathbb Z\).
+    1. $\{a, h\}$ and $2$.
 
-#### Exercise 3: Subset vs. Proper Subset
-
-Let \(A=\{1,2\}\), \(B=\{1,2,3\}\), \(C=\{1,2\}\).
-
-1. Is \(A\subseteq B\)? Is \(A\subset B\)? (1)
+4. $A-B$ and $|A-B|$ (1)
 { .annotate }
 
-    1. Yes; Yes (proper).
+    1. $\{f\}$ and $1$.
 
-2. Is \(A\subseteq C\)? Is \(A\subset C\)? (1)
-{ .annotate }
-
-    1. Yes; No (equal, not proper).
-
-3. Give an example of two **disjoint** nonempty subsets of \(\{1,2,3,4\}\). (1)
-{ .annotate }
-
-    1. \(\{1,3\}\) and \(\{2,4\}\).
-
-#### Exercise 4: Cardinality and Power Set
-
-1. Compute \(|\mathcal P(\{a,b,c\})|\) and list \(\mathcal P\).
-
-    ??? answer "&nbsp;"
-
-        \(2^3=8\). \(\{\emptyset,\{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a,b,c\}\}\).
-
-2. For \(S=\{1,2,3,4,5\}\), how many subsets contain the element \(1\)?
-
-    ??? answer "&nbsp;"
-
-        \(2^{4}=16\) (choose freely among the other 4).
-
-#### Exercise 5: Core Operations (compute explicitly)
+#### Exercise 3: Core Operations (compute explicitly)
 
 Let \(U=\{1,2,\dots,10\}\), \(A=\{1,3,4,8,10\}\), \(B=\{2,3,7,8\}\).
 
@@ -138,7 +110,59 @@ Let \(U=\{1,2,\dots,10\}\), \(A=\{1,3,4,8,10\}\), \(B=\{2,3,7,8\}\).
 
     1. \(\{1,2,4,7,10\}\).
 
-#### Exercise 6: Interval Notation (translation)
+#### Exercise 4: Membership \(\in\) / \(\notin\)
+
+Let \(U=\mathbb Z\), \(E=\{x\in\mathbb Z\mid x\equiv 0\pmod 2\}\), \(O=U\setminus E\).
+
+1. Decide: \( -7\in E\ ?\) (1)
+{ .annotate }
+
+    1. No, \(-7\in O\).
+
+2. Decide: \(0\in E\ ?\) (1)
+{ .annotate }
+
+    1. Yes.
+
+3. Decide: \( \pi\in U\ ?\) (1)
+{ .annotate }
+
+    1. No, \(\pi\notin\mathbb Z\).
+
+#### Exercise 5: Subset vs. Proper Subset
+
+Let \(A=\{1,2\}\), \(B=\{1,2,3\}\), \(C=\{1,2\}\).
+
+1. Is \(A\subseteq B\)? Is \(A\subset B\)? (1)
+{ .annotate }
+
+    1. Yes; Yes (proper).
+
+2. Is \(A\subseteq C\)? Is \(A\subset C\)? (1)
+{ .annotate }
+
+    1. Yes; No (equal, not proper).
+
+3. Give an example of two **disjoint** nonempty subsets of \(\{1,2,3,4\}\). (1)
+{ .annotate }
+
+    1. \(\{1,3\}\) and \(\{2,4\}\).
+
+#### Exercise 6: Cardinality and Power Set
+
+1. Compute \(|\mathcal P(\{a,b,c\})|\) and list \(\mathcal P\).
+
+    ??? answer "&nbsp;"
+
+        \(2^3=8\). \(\{\emptyset,\{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a,b,c\}\}\).
+
+2. For \(S=\{1,2,3,4,5\}\), how many subsets contain the element \(1\)?
+
+    ??? answer "&nbsp;"
+
+        \(2^{4}=16\) (choose freely among the other 4).
+
+#### Exercise 7: Interval Notation (translation)
 
 Translate between set-builder and interval notation in \(\mathbb R\).
 
@@ -152,29 +176,6 @@ Translate between set-builder and interval notation in \(\mathbb R\).
 
     1. \(\{x\in\mathbb R\mid x\le 0\ \text{or}\ x>5\}\).
 
-#### Exercise 7: Set Operations and Cardinality
-
-Consider the sets $A=\{e, f, g\}$ and $B=\{a, e, g, h\}$. Determine each set and its cardinality:
-
-1. $A \cup B$ and $|A \cup B|$ (1)
-{ .annotate }
-
-    1. $\{a, e, f, g, h\}$ and $5$.
-
-2. $A \cap B$ and $|A \cap B|$ (1)
-{ .annotate }
-
-    1. $\{e, g\}$ and $2$.
-
-3. $B-A$ and $|B-A|$ (1)
-{ .annotate }
-
-    1. $\{a, h\}$ and $2$.
-
-4. $A-B$ and $|A-B|$ (1)
-{ .annotate }
-
-    1. $\{f\}$ and $1$.
 
 #### Exercise 8: Set Identities
 
@@ -234,3 +235,68 @@ Consider the sets $A=\{e, f, g\}$ and $B=\{a, e, g, h\}$. Determine each set and
           &= A \cup B.
         \end{aligned}
         \]
+
+### Challenge Exercises
+
+#### Challenge Exercise 1: Infinite sets and countability
+In set theory, we distinguish between finite, countably infinite, and uncountably infinite sets.  
+A set is **countably infinite** if its elements can be put into one-to-one correspondence with \(\mathbb{N}=\{0,1,2,\dots\}\).
+
+1. Prove that the set of even integers \(E=\{2n \mid n\in\mathbb{Z}\}\) is countably infinite.  
+
+    ??? answer "&nbsp;"
+        Define bijection \(f:\mathbb{Z}\to E\), \(f(n)=2n\). Hence \(|E|=|\mathbb{Z}|\).
+
+2. Show that the set of rational numbers \(\mathbb{Q}\) is countably infinite.  
+
+    ??? answer "&nbsp;"
+        Arrange fractions \(\tfrac{p}{q}\) in a grid, traverse diagonally (Cantor zig-zag), and omit duplicates. This lists all rationals.
+
+3. Argue why the set of real numbers \(\mathbb{R}\) is **uncountable**.  
+
+    ??? answer "&nbsp;"
+        Cantor’s diagonal: given any enumeration of decimals, construct a number differing in the \(i\)-th digit from the \(i\)-th entry. Contradiction → uncountable.
+
+#### Challenge Exercise 2: Paradoxes and the power set
+For any set \(S\), its power set \(\mathcal{P}(S)\) has strictly greater cardinality than \(S\).  
+
+1. Prove that no function \(f:S\to\mathcal{P}(S)\) can be surjective.  
+
+    ??? answer "&nbsp;"
+        Suppose \(f\) surjective. Define \(T=\{x\in S\mid x\notin f(x)\}\). Then \(T\in\mathcal{P}(S)\).  
+        If \(T=f(y)\), contradiction: \(y\in T\iff y\notin f(y)=T\). Impossible.  
+
+2. Interpret why this implies there is **no largest infinity**.  
+
+    ??? answer "&nbsp;"
+        If \(|\mathcal{P}(S)|>|S|\), then starting with \(\mathbb{N}\), we get a hierarchy: \(\mathcal{P}(\mathbb{N}), \mathcal{P}(\mathcal{P}(\mathbb{N}))\), etc. Thus infinities form an endless ladder.
+
+3. Reflect: what happens if we attempt to apply this idea to the “set of all sets”?  
+
+    ??? answer "&nbsp;"
+        Leads to **Russell’s paradox**: the “set of all sets not containing themselves” yields contradiction. Avoided in ZFC axioms.
+
+#### Challenge Exercise 3: Encoding sets as numbers
+Any finite subset of \(\mathbb{N}\) can be uniquely represented by a natural number. One standard method uses **binary expansion**:  
+For \(A \subseteq \{0,1,2,\dots,n-1\}\), define $\operatorname{code}(A)=\sum_{i \in A} 2^i$
+
+1. Encode \(A=\{0,3,4\}\) as a number.  
+
+    ??? answer "&nbsp;"
+        \(2^0+2^3+2^4=1+8+16=25\).  
+
+2. Decode the number \(45\) into its corresponding subset of \(\{0,1,2,3,4,5\}\).  
+
+    ??? answer "&nbsp;"
+        \(45=32+8+4+1=2^5+2^3+2^2+2^0\). Subset: \(\{0,2,3,5\}\).  
+
+3. Explain why this coding gives a bijection between \(\mathcal{P}(\{0,1,\dots,n-1\})\) and the integers \(0,1,\dots,2^n-1\).  
+
+    ??? answer "&nbsp;"
+        Each subset has a unique binary mask, and each binary string corresponds to exactly one subset. Hence bijection.
+
+4. How does this idea connect to computer science (bitsets, databases, logic)?  
+
+    ??? answer "&nbsp;"
+        It’s the foundation of bitsets, permissions flags, and truth tables: subsets stored as integers enable efficient computation.
+
