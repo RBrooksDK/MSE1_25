@@ -4,11 +4,10 @@
 
 Brooks: [Chapter 3](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing).
 
-### Session Material:
+### Resources Danish Class
+[Lecture notes](https://viaucdk-my.sharepoint.com/:p:/g/personal/rib_viauc_dk/ETMONT97hChAg-qC90Qg6bwBwahu861wHnFZYHlY-gWz_Q?e=9g2m6E)
 
-[Session notes](https://drive.google.com/file/d/1l257MXhxTxgXfmuQCqvEw-de3mvgyN1K/view?usp=sharing)
-
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EqAdL2IjxBJIuhBYvL12T8QBaS3fV4FBRbkdF18Koob8sQ?e=EYK2t4)
+[Session materials](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/Esf4RiApcghJpRmy7bEe1G8B_1Ljm4UIQ35KHm9GY7qCWw?e=rmZmWy)
 
 --------------------------
 
