@@ -222,7 +222,7 @@ In some contexts, it is an advantage to use even more than 16 symbols to represe
 
     ??? answer "&nbsp;"
 
-        $2D2E_{32}$
+        $C3PO_{32}$
 
 3. Converting between binary and hexadecimal is easy, because each digit in hexadecimal corresponds to exactly four digits in binary. Is there  similar symmetry between binary and base32?
 

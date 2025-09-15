@@ -1,230 +1,207 @@
+---
+tags:
+    - Combinatorics
+    - Probability
+    - Multiplication Rule
+    - Permutations
+    - Combinations
+    - With Replacement
+    - Without Replacement
+    - Sample Spaces
+    - Probability of Events
+    - Complements
+    - Union
+    - Conditional Probability
+    - Poker Hands
+    - Passwords
+---
+
 <h1 align="center">Combinatorics and Probability Theory</h1>
+
+This session explores the principles of counting and the foundations of probability theory.  
+We work with the multiplication rule, permutations and combinations, and classical probability of events.  
+We also introduce conditional probability and non-trivial applications that illustrate the depth of these concepts.
+
+<hr/>
 
 ### Session Preparation:
 
-Brooks: [Chapter 4](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing). You should begin reading before class as it will aid your understanding as the topics get more complex.
+Brooks: [Chapter 5](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
 
-### Session Material:
+### Resources Danish Class:
 
-[Session notes](https://drive.google.com/file/d/1QYJTRGRS_vWGmcoqSGaMwK5kHDbXKVPm/view?usp=sharing)
+[Session notes]()
 
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/Er52V3gGu8BDmO9Td0ADo1sBUeAQ8fmZH49f80P2Wt99dw?e=fzBOth)
+[Session Resources]()
 
---------------------------
+<hr/>
 
-### Topic Description
-In this session, we introduce the foundational concepts of Boolean algebra, which is crucial for understanding digital logic and designing circuits. We will start with the basic Boolean operators AND, OR, and NOT, and then move on to more advanced operators such as NAND, NOR, and XOR. The session will also cover Boolean variables and functions, including how to represent them using truth tables. Additionally, we will explore Boolean identities and their applications in simplifying expressions and designing logic circuits.
+### Exercises for Recitation
 
-#### Key Concepts
-- Basic Boolean operators (AND, OR, NOT)
-- Advanced Boolean operators (NAND, NOR, XOR)
-- Boolean variables and functions
-- Truth tables for Boolean functions
-- Boolean identities
-- Introduction to logic circuits
+#### Exercise 1: Boolean Algebra Recap
 
---------------------------
+Consider the Boolean function $F(x, y, z)=x y+y(z+x)$.  
 
-### Exercises for recitation
+1. State the truth table for this function. If the table is constructed correctly, the last column will contain $F$ and will have 8 rows. Reading the rows from the bottom up will give you a binary value. Convert this value to decimal and state this as your result. 
 
+    ??? answer "&nbsp;"
+        200
 
-#### Exercise 1: Numeral Systems Recap
+2. Reduce the expression from (1) as much as possible and create the corresponding logic gate.  
 
-RGBA is an extension to the (R)ed (G)reen (B)lue color model, which includes an (A)lpha channel representing the level of opacity from $0.0$ to $1.0$, where $0.0$ is fully transparent (i.e. invisible) and $1.0$ is fully opaque.
-The four channels are represented by 1 byte (8 bits) each, often expressed in hexadecimal, where for instance # $A01009FF$ corresponds to RGBA($160, 16, 9, 1.0$), a fully opaque medium dark red.
+    ??? answer "&nbsp;"
+        <img src="src/logic1.png" width = "300">
 
-a. What is the maximum decimal value for any of the RGB channels? (1)
-{ .annotate }
+3. Use Boolean algebra to simplify the following logic gate circuit and state the result as a boolean algebra expression.  
 
-1. $255$
+    <img src="src/logic2.png" width = "400">  
 
-b. What is the cardinality (or the order) of the set of all possible RGB colors? (1)
-{ .annotate }
+    ??? answer "&nbsp;"
+        $AB+AC$
 
-1. $16^{6} = 16 777 216$
+#### Exercise 2: Combinatorics and Probability
 
-c. What is the cardinality (or the order) of the set of all possible RGBA colors, if all colors with an alpha of $0$ are considered the same? (1)
-{ .annotate }
+1. An order for a personal digital assistant can specify any one of five memory sizes, any one of three types of displays, any one of four sizes of a hard disk, and can either include or not include a pen tablet. How many different systems can be ordered? State which Rule/Theorem from the book that you use.  
 
-1. $16^{6} \cdot (16^2-1) + 1 = 16 777 216 \cdot 255 + 1 = 4 278 190 081$
+    ??? answer "&nbsp;"
+        $5 \cdot 3 \cdot 4 \cdot 2=120$ (Multiplication Rule)
 
-d. Express an opacity level of $0.8$ in binary. (1)
-{ .annotate }
+2. A wireless garage door opener has a code determined by the up or down setting of 12 switches.  
 
-1. $255 \cdot 0.8 = 204_{10} = 11001100_2$
+    1. How many possible codes are there?  
 
-e. What is the hexadecimal value for an opacity of $0.5$? (1)
-{ .annotate }
+        ??? answer "&nbsp;"
+            $2^{12} = 4096$  
 
-1. $\approx 7F$ or $80$
+    2. What is the probability that a burglar guesses the right code in the first try?  
 
-#### Exercise 2: Boolean Calculation
+        ??? answer "&nbsp;"
+            $\frac{1}{4096} = 0.000244 = 0.0244\%$
 
-Calculate
+#### Exercise 3: Combinatorics and Probability
 
-a. $1 \cdot \overline{1}$ (1)
-{ .annotate }
+A group of 3 kids is to be formed in a class of 15 kids.  
 
-1. $0$
+1. In how many different ways can you make the group if the order of the kids doesn't matter?  
 
-b. $\overline{1} + \overline{0}$ (1)
-{ .annotate }  
+    ??? answer "&nbsp;"
+        $\binom{15}{3} = 455$
 
-1. $1$
+2. In how many different ways can you make the group if the order of the kids does matter?  
 
-c. $\overline{0 \cdot (1 + 0)}$ (1)
-{ .annotate }
+    ??? answer "&nbsp;"
+        $P(15,3)=\frac{15!}{12!}=2730$
 
-1. $1$
+3. What is the probability that the group will consist of the three kids Xavier, Ygritte and Zelda?  
 
-d. $\overline{1} + (0 \cdot 1)$  (1)
-{ .annotate }
+    ??? answer "&nbsp;"
+        $\frac{1}{455}=\frac{6}{2730}=0.00220 = 0.220\%$
 
-1. $0$
+#### Exercise 4: Poker Hands
 
-#### Exercise 3: Boolean Functions
-Construct the truth table for
-
-a. $F(x) = x + (x \cdot \overline{x})$
-
-| $x$ | $\overline{x}$ | $(x \cdot \overline{x})$ | $F(x) = x + (x \cdot \overline{x})$ |
-|:-:|:------------------:|:--------------------------:|:---------------------------------------:|
-|  |         &nbsp;          |                         |                                     |
-|  |         &nbsp;          |                          |                                     |
+In how many ways can you deal a poker hand of five cards from a standard deck of 52 cards? Also, how many ways are there to select 47 cards from a standard deck of 52 cards?  
 
 ??? answer "&nbsp;"
+    $\binom{52}{5}=2,598,960$  
+    $\binom{52}{47}=2,598,960$
 
-    | $x$ | $\overline{x}$ | $(x \cdot \overline{x})$ | $F(x) = x + (x \cdot \overline{x})$ |
-    |:-:|:------------------:|:--------------------------:|:---------------------------------------:|
-    | 0 |         1          |             0              |                   0                    |
-    | 1 |         0          |             0              |                   1                    |
+#### Exercise 5: Garage Doors and Burglars Revisited
 
-
-
-b. $G(x,y) = \overline{x} \cdot (\overline{x} + \overline{y})$
+Recall the garage doors from Exercise 2. What is the probability that a burglar guesses the right code in 3 tries, assuming that the guesses happen with replacement?  
 
 ??? answer "&nbsp;"
+    $1-\left(\frac{4095}{4096}\right)^3 \approx 0.00073$
 
-    | $x$ | $y$ | $\overline{x}$ | $\overline{y}$ | $(\overline{x} + \overline{y})$ | $G(x,y)=\overline{x} \cdot (\overline{x} + \overline{y})$ |
-    |:-:|:-:|:------------------:|:------------------:|:--------------------------------:|:------------------------------------------------------------:|
-    | 0 | 0 |         1          |         1          |               1                |                              1                               |
-    | 0 | 1 |         1          |         0          |               1                |                              1                               |
-    | 1 | 0 |         0          |         1          |               1                |                              0                               |
-    | 1 | 1 |         0          |         0          |               0                |                              0                               |
+#### Exercise 6: Webpage Passwords
+
+A webpage requires the user to create a password that contains exactly 4 characters.  
+
+- $A$: only letters (52 choices per position).  
+- $B$: only digits (10 choices per position).  
+- $C$: letters or digits (62 choices per position).  
+
+1. If only $A$ is allowed:  
+
+    ??? answer "&nbsp;"
+        $\frac{1}{52^4}= \frac{1}{7,311,616}$  
+
+2. If only $B$ is allowed:  
+
+    ??? answer "&nbsp;"
+        $\frac{1}{10^4}= \frac{1}{10,000}$  
+
+3. If only $A \cup B$ is allowed:  
+
+    ??? answer "&nbsp;"
+        $\frac{1}{52^4+10^4}= \frac{1}{7,321,616}$  
+
+4. If $C$ is allowed:  
+
+    ??? answer "&nbsp;"
+        $\frac{1}{62^4}= \frac{1}{14,776,336}$
+
+#### Exercise 7: Probability
+
+The possible five outcomes of a random experiment are equally likely. The sample space is $\{a,b,c,d,e\}$. Let $A=\{a,b\}$ and $B=\{c,d,e\}$.  
+
+1. Draw a Venn diagram showing the sample space and each of the events $A$ and $B$.  
+
+    ??? answer "&nbsp;"
+        <img src="src/venn1.png" width = "300">
+
+2. Determine each of the following probabilities:  
+
+$P(A)$, $P(B)$, $P(\overline{A})$, $P(A \cup B)$, $P(A \cap B)$  
+
+    ??? answer "&nbsp;"
+        $P(A)=\frac{2}{5}$  
+        $P(B)=\frac{3}{5}$  
+        $P(\overline{A})=\frac{3}{5}$  
+        $P(A \cup B)=1$  
+        $P(A \cap B)=0$
+
+### Challenge Exercises
+
+#### Challenge Exercise 1: Coupon Collector Problem
+
+You repeatedly draw a card uniformly at random from a standard 52-card deck, with replacement.  
+
+1. What is the expected number of draws until you have seen all 52 distinct cards at least once?  
+
+    ??? answer "&nbsp;"
+        The expected value is $52 \cdot H_{52}$, where $H_{n}$ is the $n$-th harmonic number.  
+        $H_{52} \approx \ln(52)+\gamma+ \tfrac{1}{2\cdot 52} \approx 4.518$.  
+        Result: $\approx 52 \cdot 4.518 = 235$ draws.
+
+#### Challenge Exercise 2: Generalized Birthday Problem
+
+How many people are needed in a room so that the probability of **at least three** sharing the same birthday exceeds $0.5$ (assume 365 equally likely birthdays, ignore leap years)?  
+
+    ??? answer "&nbsp;"
+
+        Using Poisson approximation: expected number of triples $\approx \frac{n^3}{6\cdot 365^2}$.  
+        Solve $\frac{n^3}{6\cdot 365^2} \approx \ln 2 \approx 0.693$.  
+        $n \approx (0.693 \cdot 6 \cdot 365^2)^{1/3} \approx 88$.  
+        So around **88 people** are required.
+
+#### Challenge Exercise 3: Conditional Probability with Urns
+
+An urn contains 5 red balls and 7 blue balls. You draw two balls without replacement.  
+
+1. What is the probability the two balls are of the same color?
+    ??? answer "&nbsp;"
+
+        $P(\text{same})=\frac{\binom{5}{2}+\binom{7}{2}}{\binom{12}{2}}=\frac{10+21}{66}=\frac{31}{66}\approx 0.47$  
+
+2. Suppose you draw one ball (not revealing its color), then return it, then draw again. What is the probability both are the same color?  
+
+    ??? answer "&nbsp;"
+        
+        With replacement: $P(\text{same})=\left(\tfrac{5}{12}\right)^2+\left(\tfrac{7}{12}\right)^2=\tfrac{25+49}{144}=\tfrac{74}{144}=\tfrac{37}{72}\approx 0.51$  
 
 
-c. $H(x, y, z) = (x \cdot \overline{y}) + \overline{z}$
+3. Explain the difference between the two scenarios.  
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    | $x$ | $y$ | $z$ | $\overline{y}$ | $\overline{z}$ | $(x \cdot \overline{y})$ | $H(x,y,z)=(x \cdot \overline{y}) + \overline{z}$ |
-    |:-:|:-:|:-:|:------------------:|:------------------:|:--------------------------:|:--------------------------------------------------------:|
-    | 0 | 0 | 0 |         1          |         1          |             0              |                            1                             |
-    | 0 | 0 | 1 |         1          |         0          |             0              |                            0                             |
-    | 0 | 1 | 0 |         0          |         1          |             0              |                            1                             |
-    | 0 | 1 | 1 |         0          |         0          |             0              |                            0                             |
-    | 1 | 0 | 0 |         1          |         1          |             1              |                            1                             |
-    | 1 | 0 | 1 |         1          |         0          |             1              |                            1                             |
-    | 1 | 1 | 0 |         0          |         1          |             0              |                            1                             |
-    | 1 | 1 | 1 |         0          |         0          |             0              |                            0                             |
-
-
-#### Exercise 4: Boolean Expressions
-
-Simplify
-
-a. $(x + \overline{x}) \cdot y$  (1)
-{ .annotate }
-
-1. $y$
-
-b. $\overline{x \cdot y}+(\bar{x} \cdot \bar{y})$ (1)
-{ .annotate }
-
-1. $\overline{x y}$
-
-c. $x \cdot (y + \overline{x})$ (1)
-{ .annotate }
-
-1. $x \cdot y$
-
-d. $\overline{(x+y) \cdot \overline{(x+z)}}$ (1)
-{ .annotate }
-
-1. $x + \overline{y} + z$
-
-e. $x \cdot y + \overline{x} \cdot y$ (1)
-{ .annotate }
-
-1. $y$
-
-
-f. $x + y \cdot (\overline{x} + \overline{y})$ (1)
-{ .annotate }
-
-1. $x + y$
-
-g. $(x \cdot \overline{y}) + (\overline{x} \cdot y)$  (1)
-{ .annotate }
-
-1. $(x \cdot \overline{y}) + (\overline{x} \cdot y)$
-
-
-h. $x \cdot y \cdot z+\overline{x \cdot y \cdot z}$ (1)
-{ .annotate }
-
-1. $1$
-
-#### Exercise 5: Problem
-
-Let $A$ be 1 if you exceed the speed limit, 0 if not.
-
-Let $B$ be 1 if the police sees you, 0 if not.
-
-Let $C$ be 1 if your car is faster than the police car, 0 if not.
-
-a. Create a function $F$ that returns 1 if you get a speeding ticket, 0 if you do not.
-
-??? answer "&nbsp;"
-
-    $F(A,B,C) = A \cdot B \cdot \overline{C}$
-
-    $F(A,B,C) = A \cdot B \cdot 1$ if you are not into car chases.
-
-#### Exercise 6: Interpreting Circuits
-
-Write the boolean expression for
-
-<span style="display: inline-block; vertical-align: middle;">a.</span>
-<img src="src/ex6.3.png" alt="Crossbin 1" width="300" style="vertical-align: middle;"/>
-
-??? answer "&nbsp;"
-
-    $\overline{xy}+(\overline{z}+x)$
-
-<span style="display: inline-block; vertical-align: middle;">b.</span>
-<img src="src/ex6.4.png" alt="Crossbin 1" width="300" style="vertical-align: middle;"/>
-
-??? answer "&nbsp;"
-
-    $\overline{\bar{x} \cdot y z} \cdot(\bar{x}+y+\bar{z})$
-
-#### Exercise 7: Constructing Circuits
-
-Draw the circuits for
-
-a. $x + y \cdot (\overline{x} + \overline{y})$
-
-??? answer "&nbsp;"
-    <img src="src/ex7.a.png" width = "400">
-
-b. $xy + \overline{x}y$
-
-??? answer "&nbsp;"
-    <img src="src/ex7.b.png" width = "400">
-
-c. $xyz + \overline{xyz}$
-
-??? answer "&nbsp;"
-    <img src="src/ex7.c.png" width = "400">
-
+        Without replacement introduces dependence (fewer balls left), lowering the chance of a match. With replacement, draws are independent, giving a slightly higher probability.
