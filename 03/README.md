@@ -28,18 +28,10 @@ In this session, we cover the basics of set theory, including different ways to 
 
 Brooks: [Chapter 3](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf).
 
-<<<<<<< HEAD
 ### Resources Danish Class
 [Lecture notes](https://viaucdk-my.sharepoint.com/:p:/g/personal/rib_viauc_dk/ETMONT97hChAg-qC90Qg6bwBwahu861wHnFZYHlY-gWz_Q?e=9g2m6E)
 
 [Session materials](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/Esf4RiApcghJpRmy7bEe1G8B_1Ljm4UIQ35KHm9GY7qCWw?e=rmZmWy)
-=======
-### Resources Danish Class:
-
-[Session notes]()
-
-[Session Resources]()
->>>>>>> d7142ab2a588a5b48830a8734ed7be4d0462c970
 
 <hr/>
 
