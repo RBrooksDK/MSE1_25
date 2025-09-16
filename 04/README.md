@@ -26,7 +26,7 @@ We also introduce conditional probability and non-trivial applications that illu
 
 ### Session Preparation:
 
-Brooks: [Chapter 5](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
+Brooks: [Chapter 4](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
 
 ### Resources Danish Class:
 
