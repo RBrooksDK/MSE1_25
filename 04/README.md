@@ -125,21 +125,23 @@ An order for a personal digital assistant can specify any one of five memory siz
 
     $5 \cdot 3 \cdot 4 \cdot 2=120$ (Multiplication Rule)
 
+#### Exercise 2: Garage Doors and Burglars
+
 A wireless garage door opener has a code determined by the up or down setting of 12 switches.
 
 1. How many possible codes are there?
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    $2^{12} = 4096$
+        $2^{12} = 4096$
 
 2. What is the probability that a burglar guesses the right code in the first try?
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    $\frac{1}{4096} = 0.000244 = 0.0244\%$
+        $\frac{1}{4096} = 0.000244 = 0.0244\%$
 
-#### Exercise 2: Combinatorics and Probability
+#### Exercise 3: Combinatorics and Probability
 
 A group of 3 kids is to be formed in a class of 15 kids.
 
@@ -161,7 +163,7 @@ A group of 3 kids is to be formed in a class of 15 kids.
 
         $\frac{1}{455}=\frac{6}{2730}=0.00220 = 0.220\%$
 
-#### Exercise 3: Poker Hands
+#### Exercise 4: Poker Hands
 
 In how many ways can you deal a poker hand of five cards from a standard deck of 52 cards? Also, how many ways are there to select 47 cards from a standard deck of 52 cards?
 
@@ -170,7 +172,7 @@ In how many ways can you deal a poker hand of five cards from a standard deck of
     $\binom{52}{5}=2,598,960$  
     $\binom{52}{47}=2,598,960$
 
-#### Exercise 4: Garage Doors and Burglars Revisited
+#### Exercise 5: Garage Doors and Burglars Revisited
 
 Recall the garage doors from Exercise 2. What is the probability that a burglar guesses the right code in 3 tries, assuming that the guesses happen with replacement?
 
@@ -178,7 +180,7 @@ Recall the garage doors from Exercise 2. What is the probability that a burglar 
 
     $1-\left(\frac{4095}{4096}\right)^3 \approx 0.00073$
 
-#### Exercise 5: Webpage Passwords
+#### Exercise 6: Webpage Passwords
 
 A webpage requires the user to create a password that contains exactly 4 characters.
 
@@ -214,7 +216,7 @@ What is the probability that he guesses the correct password in the first attemp
     
         $\frac{1}{62^4}= \frac{1}{14,776,336}$
 
-#### Exercise 6: Probability
+#### Exercise 7: Probability
 
 The possible five outcomes of a random experiment are equally likely. The sample space is $\{a,b,c,d,e\}$. Let $A=\{a,b\}$ and $B=\{c,d,e\}$.
 

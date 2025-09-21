@@ -170,7 +170,7 @@ In each subproblem, perform the first conversion and denote the result as x. The
     
         $(1416)_8$ = $1100001110_2$
 
-3. $\left(5 B_7\right)_{16} \rightarrow x_2 \rightarrow x_8$
+3. $\left(5B7\right)_{16} \rightarrow x_2 \rightarrow x_8$
 
     ??? answer "&nbsp;"
 
