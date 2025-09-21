@@ -30,9 +30,9 @@ Brooks: [Chapter 4](https://docs.google.com/viewer?url=https://raw.githubusercon
 
 ### Resources Danish Class:
 
-[Session notes]()
+[Session notes](https://drive.google.com/file/d/1710cNAHfeL6USrecEIo6Nk40zcYunUc0/view?usp=sharing)
 
-[Session Resources]()
+[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EsJDXlP48H5Nnak20uj9FMYBWN_47BOjpk_K1Lso5NxBoA?e=tLwBfI)
 
 <hr/>
 
