@@ -131,15 +131,15 @@ A wireless garage door opener has a code determined by the up or down setting of
 
 1. How many possible codes are there?
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    $2^{12} = 4096$
+        $2^{12} = 4096$
 
 2. What is the probability that a burglar guesses the right code in the first try?
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    $\frac{1}{4096} = 0.000244 = 0.0244\%$
+        $\frac{1}{4096} = 0.000244 = 0.0244\%$
 
 #### Exercise 3: Combinatorics and Probability
 
