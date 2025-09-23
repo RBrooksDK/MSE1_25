@@ -184,7 +184,9 @@ Disease $A$ occurs with probability 0.1, and disease $B$ occurs with probability
 
     1. \(0.0374\)
 
-#### Challenge Exercise: Random Quadratic
+### Challenge Exercises
+
+#### Challenge Exercise 1: Random Quadratic
 
 This problem is taken from the exam in Stochastic Modelling and Processes (IT-SMP1) on the 6th/7th semester.
 
