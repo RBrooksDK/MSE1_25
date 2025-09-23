@@ -1,168 +1,201 @@
-<h1 align="center">Conditional Probabilities and Bayes' Theorem</h1>
+---
+tags:
+    - Probability
+    - Conditional Probability
+    - Bayes Theorem
+    - Dependent Events
+    - Independent Events
+    - Contingency Tables
+    - Intersection of Events
+    - Stochastic Processes
+---
 
-### Session Preparation:
+<h1 align="center">Conditional Probability and Bayes' Theorem</h1>
 
-Brooks: [Chapter 5](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing). You should begin reading before class as it will aid your understanding as the topics get more complex.
+This session extends the introductory probability framework to dependent events and conditional reasoning.  
+We analyse how the occurrence of one event affects another, use contingency tables for joint distributions, and apply Bayes' theorem to update beliefs with new evidence.
 
+<hr/>
 
-### Session Material:
+### Session Preparation
 
-[Session notes](https://drive.google.com/file/d/1JEGYxtYoyv02IglZAgLSkDse-5DkRTLy/view?usp=sharing)
+Brooks: [Chapter 6](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
 
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EsJDXlP48H5Nnak20uj9FMYBWN_47BOjpk_K1Lso5NxBoA?e=0mp31Z)
+### Resources Danish Class:
 
---------------------------
+[Session notes](MISSING LINK)
 
-### Topic Description
-In this session, we delve into the basics of combinatorics and probability theory. We will explore fundamental principles like the multiplication rule, which is essential for understanding how to count outcomes in complex situations. The session will also cover combinations and permutations, both with and without replacement, providing a comprehensive understanding of how to calculate different arrangements and selections. Additionally, we will introduce key concepts in probability theory, such as experiments and sample spaces, the probability of events, and the probability of complements, unions, and differences between events.
+[Session Resources](MISSING LINK)
 
-#### Key Concepts
-- The multiplication rule
-- Combinations and permutations (with and without replacement)
-- Experiments and sample spaces in probability theory
-- The probability of an event
-- The probability of the complement, union, and difference between events
+### Some Python Solutions
 
+[Some Python Solutions](https://github.com/RBrooksDK/MSE1/blob/main/06_Conditional_Probability_and_Bayes_Theorem/some_solutions.ipynb)
 
---------------------------
+<hr/>
 
-### Exercises for Recitation
+### Exercises
 
-[Notes from Recitation](https://drive.google.com/file/d/1B4GBM8SKVHwpS_u1LLI3nmfppfDaOpyp/view?usp=sharing)
+#### Exercise 1: Basic Probabilities
 
-#### Exercise 1: Boolean Algebra Recap
+Let $A$ and $B$ be two events such that:
 
-Consider the Boolean function $F(x, y, z)=x y+y(z+x)$. 
+$$
+P(A)=0.3, \quad P(B)=0.2, \quad P(A \cap B)=0.1
+$$
 
-a. State the truth table for this function. If the table is constructed correctly, the last column will contain $F$ and will have 8 rows. Reading the rows from the bottom up will give you a binary value. Convert this value to decimal and state this as your result. (1)
+Find the probabilities below. State your answers as correct to one decimal place.
+
+1. \(P(A^c)\) (1) 
 { .annotate }
 
-1. 200
+    1. \(0.7\)
 
-b. Reduce the expression from (a) as much as possible and create the corresponding logic gate.
+2. \(P(A\cup B)\) (1) 
+{ .annotate }
 
-??? answer "&nbsp;"
-    <img src="src/logic1.png" width = "300">
+    1. \(0.4\)
 
+3. \(P(A^c \cap B)\) (1)
+{ .annotate }
 
-c. Use Boolean algebra to simplify the following logic gate circuit and state the result as a boolean algebra expression.
+    1. \(0.1\)
 
-<img src="src/logic2.png" width = "400">
+4. \(P(A \cap B^c)\) (1)
+{ .annotate }
 
-??? answer "&nbsp;"
-    $AB+AC$
+    1. \(0.2\)
 
+5. \(P((A\cup B)^c)\) (1)
+{ .annotate }
 
-#### Exercise 2: Combinatorics and Probability
+    1. \(0.6\)
 
-a. An order for a personal digital assistant can specify any one of five memory sizes, any one of three types of displays, any one of four sizes of a hard disk, and can either include or not include a pen tablet. How many different systems can be ordered? State which Rule/Theorem from the book that you use.
+6. \(P(A^c \cup B)\) (1)
+{ .annotate }
 
-??? answer "&nbsp;"
-    We multiply the number of possibilities for each of the choices: $5 \cdot 3 \cdot 4 \cdot 2=120$, which means we are using the Theorem 5.1 (Multiplication Rule)
+    1. \(0.8\)
 
+#### Exercise 2: Rolling a Fair Die Twice
 
-b. A wireless garage door opener has a code determined by the up or down setting of 12 switches.
+I roll a fair die twice and obtain two numbers: $X_1=$ result of the first roll, $X_2=$ result of the second roll.
 
-i. How many possible codes are there?
+1. Find the probability that $X_2=4$.  (1)
+{ .annotate }
 
-??? answer "&nbsp;"
-    $2^{12} = 4096$
+    1. \(\dfrac{1}{6}\)
 
-ii. What is the probability that a burglar guesses the right code in the first try?
+2. Find the probability that $X_1+X_2=7$. (1)
+{ .annotate }
 
-??? answer "&nbsp;"
-    $\frac{1}{4096} = 0.000244 = 0.0244\%$
+    1. \(\dfrac{1}{6}\)
 
-#### Exercise 3: Combinatorics and Probability
+3. Find the probability that $X_1 \neq 2$ and $X_2 \geq 4$.  (1)
+{ .annotate }
 
-A group of 3 kids is to be formed in a class of 15 kids.
+    1. \(\dfrac{5}{12}\)
 
-a. In how many different ways can you make the group if the order of the kids doesn't matter?
+#### Exercise 3: Venn and Probability
 
-??? answer "&nbsp;"
-    $\frac{15!}{(15-3)!\cdot 3!}=455$
+Let $A, B$, and $C$ be three events with probabilities given:
 
+<img src="src/venn1.png" width="200"/>
 
-b. In how many different ways can you make the group if the order of the kids does matter?
+Find the probabilities below. State you answers as irreducible fractions.
 
-??? answer "&nbsp;"
-    $\frac{15!}{(15-3)!}=2730$
+1. \(P(A\mid B)\)  (1)
+{ .annotate }
 
+    1. \(\dfrac{4}{7}\)
 
-c.	What is the probability that the group will consist of the three kids Xavier, Ygritte and Zelda?
+2. \(P(C\mid B)\)  (1)
+{ .annotate }
 
-??? answer "&nbsp;"
-    $\frac{1}{455}=\frac{6}{2730}=0.00220 = 0.220\%$
+    1. \(\dfrac{3}{7}\)
 
+3. \(P(B\mid A\cup C)\)  (1)
+{ .annotate }
 
-#### Exercise 4: Poker Hands
-In how many ways can you deal a poker hand of five cards from a standard deck of 52 cards? Also, how many ways are there to select 47 cards from a standard deck of 52 cards?
+    1. \(\dfrac{5}{14}\)
 
-??? answer "&nbsp;"
-    $\frac{52!}{(52-5)!\cdot 5!}=2,598,960$
+4. \(P(B\mid (A,C))\)  (1)
+{ .annotate }
 
+    1. \(\dfrac{1}{2}\)
 
-#### Exercise 5: Garage Doors and Burglars Revisited
+#### Exercise 4: Flight Punctuality
 
-Recall the garage doors from Exercise 2b. What is the probability that a burglar guesses the right code in 3 tries, assuming that the guesses happen with replacement, i.e. that the probability for each try is the same?
+The probability that a regularly scheduled flight departs on time is $0.83$; the probability that it arrives on time is $0.82$; and the probability that it departs and arrives on time is $0.78$. Find the probability that a plane. State your answers as correct to four decimal places.
 
-??? answer "&nbsp;"
-    $P($ at least one correct $) = 1-\left(\frac{4095}{4096}\right)^3 \approx 0.00073$
+1. Arrives on time, given that it departed on time  (1)
+{ .annotate }
 
+    1. \(0.9398\)
 
-#### Exercise 6: Webpage Passwords
-A webpage requires the user to create a password that contains exactly 4 characters. Let $A$ denote the set of passwords containing only letters (there are 26 lowercase letters, a-z, and 26 uppercase letters, A-Z), let $B$ denote the set of passwords containing only numbers (0-9), and let $C$ denote the set of passwords that can contain both letters and numbers.  A hacker tries to guess the password of a particular user. What is the probability that he guesses the correct password in the first attempt in each of the cases below?
+2. Departed on time, given that it has arrived on time  (1)
+{ .annotate }
 
-a. The webpage only allows passwords from set $A$
+    1. \(0.9512\)
 
-??? answer "&nbsp;"
-    $\frac{1}{7,311,616}$
+3. Arrives on time, given that it did not depart on time  (1)
+{ .annotate }
 
-b.	 The webpage only allows passwords from set $B$.
+    1. \(0.2353\)
 
-??? answer "&nbsp;"
-    $\frac{1}{10,000}$
+#### Exercise 5: Independence & Contingency Tables
 
+A survey was conducted to determine the employment rate of recently graduated engineering students. The survey was conducted one year after graduation and was made for ICT Engineers, Civil Engineers, Mechanical Engineers, and Global Business Engineers. The graduates were classified in one of two employment categories: (1) employed/studying and (2) unemployed. 40% of the respondents had studied ICT Engineering and of these 85% were employed/studying. Of all the respondents, 20% were unemployed. Of the 100 former civil engineering students who took part in the survey, 20% were unemployed. The proportion of unemployed Mechanical and Civil engineering students was the same and the survey included exactly 9 unemployed mechanical engineering students. 300 students took part in the survey.
 
-c. The webpage only allows passwords from set $A \cup B$.
+1. Construct the \(2\times 4\) contingency table for the survey results. (1)
+{ .annotate }
 
-??? answer "&nbsp;"
-    $\frac{1}{7,321,616}$
+    1. <img src="src/contingency.png" width="300"/>
 
-d. What is the probability that the hacker guesses the correct password in the first attempt if the webpage allows passwords from set $C$?
+2. What is the probability that an unemployed respondent is a former ICT student? State your answer as an irreducible fraction.  (1)
+{ .annotate }
 
-??? answer "&nbsp;"
-    $\frac{1}{14,776,336}$
+    1. \(\dfrac{3}{10}\)
 
-#### Exercise 7: Probability
-The possible five outcomes of a random experiment are equally likely. The sample space is ${a,b,c,d,e}$. Let $A$ denote the event ${a,b}$, and $B$ denote the event ${c,d,e}$.
+3. If a respondent is unemployed, what is the probability that the respondent was a GBE student? State your answer as an irreducible fraction.  (1)
+{ .annotate }
 
-a. Draw a Venn diagram showing the sample space and each of the events A and B.
+    1. \(\dfrac{13}{60}\)
 
-??? answer "&nbsp;"
-    <img src="src/venn1.png" width = "300">
+4. Is being unemployed independent from being a former ICT student? (1)
+{ .annotate }
 
-b. Determine each of the following probabilities:
+    1. No, since \(P(\text{ICT}\mid\text{Unemployed})=\dfrac{3}{10} \neq \dfrac{2}{5}=P(\text{ICT})\).
 
-$P(A)$  
-$P(B)$  
-$P(\overline{A})$  
-$P(A \cup B)$  
-$P(A \cap B)$
+#### Exercise 6: Bayes' Theorem
 
-??? answer "&nbsp;"
-    $P(A) = \frac{2}{5}$
+Disease $A$ occurs with probability 0.1, and disease $B$ occurs with probability 0.2. It is not possible to have both diseases. You have a single test. This test reports positive with probability 0.8 for a patient with disease $A$, with probability 0.5 for a patient with disease $B$, and with probability 0.01 for a patient with no disease - call the latter event $W$. Stating your answer as correct to four decimal places, if the test comes back positive, what is the probability you have either:
 
-    $P(B) = \frac{3}{5}$  
+1. Disease $A$  (1)
+{ .annotate }
 
-    $P(\overline{A}) = \frac{3}{5}$  
+    1. \(0.4278\)
 
-    $P(A \cup B) = 1$  
+2. Disease $B$  (1)
+{ .annotate }
 
-    $P(A \cap B) = 0$
+    1. \(0.5348\)
 
-### Exercise 8: Challenge Exercise
-A computer password consists of 4 characters, each one of 26 lowercase letters or 26 uppercase letters or an integer between 0 and 9. If the password must contain at least one letter and at least one integer, how many different passwords are possible?
+3. No disease  (1)
+{ .annotate }
 
-??? answer "&nbsp;"
-    The easiest way to calculate this, is to first calculate the number of 4-character passwords, and then subtract those that do not fulfill the rule, i.e. the passwords that do either only contain letters or only numbers: $62^4-52^4-10^4=7,454,720$
+    1. \(0.0374\)
+
+#### Challenge Exercise: Random Quadratic
+
+This problem is taken from the exam in Stochastic Modelling and Processes (IT-SMP1) on the 6th/7th semester.
+
+You choose a point $(A, B)$ uniformly at random in the unit square $\{(x, y): 0 \leq x, y \leq 1\}$.
+
+<img src="src/challenge.png" width="200"/>
+
+Find the probability that the quadratic
+$$
+A X^2 + X + B = 0
+$$
+has real roots.
+
+[solution](Solution7.pdf)
