@@ -201,3 +201,78 @@ $$
 has real roots.
 
 [solution](Solution7.pdf)
+
+#### Challenge Exercise 2: Binomial Theorem
+
+Binomial expansion formula:
+
+$$
+(a+b)^n=\sum_{k=0}^n\binom{n}{k} a^{n-k} b^k
+$$
+
+
+$$
+(a+b)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1} b+\binom{n}{2} a^{n-2} b^2+\ldots+\binom{n}{n} b^n,
+$$
+
+where $\binom{n}{k}=\frac{n!}{k!(n-k)!}$ is the binomial coefficient
+The general term in the binomial expansion:
+
+$$
+T_{k+1}=\binom{n}{k} a^{n-k} b^k, \quad k=0,1,2 \ldots, n
+$$
+
+Important property: The number of terms in the binomial expansion of $(a+b)^n$ is $n+1$.
+
+1. Write the binomial expansion of $(a+2 b)^4$. Hint: You can use Pascal's triangle to easily write down the binomial coefficients.
+
+    ??? answer "&nbsp;"
+
+        1. $a^4+8 a^3 b+24 a^2 b^2+32 a b^3+16 b^4$
+
+2. Find the 5th term of the expansion of $(\sqrt{x}+x)^{10}$
+
+    ??? answer "&nbsp;"
+
+        1. $210 x^7$
+
+3. Determine the term that contains $x^6$ in the expansion of $\left(x+\frac{1}{2} y\right)^9$.
+
+    ??? answer "&nbsp;"
+
+        1. $\frac{21}{2} x^{6} y^{3}$
+
+#### Challenge Exercise 3: The Monty Hall Problem
+
+The Monty Hall problem is a famous probability puzzle based on a game show scenario. Here’s how it works:
+
+1. You are presented with three doors: behind one door is a car (the prize you want), and behind the other two doors are goats (which you don’t want).
+2. You pick one door (say, Door 1).
+3. The host, who knows what’s behind each door, opens another door (say, Door 3), which has a goat behind it.
+4. You are then given the choice to stick with your original pick (Door 1) or switch to the remaining unopened door (Door 2).
+
+The question is: Should you stick with your original choice, switch to the other door, or does it not matter?
+To solve this problem, we can analyze the probabilities of winning the car based on your strategy (sticking or switching).
+
+1. What is the probability of winning the car if you stick with your original choice? (1)
+{ .annotate }
+
+    1. \(\dfrac{1}{3}\)
+
+2. What is the probability of winning the car if you switch to the other door? (1)
+{ .annotate }
+
+    1. \(\dfrac{2}{3}\)
+
+3. What would be the probability of winning if there were 100 doors, with 1 car and 99 goats, and after you pick a door, the host opens 98 doors with goats behind them? (1)
+{ .annotate }
+
+    1. \(\dfrac{99}{100}\)
+
+Fun Fact: This problem led to a lot of debate about probability and decision-making. The problem was popularized by Marilyn vos Savant in her "Ask Marilyn" column in Parade magazine in 1990, leading to widespread discussion and analysis. 
+
+[(YT 3 min) Monty Hall Problem - AsapSCIENCE](https://www.youtube.com/watch?v=9vRUxbzJZ9Y)
+
+[(YT 5 min) Monty Hall Problem - Numberphile](https://www.youtube.com/watch?v=4Lb-6rxZxx0)
+
+[(YT 15 min) Monty Hall Problem - VSauce](https://www.youtube.com/watch?v=TVq2ivVpZgQ)
