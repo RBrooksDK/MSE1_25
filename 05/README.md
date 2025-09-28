@@ -23,9 +23,9 @@ Brooks: [Chapter 6](https://docs.google.com/viewer?url=https://raw.githubusercon
 
 ### Resources Danish Class:
 
-[Session notes](MISSING LINK)
+[Session notes](https://drive.google.com/file/d/1p8sb7E8Jtdxg6Im1Ve_ylGq-zS6pSBXW/view?usp=sharing)
 
-[Session Resources](MISSING LINK)
+[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/El6TyZ3UNqZDmv4WaAnaxdQBqhXftjEPeBzsfKRGOU6lDg?e=1th9TB)
 
 ### Some Python Solutions
 
