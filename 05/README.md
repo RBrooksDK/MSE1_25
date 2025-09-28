@@ -19,7 +19,7 @@ We analyse how the occurrence of one event affects another, use contingency tabl
 
 ### Session Preparation
 
-Brooks: [Chapter 6](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
+Brooks: [Chapter 5](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
 
 ### Resources Danish Class:
 
