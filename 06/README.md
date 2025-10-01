@@ -280,20 +280,89 @@ Use the Empirical Rule (68.3–95.4–99.7%) to justify your answer.
 
 ### Challenge Exercises
 
-       Dept. Y: A \(=19/950\approx2.0\%\), B \(=1/50=2.0\%\) → tie or A by a hair
+#### Challenge 1: The “German Tank” Problem (Build Numbers)
 
-2. Compute **overall** admission rates for A and B. Who wins overall? (1)  
+A military intelligence unit intercepts serial numbers from enemy tanks. The numbers are sequential from 1 to an unknown maximum \(N\). In one skirmish they observe (unordered):
+\(\{12, 38, 71, 5, 44, 73, 29, 55\}\).
+
+Let \(n\) be the sample size and \(m\) the maximum observed number. Compute \(n\) and \(m\). (1)  
 { .annotate }
 
-    1. A \(=(10+19)/(50+950)=29/1000=2.9\%\)  
-       B \(=(171+1)/(950+50)=172/1000=17.2\%\) → **B wins overall**
+1. \(n=8,\ m=73\)
 
-3. Explain precisely why this does **not** contradict 1). Use weighted averages language. (2)  
-{ .annotate }
+Two estimators for \(N\):  
 
-    1. The overall rate is a weighted average of department-specific rates with **different weights**. A’s applicants are mostly in the tougher department, B’s in the easier one. This imbalance flips the aggregate outcome—**Simpson’s paradox**.
+MLE: \(\hat N_{\text{MLE}} = m\)  
 
-4. Give a statistically sound decision rule to avoid being misled here, and compute the appropriate aggregate under that rule. (2)  
-{ .annotate }
+Unbiased: \(\hat N_{\text{U}} = m\cdot\frac{n+1}{n}-1\)  
 
-    1. **Stratify** by department and compare programs within each stratum; then combine with **common weights** (e.g., equal mix) or use a regression with department as a covariate. If applicants were equally split across departments, Program A would be favored since A ≥ B in both strata.
+Compute both and give an integer estimate.
+
+??? answer "&nbsp;"
+
+    MLE: \(\hat N_{\text{MLE}} = 73\)
+
+    Unbiased: \(\hat N_{\text{U}} = 73 \cdot \frac{9}{8} - 1 = 81.125 \approx 81\)
+
+Suppose the unit later observes a new sample with \(n=10\) and \(m=79\). Without recomputing from scratch, explain which estimator you’d trust more for bias and why.  
+
+??? answer "&nbsp;"
+
+    The unbiased estimator reduces the systematic underestimation of \(N\) inherent in \(m\); prefer \(\hat N_{\text{U}}\) for lower bias.
+
+Estimate the fraction of unseen tanks using your chosen \(\hat N\): \((\hat N - m)/\hat N\). Interpret it. 
+
+??? answer "&nbsp;"
+
+    Using \(\hat N_{\text{U}} = 81\): Fraction unseen = \((81 - 79)/81 \approx 0.0247\) or about 2.47%. This suggests that approximately 2.47% of the total tank production has not been observed in the sample.
+
+Derive a one‐sided 95% upper bound for \(N\) from \( \mathbb{P}(M\le m)=(m/N)^n \) and compare to your point estimates.
+
+??? answer "&nbsp;"
+
+    Solving \( (m/N)^n = 0.95 \) for \(N\) gives \( N = m / (0.95^{1/n}) \). For \(m=79\) and \(n=10\), this yields \( N \approx 79 / (0.95^{0.1}) \approx 79.4 \). Thus, a one-sided 95% upper bound for \(N\) is approximately 80, which aligns closely with the unbiased estimate of 81.
+
+Try to think about how descriptive statistics can help analysing other aspects of the data, e.g., what if the enemy is intentionally skipping numbers?
+
+[3 min YT Video](https://www.youtube.com/watch?v=WLCwMRJBhuI)
+
+#### Challenge 2: Simpson’s Paradox in Admissions
+
+A university runs an admissions process for two departments. Each department admits students under **Program A** and **Program B**. Within each department, Program A has a higher admission rate than Program B, yet overall Program B has a higher admission rate.
+
+Data:
+
+| Department | Program | Admitted | Applicants |
+|------------|---------|----------|------------|
+| X          | A       | 10       | 50         |
+| X          | B       | 171      | 950        |
+| Y          | A       | 19       | 950        |
+| Y          | B       | 1        | 50         |
+
+1. Compute per-department admission rates for A and B. Decide the winner **within each department**.
+
+    ??? answer "&nbsp;"
+
+        Dept. X: A \(=10/50=20\%\), B \(=171/950=18\%\) → A wins  
+        Dept. Y: A \(=19/950=2.0\%\), B \(=1/50=2.0\%\) → tie
+
+2. Compute **overall** admission rates for A and B. Who wins overall?
+
+    ??? answer "&nbsp;"
+
+        A \(=(10+19)/(50+950)=29/1000=2.9\%\)  
+        B \(=(171+1)/(950+50)=172/1000=17.2\%\) → **B wins overall**
+
+3. Explain precisely why this does **not** contradict the results from before. Use weighted averages language.  
+
+    ??? answer "&nbsp;"
+
+        The overall rate is a weighted average of department-specific rates with **different weights**. A’s applicants are mostly in the tougher department, B’s in the easier one. This imbalance flips the aggregate outcome—**Simpson’s paradox**.
+
+4. Give a statistically sound decision rule to avoid being misled here, and compute the appropriate aggregate under that rule. 
+
+    ??? answer "&nbsp;"
+
+        **Stratify** by department and compare programs within each stratum; then combine with **common weights** (e.g., equal mix) or use a regression with department as a covariate. If applicants were equally split across departments, Program A would be favored since A ≥ B in both strata.
+
+[5 min YT video](https://www.youtube.com/watch?v=ebEkn-BiW5k)
