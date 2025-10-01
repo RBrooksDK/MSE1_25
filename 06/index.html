@@ -1064,7 +1064,7 @@
 <p><a href="MISSING LINK">Session notes</a></p>
 <p><a href="MISSING LINK">Session Resources</a></p>
 <h3 id="python-solution">Python Solution<a class="headerlink" href="#python-solution" title="Permanent link">&para;</a></h3>
-<p><a href="solutions06.ipynb">solutions06.ipynb</a></p>
+<p><a href="https://github.com/RBrooksDK/MSE1_25/blob/main/06/solutions06.ipynb">solutions06.ipynb</a></p>
 <h3 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">&para;</a></h3>
 <h4 id="exercise-1-mode-classification">Exercise 1: Mode Classification<a class="headerlink" href="#exercise-1-mode-classification" title="Permanent link">&para;</a></h4>
 <p>Given the following datasets, classify each dataset as unimodal, multimodal, or no mode.</p>
@@ -1158,7 +1158,7 @@
 </details>
 </li>
 </ol>
-<h4 id="exercise-4-mean-mode-median">Exercise 4: Mean, Mode, Median<a class="headerlink" href="#exercise-4-mean-mode-median" title="Permanent link">&para;</a></h4>
+<h4 id="exercise-4-common-metrics">Exercise 4: Common Metrics<a class="headerlink" href="#exercise-4-common-metrics" title="Permanent link">&para;</a></h4>
 <p>The following dataset represents the ages of 57 students in a class:</p>
 <p>{18, 18, 18, 18, 19, 19, 19, 19, 19, 20, 20, 20, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 21, 22, 22, 22, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 23, 24, 24, 24, 24, 24, 25, 25, 25, 25, 26, 26, 26, 27, 27, 28, 30, 33, 35, 45, 55}</p>
 <ol>
@@ -1349,6 +1349,7 @@
 </details>
 </li>
 </ol>
+<p>{ .annotate }</p>
 <h4 id="exercise-6-empirical-rule">Exercise 6: Empirical Rule<a class="headerlink" href="#exercise-6-empirical-rule" title="Permanent link">&para;</a></h4>
 <p>For each dataset below, determine whether the data appear approximately normal, or not.</p>
 <p>Use the Empirical Rule (68.3–95.4–99.7%) to justify your answer.</p>
@@ -1379,6 +1380,29 @@
 </li>
 </ol>
 <h3 id="challenge-exercises">Challenge Exercises<a class="headerlink" href="#challenge-exercises" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code>   Dept. Y: A \(=19/950\approx2.0\%\), B \(=1/50=2.0\%\) → tie or A by a hair
+</code></pre></div>
+<ol>
+<li>
+<p class="annotate">Compute <strong>overall</strong> admission rates for A and B. Who wins overall? (1)<br /></p>
+<ol>
+<li>A <span class="arithmatex">\(=(10+19)/(50+950)=29/1000=2.9\%\)</span><br />
+   B <span class="arithmatex">\(=(171+1)/(950+50)=172/1000=17.2\%\)</span> → <strong>B wins overall</strong></li>
+</ol>
+</li>
+<li>
+<p class="annotate">Explain precisely why this does <strong>not</strong> contradict 1). Use weighted averages language. (2)<br /></p>
+<ol>
+<li>The overall rate is a weighted average of department-specific rates with <strong>different weights</strong>. A’s applicants are mostly in the tougher department, B’s in the easier one. This imbalance flips the aggregate outcome—<strong>Simpson’s paradox</strong>.</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Give a statistically sound decision rule to avoid being misled here, and compute the appropriate aggregate under that rule. (2)<br /></p>
+<ol>
+<li><strong>Stratify</strong> by department and compare programs within each stratum; then combine with <strong>common weights</strong> (e.g., equal mix) or use a regression with department as a covariate. If applicants were equally split across departments, Program A would be favored since A ≥ B in both strata.</li>
+</ol>
+</li>
+</ol>
 
 
 
