@@ -242,7 +242,16 @@ The following box plot represents the distribution of the weights:
 
         The outliers could indicate inconsistencies in the filling process, such as equipment malfunctions or human error. They do not suggest inaccuaracy of the scale, rather issues in the filling process itself.
 
+7. Based on the box plot, discuss the symmetry or skewness of the weight distribution. (1)
 { .annotate }
+
+    1. The box plot appears slightly right skewed.
+
+8. Based on the determined skewness, discuss the values of mean, mode, and median. (1)
+{ .annotate }
+
+    1. In a right-skewed distribution, the mean is typically greater than the median, which is greater than the mode.
+
 #### Exercise 6: Empirical Rule
 
 For each dataset below, determine whether the data appear approximately normal, or not.
