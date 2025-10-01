@@ -35,7 +35,7 @@ Some of the exercises may require you to use Python. You may also need to instal
 
 ### Python Solution
 
-[solutions06.ipynb](solutions06.ipynb)
+[solutions06.ipynb](https://github.com/RBrooksDK/MSE1_25/blob/main/06/solutions06.ipynb)
 
 ### Exercises
 
@@ -119,7 +119,7 @@ Refer to the diagram above, which shows the cumulative relative frequency of lam
 
         Values below 600 hours or above 1400 hours could be considered mild outliers. Values below 300 hours or above 1700 hours could be considered extreme outliers.
 
-#### Exercise 4: Mean, Mode, Median
+#### Exercise 4: Common Metrics
 
 The following dataset represents the ages of 57 students in a class:
 
@@ -242,6 +242,7 @@ The following box plot represents the distribution of the weights:
 
         The outliers could indicate inconsistencies in the filling process, such as equipment malfunctions or human error. They do not suggest inaccuaracy of the scale, rather issues in the filling process itself.
 
+{ .annotate }
 #### Exercise 6: Empirical Rule
 
 For each dataset below, determine whether the data appear approximately normal, or not.
@@ -270,4 +271,20 @@ Use the Empirical Rule (68.3–95.4–99.7%) to justify your answer.
 
 ### Challenge Exercises
 
+       Dept. Y: A \(=19/950\approx2.0\%\), B \(=1/50=2.0\%\) → tie or A by a hair
 
+2. Compute **overall** admission rates for A and B. Who wins overall? (1)  
+{ .annotate }
+
+    1. A \(=(10+19)/(50+950)=29/1000=2.9\%\)  
+       B \(=(171+1)/(950+50)=172/1000=17.2\%\) → **B wins overall**
+
+3. Explain precisely why this does **not** contradict 1). Use weighted averages language. (2)  
+{ .annotate }
+
+    1. The overall rate is a weighted average of department-specific rates with **different weights**. A’s applicants are mostly in the tougher department, B’s in the easier one. This imbalance flips the aggregate outcome—**Simpson’s paradox**.
+
+4. Give a statistically sound decision rule to avoid being misled here, and compute the appropriate aggregate under that rule. (2)  
+{ .annotate }
+
+    1. **Stratify** by department and compare programs within each stratum; then combine with **common weights** (e.g., equal mix) or use a regression with department as a covariate. If applicants were equally split across departments, Program A would be favored since A ≥ B in both strata.
