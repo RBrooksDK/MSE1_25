@@ -1,208 +1,273 @@
+---
+tags:
+    - Descriptive Statistics 
+    - Data Summaries
+    - Visualization
+    - Python
+    - Pandas
+    - Matplotlib  
+    - Mean
+    - Median
+    - Mode
+    - Range
+    - Variance
+    - Standard Deviation
+    - Discrete Data
+    - Continuous Data
+    - Qualitative Data
+    - Quantitative Data
+    - Data Types 
+---
+
 <h1 align="center">Descriptive Statistics</h1>
 
 ### Session Preparation:
 
-Brooks: [Chapter 6](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing). You should begin reading before class as it will aid your understanding as the topics get more complex.
+Brooks: [Chapter 6](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
 
-### Session Material:
+Some of the exercises may require you to use Python. You may also need to install the `pandas` and `matplotlib` libraries if you haven't already.
 
-[Session notes](https://drive.google.com/file/d/1wAMVD7qDRDlnW3YCHzxZjgo79k14Z6uz/view?usp=sharing)
+### Resources Danish Class:
 
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/El6TyZ3UNqZDmv4WaAnaxdQBqhXftjEPeBzsfKRGOU6lDg?e=8E2jvl)
+[Session notes](MISSING LINK)
 
---------------------------
+[Session Resources](MISSING LINK)
 
-### Topic Description
-Building on our introduction to probability, this session delves deeper into the subject by exploring the concepts of dependent and independent events. We will discuss how the occurrence of one event can affect the probability of another. Conditional probability will be introduced, highlighting how probabilities change when additional information is known. We will also cover the probability of intersections between events, helping to understand overlapping occurrences. Contingency tables will be used to organize data and calculate probabilities effectively, and we will conclude with Bayes' theorem, a powerful tool for updating probabilities based on new evidence.
+### Python Solution
 
-#### Key Concepts
-- Dependent and independent events
-- Conditional probability
-- The probability for the intersection between events
-- Contingency tables
-- Bayes' theorem
+[solutions06.ipynb](solutions06.ipynb)
 
---------------------------
+### Exercises
 
-### Exercises for recitation
+#### Exercise 1: Mode Classification
 
-Try to do the exercises without using ChatGPT. If you get stuck, you can use ChatGPT to help you along the way. I don't care if you have the correct answers or not; I care that you try to solve the problems - proritise learning over performance, as that will enhance your performance in the long run.
+Given the following datasets, classify each dataset as unimodal, multimodal, or no mode.
 
-#### Exercise 1: Recap
-
-Let $A$ and $B$ be two events such that:
-
-$$
-P(A)=0.3, \quad P(B)=0.2, \quad P(A \cap B)=0.1
-$$
-
-Find the probabilities below. State your answers as correct to one decimal place.
-
-a. Find $P(A^c)$. (1)
+1. {1,2,3,4,5} (1) 
 { .annotate }
 
-1. $P(A^c)=0.7$.
+    1. No mode
 
-b. Find $P\left(A \cup B\right)$. (1)
+2. {220,220,250,280,300,300,350} (1) 
 { .annotate }
 
-1. $P\left(A \cup B\right)=0.4$.
+    1. Multimodal (220, 300)
 
-c. Find $P\left(A^c \cap B\right)$. (1)
+3. {High, High, Medium, Low, High, Medium, Low, Critical} (1)
 { .annotate }
 
-1. $P\left(A^c \cap B\right)=0.1$
+    1. Unimodal (High)
 
-d. Find $P\left(A \cap B^c\right)$. (1)
+#### Exercise 2: Categorize Data Types
+
+Given the following information, categorize each as Qualitative or Quantitative data, and specify if Quantitative data is Discrete or Continuous.
+
+1. Number of students in a class (1) 
 { .annotate }
 
-1. $P\left(A \cap B^c\right)=0.2$.
+    1. Quantitative, Discrete
 
-e. Find $P\left((A \cup B)^c\right)$. (1)
+2. Temperature in Celsius (1)
 { .annotate }
 
-1. $P\left((A \cup B)^c\right)=0.6$.
+    1. Quantitative, Continuous
 
-f. Find $P\left(A^c \cup B\right)$. (1)
+3. Types of fruits in a basket (1)
 { .annotate }
 
-1. $P\left(A^c \cup B\right)=0.8$.
+    1. Qualitative
 
-#### Exercise 2: Rolling Fair Die
-
-I roll a fair die twice and obtain two numbers: $X_1=$ result of the first roll, $X_2=$ result of the second roll.
-
-a. Find the probability that $X_2=4$. (1)
+4. Height of individuals in centimeters (1)
 { .annotate }
 
-1. $\dfrac{1}{6}$
+    1. Quantitative, Continuous
 
-b. Find the probability that $X_1+X_2=7$. (1)
+5. Colors of cars in a parking lot (1)
 { .annotate }
 
-1. $\dfrac{1}{6}$
+    1. Qualitative
 
-c. Find the probability that $X_1 \neq 2$ and $X_2 \geq 4$. (1)
+#### Exercise 3: Calculate From a Diagram
+
+![Ogive Diagram](src/Ex03.png)
+
+Refer to the diagram above, which shows the cumulative relative frequency of lamp lifetimes (in hours). Use the diagram to answer the following questions:
+
+1. What type of diagram is shown? (1)
 { .annotate }
 
-1. $\dfrac{5}{12}$
+    1. Ogive (Cumulative Relative Frequency Graph)
 
-#### Exercise 3: Venn and Probability
-
-Let $A, B$, and $C$ be three events with probabilities given:
-
-<img src="src/venn1.png" width = "200">
-
-Find the probabilities below. State you answers as irreducible fractions.
-
-a. $P(A \mid B)$ (1)
+2. What is the median lifetime of the lamps? (1)
 { .annotate }
 
-1. $\dfrac{4}{7}$
+    1. Approximately 1000 hours
 
-b. $P(C \mid B)$ (1)
+3. Estimate the first and third quartiles (Q1 and Q3) of the lamp lifetimes. (1)
 { .annotate }
 
-1. $\dfrac{3}{7}$
+    1. Q1 ≈ 900 hours, Q3 ≈ 1100 hours
 
-c. $P(B \mid A \cup C)$ (1)
+4. What is the interquartile range (IQR) of the lamp lifetimes? (1)
 { .annotate }
 
-1. $\dfrac{5}{14}$
+    1. IQR ≈ 200 hours (Q3 - Q1)
 
-d. $P(B \mid (A, C))$ (1)
+5. Identify any potential outliers in the lamp lifetimes using the 1.5*IQR rule.
+
+    ??? answer "&nbsp;"
+
+        Values below 600 hours or above 1400 hours could be considered mild outliers. Values below 300 hours or above 1700 hours could be considered extreme outliers.
+
+#### Exercise 4: Mean, Mode, Median
+
+The following dataset represents the ages of 57 students in a class:
+
+{18, 18, 18, 18, 19, 19, 19, 19, 19, 20, 20, 20, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 21, 22, 22, 22, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 23, 24, 24, 24, 24, 24, 25, 25, 25, 25, 26, 26, 26, 27, 27, 28, 30, 33, 35, 45, 55}
+
+1. Make a frequency table for the data.
+
+    ??? answer "&nbsp;"
+
+        | Age | Frequency |
+        |-----|-----------|
+        | 18  | 4         |
+        | 19  | 5         |
+        | 20  | 8         |
+        | 21  | 6         |
+        | 22  | 8         |
+        | 23  | 6         |
+        | 24  | 5         |
+        | 25  | 4         |
+        | 26  | 3         |
+        | 27  | 2         |
+        | 28  | 1         |
+        | 30  | 1         |
+        | 33  | 1         |
+        | 35  | 1         |
+        | 45  | 1         |
+        | 55  | 1         |
+
+2. Plot a histogram of the data.
+
+    ??? answer "&nbsp;"
+
+        ![Histogram](src/Ex04_1.png)
+
+3. How are the frequency table and histogram related?
+
+    ??? answer "&nbsp;"
+
+        The frequency table provides the numerical counts of each age, while the histogram visually represents these counts using bars. Each bar's height corresponds to the frequency of the respective age.
+
+4. Compute the range of ages. (1)
 { .annotate }
 
-1. $\dfrac{1}{2}$
+    1. 37
 
-#### Exercise 4: More Planes
-The probability that a regularly scheduled flight departs on time is $0.83$; the probability that it arrives on time is $0.82$; and the probability that it departs and arrives on time is $0.78$. Find the probability that a plane. State your answers as correct to four decimal places.
-
-a. Arrives on time, given that it departed on time (1)
+5. Calculate the mean (1), median (2), sample variance (3), and sample standard deviation. (4)
 { .annotate }
 
-1. 0.9398
+    1. Mean: \(23.60\)
+    2. Median: \(22\)
+    3. Sample Variance: \(38.74\)
+    4. Sample Standard Deviation: \(6.22\)
 
-b. Departed on time, given that it has arrived on time (1)
+6. Find $P_{10}$ (1), $P_{90}$ (2), and the interquartile range (IQR). (3)
 { .annotate }
 
-1. 0.9512
+    1. \(P_{10} = 19\)
+    2. \(P_{90} = 27.4\)
+    3. $IQR = 5$
 
-c. Arrives on time, given that it did not depart on time (1)
+7. Identify mild and extreme outliers. (1)
 { .annotate }
 
-1. 0.2353
+    1. Mild outliers: 33, 35; Extreme outliers: 45, 55
 
-</details>
-<br>
+8. Empirical Rule (normality check). Compare the proportions of students within 1, 2, and 3 standard deviations of the mean to the 68.3–95.4–99.7% rule.
 
-#### Exercises 5: Independence and Contingency Tables
-A survey was conducted to determine the employment rate of recently graduated engineering students. The survey was conducted one year after graduation and was made for ICT Engineers, Civil Engineers, Mechanical Engineers, and Global Business Engineers. The graduates were classified in one of two employment categories: (1) employed/studying and (2) unemployed. 40% of the respondents had studied ICT Engineering and of these 85% were employed/studying. Of all the respondents, 20% were unemployed. Of the 100 former civil engineering students who took part in the survey, 20% were unemployed. The proportion of unemployed Mechanical and Civil engineering students was the same and the survey included exactly 9 unemployed mechanical engineering students. 300 students took part in the survey.
+    ??? answer "&nbsp;"
 
-a. Based on this information, construct a 2 x 4 contingency table for the survey results.
+        - Within 1 standard deviation (17.37 to 29.82): 91.23%
+        - Within 2 standard deviations (11.15 to 36.05): 96.49%
+        - Within 3 standard deviations (4.92 to 42.27): 96.49%
 
-??? answer "&nbsp;"
-    <img src="src/contingency.png" width = "300">
-
-    Technically, the sums and totals are not part of the contingency tables. They are added to make it easier to calculate the probabilities.
-
-
-b. What is the probability that an unemployed respondent is a former ICT student? State your answer as an irreducible fraction. (1)
+        The data does not perfectly follow the Empirical Rule, indicating it may not be normally distributed.
+    
+9. Inspect the histogram for skewness. (1)
 { .annotate }
 
-1. $\dfrac{3}{10}$
+    1. The histogram shows a right (positive) skew, with a longer tail on the right side.
 
-c. If a respondent is unemployed, what is the probability that the respondent was a GBE student? State your answer as an irreducible fraction. (1)
+#### Exercise 5: Box Plot
+
+A factory fills 1kg bags of sugar. The weights of a sample of 20 bags are recorded below (in kg):
+
+{0.98, 1.02, 1.01, 0.99, 1.03, 1.00, 1.04, 0.97, 1.05, 1.00, 0.96, 1.02, 1.01, 0.99, 1.03, 1.00, 1.04, 0.98, 1.05, 0.97}
+
+The following box plot represents the distribution of the weights:
+
+![Box Plot](src/Ex05.png)
+
+1. Identify the median weight from the box plot. (1)
 { .annotate }
 
-1. $\dfrac{13}{60}$
+    1. Median ≈ 1.00 kg
 
-d. Is being unemployed independent from being a former ICT student? (1)
+2. Estimate the first (Q1) and third (Q3) quartiles. (1)
 { .annotate }
 
-??? answer "&nbsp;"
-    You can compare any a priori probability with the corresponding a posteriori probability. E.g. you found an aposteriori probability of $\dfrac{3}{10}$ in (b). The a priori probability is $\dfrac{2}{5}$. Since the two probabilities are not equal, the two events are dependent:
+    1. Q1 ≈ 0.98 kg, Q3 ≈ 1.03 kg
 
-    $P(\text{ICT} \mid \text{Unemployed}) = \dfrac{3}{10} \neq \dfrac{2}{5} = P(\text{ICT})$
+3. Calculate the interquartile range (IQR). (1)
+{ .annotate }
 
-#### Exercise 6: Bayes' Theorem
-Disease $A$ occurs with probability 0.1, and disease $B$ occurs with probability 0.2. It is not possible to have both diseases. You have a single test. This test reports positive with probability 0.8 for a patient with disease $A$, with probability 0.5 for a patient with disease $B$, and with probability 0.01 for a patient with no disease - call the latter event $W$. Stating your answer as correct to four decimal places, if the test comes back positive, what is the probability you have either:
+    1. IQR ≈ 0.05 kg
 
-a. Disease $A$
+4. Determine the range of weights. (1)
+{ .annotate }
 
-b. Disease $B$ or
+    1. Range ≈ 0.5 kg
 
-c. No disease
+5. Explain what the outliers represent in this context.
 
-Note: You need to calculate three probabilities; one for each of the three events stated in a-c.
+    ??? answer "&nbsp;"
 
-??? answer "&nbsp;"
-    a. Disease $A$: 0.4278
+        The outliers represent bags that are significantly underfilled or overfilled compared to the majority of bags.
 
-    b. Disease $B$: 0.5348
+6. What could the outliers indicate about the factory's filling process?
 
-    c. No disease: 0.0374
+    ??? answer "&nbsp;"
 
-#### Exercise 7: Challenge Exercise
-Only use time on this exercise if you have time left after completing the other exercises and you found them too easy. The problem is taken from the exam in Stochastic Modelling and Processes (IT-SMP1) on the 6th/7th semester.
+        The outliers could indicate inconsistencies in the filling process, such as equipment malfunctions or human error. They do not suggest inaccuaracy of the scale, rather issues in the filling process itself.
 
-You choose a point $(A, B)$ uniformly at random in the unit square $\{(x, y): 0 \leq x, y \leq 1\}.
+#### Exercise 6: Empirical Rule
 
-<p align="center">
-    <img src="src/challenge.png" width="200">
-</p>
+For each dataset below, determine whether the data appear approximately normal, or not.
 
-What is the probability that the equation
+Use the Empirical Rule (68.3–95.4–99.7%) to justify your answer.
 
-$$
-A X^2+X+B=0
-$$
+1. Response Times (ms) - Mean = 300, SD = 50, within 1 SD: 55%, within 2 SD: 78%, within 3 SD: 90% (1)
+{ .annotate }
 
-has real solutions?
+    1. Not Normal
 
-[solution](Solution7.pdf)
+2. Bug Reports per Week - Mean = 12, SD = 4, within 1 SD: 68%, within 2 SD: 94%, within 3 SD: 99% (1)
+{ .annotate }
 
-### Additional Solutions
-[Some Python Solutions](https://github.com/RBrooksDK/MSE1/blob/main/06_Conditional_Probability_and_Bayes_Theorem/some_solutions.ipynb)
+    1. Approximately Normal
 
-[Solutions made in class](https://drive.google.com/open?id=1lCgiFIzOLAuDSEQjUyeZiyWsWt63Ex8d&usp=drive_fs)
+3. Exam Scores: {55, 60, 62, 65, 68, 70, 72, 75, 78, 80, 82, 85, 88, 90, 92, 95} (1)
+{ .annotate }
+
+    1. Approximately Normal
+
+4. Daily Step Counts (in thousands): {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15} (1)
+{ .annotate }
+
+    1. Not Normal
+
+### Challenge Exercises
+
+
