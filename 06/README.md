@@ -119,7 +119,7 @@ Refer to the diagram above, which shows the cumulative relative frequency of lam
 
         Values below 600 hours or above 1400 hours could be considered mild outliers. Values below 300 hours or above 1700 hours could be considered extreme outliers.
 
-#### Exercise 4: Common Metrics
+#### Exercise 4: Common Metrics (Python)
 
 The following dataset represents the ages of 57 students in a class:
 
@@ -200,7 +200,7 @@ The following dataset represents the ages of 57 students in a class:
 
     1. The histogram shows a right (positive) skew, with a longer tail on the right side.
 
-#### Exercise 5: Box Plot
+#### Exercise 5: Box Plot (Python)
 
 A factory fills 1kg bags of sugar. The weights of a sample of 20 bags are recorded below (in kg):
 
@@ -252,7 +252,7 @@ The following box plot represents the distribution of the weights:
 
     1. In a right-skewed distribution, the mean is typically greater than the median, which is greater than the mode.
 
-#### Exercise 6: Empirical Rule
+#### Exercise 6: Empirical Rule (Python)
 
 For each dataset below, determine whether the data appear approximately normal, or not.
 
