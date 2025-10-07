@@ -204,7 +204,7 @@ The following dataset represents the ages of 57 students in a class:
 
 A factory fills 1kg bags of sugar. The weights of a sample of 20 bags are recorded below (in kg):
 
-{0.98, 1.02, 1.01, 0.99, 1.03, 1.00, 1.04, 0.97, 1.05, 1.00, 0.96, 1.02, 1.01, 0.99, 1.03, 1.00, 1.04, 0.98, 1.05, 0.97}
+{1.00, 1.01, 1.05, 0.99, 0.97, 1.01, 0.98, 0.99, 1.06, 1.06, 0.96, 1.00, 1.03, 0.97, 1.00, 0.99, 1.08, 1.01, 1.32, 0.82, 0.86}
 
 The following box plot represents the distribution of the weights:
 
