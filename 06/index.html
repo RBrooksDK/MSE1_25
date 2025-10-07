@@ -699,27 +699,27 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#topic-description" class="md-nav__link">
+  <a href="#python-solution" class="md-nav__link">
     <span class="md-ellipsis">
-      Topic Description
+      Python Solution
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercises-for-recitation" class="md-nav__link">
+  <a href="#exercises" class="md-nav__link">
     <span class="md-ellipsis">
-      Exercises for recitation
+      Exercises
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-solutions" class="md-nav__link">
+  <a href="#challenge-exercises" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional Solutions
+      Challenge Exercises
     </span>
   </a>
   
@@ -1010,27 +1010,27 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#topic-description" class="md-nav__link">
+  <a href="#python-solution" class="md-nav__link">
     <span class="md-ellipsis">
-      Topic Description
+      Python Solution
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercises-for-recitation" class="md-nav__link">
+  <a href="#exercises" class="md-nav__link">
     <span class="md-ellipsis">
-      Exercises for recitation
+      Exercises
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-solutions" class="md-nav__link">
+  <a href="#challenge-exercises" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional Solutions
+      Challenge Exercises
     </span>
   </a>
   
@@ -1058,159 +1058,453 @@
 <h1 align="center">Descriptive Statistics</h1>
 
 <h3 id="session-preparation">Session Preparation:<a class="headerlink" href="#session-preparation" title="Permanent link">&para;</a></h3>
-<p>Brooks: <a href="https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing">Chapter 6</a>. You should begin reading before class as it will aid your understanding as the topics get more complex.</p>
+<p>Brooks: <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf">Chapter 6</a></p>
+<p>Some of the exercises may require you to use Python. You may also need to install the <code>pandas</code> and <code>matplotlib</code> libraries if you haven't already.</p>
 <h3 id="resources-danish-class">Resources Danish Class:<a class="headerlink" href="#resources-danish-class" title="Permanent link">&para;</a></h3>
+<p><a href="https://drive.google.com/file/d/1wAMVD7qDRDlnW3YCHzxZjgo79k14Z6uz/view?usp=sharing">Session notes</a></p>
 <p><a href="https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EqVVdPEDkRFImG2F_pAn4C8BaNKeMesysbj3eFJqsKHllw?e=0fiXyu">Session Resources</a></p>
-<hr />
-<h3 id="topic-description">Topic Description<a class="headerlink" href="#topic-description" title="Permanent link">&para;</a></h3>
-<p>Building on our introduction to probability, this session delves deeper into the subject by exploring the concepts of dependent and independent events. We will discuss how the occurrence of one event can affect the probability of another. Conditional probability will be introduced, highlighting how probabilities change when additional information is known. We will also cover the probability of intersections between events, helping to understand overlapping occurrences. Contingency tables will be used to organize data and calculate probabilities effectively, and we will conclude with Bayes' theorem, a powerful tool for updating probabilities based on new evidence.</p>
-<h4 id="key-concepts">Key Concepts<a class="headerlink" href="#key-concepts" title="Permanent link">&para;</a></h4>
+<h3 id="python-solution">Python Solution<a class="headerlink" href="#python-solution" title="Permanent link">&para;</a></h3>
+<p><a href="https://github.com/RBrooksDK/MSE1_25/blob/main/06/solutions06.ipynb">solutions06.ipynb</a></p>
+<h3 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">&para;</a></h3>
+<h4 id="exercise-1-mode-classification">Exercise 1: Mode Classification<a class="headerlink" href="#exercise-1-mode-classification" title="Permanent link">&para;</a></h4>
+<p>Given the following datasets, classify each dataset as unimodal, multimodal, or no mode.</p>
+<ol>
+<li>
+<p class="annotate">{1,2,3,4,5} (1) </p>
+<ol>
+<li>No mode</li>
+</ol>
+</li>
+<li>
+<p class="annotate">{220,220,250,280,300,300,350} (1) </p>
+<ol>
+<li>Multimodal (220, 300)</li>
+</ol>
+</li>
+<li>
+<p class="annotate">{High, High, Medium, Low, High, Medium, Low, Critical} (1)</p>
+<ol>
+<li>Unimodal (High)</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-2-categorize-data-types">Exercise 2: Categorize Data Types<a class="headerlink" href="#exercise-2-categorize-data-types" title="Permanent link">&para;</a></h4>
+<p>Given the following information, categorize each as Qualitative or Quantitative data, and specify if Quantitative data is Discrete or Continuous.</p>
+<ol>
+<li>
+<p class="annotate">Number of students in a class (1) </p>
+<ol>
+<li>Quantitative, Discrete</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Temperature in Celsius (1)</p>
+<ol>
+<li>Quantitative, Continuous</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Types of fruits in a basket (1)</p>
+<ol>
+<li>Qualitative</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Height of individuals in centimeters (1)</p>
+<ol>
+<li>Quantitative, Continuous</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Colors of cars in a parking lot (1)</p>
+<ol>
+<li>Qualitative</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-3-calculate-from-a-diagram">Exercise 3: Calculate From a Diagram<a class="headerlink" href="#exercise-3-calculate-from-a-diagram" title="Permanent link">&para;</a></h4>
+<p><img alt="Ogive Diagram" src="src/Ex03.png" /></p>
+<p>Refer to the diagram above, which shows the cumulative relative frequency of lamp lifetimes (in hours). Use the diagram to answer the following questions:</p>
+<ol>
+<li>
+<p class="annotate">What type of diagram is shown? (1)</p>
+<ol>
+<li>Ogive (Cumulative Relative Frequency Graph)</li>
+</ol>
+</li>
+<li>
+<p class="annotate">What is the median lifetime of the lamps? (1)</p>
+<ol>
+<li>Approximately 1000 hours</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Estimate the first and third quartiles (Q1 and Q3) of the lamp lifetimes. (1)</p>
+<ol>
+<li>Q1 ≈ 900 hours, Q3 ≈ 1100 hours</li>
+</ol>
+</li>
+<li>
+<p class="annotate">What is the interquartile range (IQR) of the lamp lifetimes? (1)</p>
+<ol>
+<li>IQR ≈ 200 hours (Q3 - Q1)</li>
+</ol>
+</li>
+<li>
+<p>Identify any potential outliers in the lamp lifetimes using the 1.5*IQR rule.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Values below 600 hours or above 1400 hours could be considered mild outliers. Values below 300 hours or above 1700 hours could be considered extreme outliers.</p>
+</details>
+</li>
+</ol>
+<h4 id="exercise-4-common-metrics-python">Exercise 4: Common Metrics (Python)<a class="headerlink" href="#exercise-4-common-metrics-python" title="Permanent link">&para;</a></h4>
+<p>The following dataset represents the ages of 57 students in a class:</p>
+<p>{18, 18, 18, 18, 19, 19, 19, 19, 19, 20, 20, 20, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 21, 22, 22, 22, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 23, 24, 24, 24, 24, 24, 25, 25, 25, 25, 26, 26, 26, 27, 27, 28, 30, 33, 35, 45, 55}</p>
+<ol>
+<li>
+<p>Make a frequency table for the data.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<table>
+<thead>
+<tr>
+<th>Age</th>
+<th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18</td>
+<td>4</td>
+</tr>
+<tr>
+<td>19</td>
+<td>5</td>
+</tr>
+<tr>
+<td>20</td>
+<td>8</td>
+</tr>
+<tr>
+<td>21</td>
+<td>6</td>
+</tr>
+<tr>
+<td>22</td>
+<td>8</td>
+</tr>
+<tr>
+<td>23</td>
+<td>6</td>
+</tr>
+<tr>
+<td>24</td>
+<td>5</td>
+</tr>
+<tr>
+<td>25</td>
+<td>4</td>
+</tr>
+<tr>
+<td>26</td>
+<td>3</td>
+</tr>
+<tr>
+<td>27</td>
+<td>2</td>
+</tr>
+<tr>
+<td>28</td>
+<td>1</td>
+</tr>
+<tr>
+<td>30</td>
+<td>1</td>
+</tr>
+<tr>
+<td>33</td>
+<td>1</td>
+</tr>
+<tr>
+<td>35</td>
+<td>1</td>
+</tr>
+<tr>
+<td>45</td>
+<td>1</td>
+</tr>
+<tr>
+<td>55</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</details>
+</li>
+<li>
+<p>Plot a histogram of the data.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><img alt="Histogram" src="src/Ex04_1.png" /></p>
+</details>
+</li>
+<li>
+<p>How are the frequency table and histogram related?</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>The frequency table provides the numerical counts of each age, while the histogram visually represents these counts using bars. Each bar's height corresponds to the frequency of the respective age.</p>
+</details>
+</li>
+<li>
+<p class="annotate">Compute the range of ages. (1)</p>
+<ol>
+<li>37</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Calculate the mean (1), median (2), sample variance (3), and sample standard deviation. (4)</p>
+<ol>
+<li>Mean: <span class="arithmatex">\(23.60\)</span></li>
+<li>Median: <span class="arithmatex">\(22\)</span></li>
+<li>Sample Variance: <span class="arithmatex">\(38.74\)</span></li>
+<li>Sample Standard Deviation: <span class="arithmatex">\(6.22\)</span></li>
+</ol>
+</li>
+<li>
+<p class="annotate">Find <span class="arithmatex">\(P_{10}\)</span> (1), <span class="arithmatex">\(P_{90}\)</span> (2), and the interquartile range (IQR). (3)</p>
+<ol>
+<li><span class="arithmatex">\(P_{10} = 19\)</span></li>
+<li><span class="arithmatex">\(P_{90} = 27.4\)</span></li>
+<li><span class="arithmatex">\(IQR = 5\)</span></li>
+</ol>
+</li>
+<li>
+<p class="annotate">Identify mild and extreme outliers. (1)</p>
+<ol>
+<li>Mild outliers: 33, 35; Extreme outliers: 45, 55</li>
+</ol>
+</li>
+<li>
+<p>Empirical Rule (normality check). Compare the proportions of students within 1, 2, and 3 standard deviations of the mean to the 68.3–95.4–99.7% rule.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
 <ul>
-<li>Dependent and independent events</li>
-<li>Conditional probability</li>
-<li>The probability for the intersection between events</li>
-<li>Contingency tables</li>
-<li>Bayes' theorem</li>
+<li>Within 1 standard deviation (17.37 to 29.82): 91.23%</li>
+<li>Within 2 standard deviations (11.15 to 36.05): 96.49%</li>
+<li>Within 3 standard deviations (4.92 to 42.27): 96.49%</li>
 </ul>
-<hr />
-<h3 id="exercises-for-recitation">Exercises for recitation<a class="headerlink" href="#exercises-for-recitation" title="Permanent link">&para;</a></h3>
-<p>Try to do the exercises without using ChatGPT. If you get stuck, you can use ChatGPT to help you along the way. I don't care if you have the correct answers or not; I care that you try to solve the problems - proritise learning over performance, as that will enhance your performance in the long run.</p>
-<h4 id="exercise-1-recap">Exercise 1: Recap<a class="headerlink" href="#exercise-1-recap" title="Permanent link">&para;</a></h4>
-<p>Let <span class="arithmatex">\(A\)</span> and <span class="arithmatex">\(B\)</span> be two events such that:</p>
-<div class="arithmatex">\[
-P(A)=0.3, \quad P(B)=0.2, \quad P(A \cap B)=0.1
-\]</div>
-<p>Find the probabilities below. State your answers as correct to one decimal place.</p>
-<p class="annotate">a. Find <span class="arithmatex">\(P(A^c)\)</span>. (1)</p>
+<p>The data does not perfectly follow the Empirical Rule, indicating it may not be normally distributed.</p>
+</details>
+</li>
+<li>
+<p class="annotate">Inspect the histogram for skewness. (1)</p>
 <ol>
-<li><span class="arithmatex">\(P(A^c)=0.7\)</span>.</li>
+<li>The histogram shows a right (positive) skew, with a longer tail on the right side.</li>
 </ol>
-<p class="annotate">b. Find <span class="arithmatex">\(P\left(A \cup B\right)\)</span>. (1)</p>
+</li>
+</ol>
+<h4 id="exercise-5-box-plot-python">Exercise 5: Box Plot (Python)<a class="headerlink" href="#exercise-5-box-plot-python" title="Permanent link">&para;</a></h4>
+<p>A factory fills 1kg bags of sugar. The weights of a sample of 20 bags are recorded below (in kg):</p>
+<p>{0.98, 1.02, 1.01, 0.99, 1.03, 1.00, 1.04, 0.97, 1.05, 1.00, 0.96, 1.02, 1.01, 0.99, 1.03, 1.00, 1.04, 0.98, 1.05, 0.97}</p>
+<p>The following box plot represents the distribution of the weights:</p>
+<p><img alt="Box Plot" src="src/Ex05.png" /></p>
 <ol>
-<li><span class="arithmatex">\(P\left(A \cup B\right)=0.4\)</span>.</li>
-</ol>
-<p class="annotate">c. Find <span class="arithmatex">\(P\left(A^c \cap B\right)\)</span>. (1)</p>
+<li>
+<p class="annotate">Identify the median weight from the box plot. (1)</p>
 <ol>
-<li><span class="arithmatex">\(P\left(A^c \cap B\right)=0.1\)</span></li>
+<li>Median ≈ 1.00 kg</li>
 </ol>
-<p class="annotate">d. Find <span class="arithmatex">\(P\left(A \cap B^c\right)\)</span>. (1)</p>
+</li>
+<li>
+<p class="annotate">Estimate the first (Q1) and third (Q3) quartiles. (1)</p>
 <ol>
-<li><span class="arithmatex">\(P\left(A \cap B^c\right)=0.2\)</span>.</li>
+<li>Q1 ≈ 0.98 kg, Q3 ≈ 1.03 kg</li>
 </ol>
-<p class="annotate">e. Find <span class="arithmatex">\(P\left((A \cup B)^c\right)\)</span>. (1)</p>
+</li>
+<li>
+<p class="annotate">Calculate the interquartile range (IQR). (1)</p>
 <ol>
-<li><span class="arithmatex">\(P\left((A \cup B)^c\right)=0.6\)</span>.</li>
+<li>IQR ≈ 0.05 kg</li>
 </ol>
-<p class="annotate">f. Find <span class="arithmatex">\(P\left(A^c \cup B\right)\)</span>. (1)</p>
+</li>
+<li>
+<p class="annotate">Determine the range of weights. (1)</p>
 <ol>
-<li><span class="arithmatex">\(P\left(A^c \cup B\right)=0.8\)</span>.</li>
+<li>Range ≈ 0.5 kg</li>
 </ol>
-<h4 id="exercise-2-rolling-fair-die">Exercise 2: Rolling Fair Die<a class="headerlink" href="#exercise-2-rolling-fair-die" title="Permanent link">&para;</a></h4>
-<p>I roll a fair die twice and obtain two numbers: <span class="arithmatex">\(X_1=\)</span> result of the first roll, <span class="arithmatex">\(X_2=\)</span> result of the second roll.</p>
-<p class="annotate">a. Find the probability that <span class="arithmatex">\(X_2=4\)</span>. (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{1}{6}\)</span></li>
-</ol>
-<p class="annotate">b. Find the probability that <span class="arithmatex">\(X_1+X_2=7\)</span>. (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{1}{6}\)</span></li>
-</ol>
-<p class="annotate">c. Find the probability that <span class="arithmatex">\(X_1 \neq 2\)</span> and <span class="arithmatex">\(X_2 \geq 4\)</span>. (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{5}{12}\)</span></li>
-</ol>
-<h4 id="exercise-3-venn-and-probability">Exercise 3: Venn and Probability<a class="headerlink" href="#exercise-3-venn-and-probability" title="Permanent link">&para;</a></h4>
-<p>Let <span class="arithmatex">\(A, B\)</span>, and <span class="arithmatex">\(C\)</span> be three events with probabilities given:</p>
-<p><img src="src/venn1.png" width = "200"></p>
-<p>Find the probabilities below. State you answers as irreducible fractions.</p>
-<p class="annotate">a. <span class="arithmatex">\(P(A \mid B)\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{4}{7}\)</span></li>
-</ol>
-<p class="annotate">b. <span class="arithmatex">\(P(C \mid B)\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{3}{7}\)</span></li>
-</ol>
-<p class="annotate">c. <span class="arithmatex">\(P(B \mid A \cup C)\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{5}{14}\)</span></li>
-</ol>
-<p class="annotate">d. <span class="arithmatex">\(P(B \mid (A, C))\)</span> (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{1}{2}\)</span></li>
-</ol>
-<h4 id="exercise-4-more-planes">Exercise 4: More Planes<a class="headerlink" href="#exercise-4-more-planes" title="Permanent link">&para;</a></h4>
-<p>The probability that a regularly scheduled flight departs on time is <span class="arithmatex">\(0.83\)</span>; the probability that it arrives on time is <span class="arithmatex">\(0.82\)</span>; and the probability that it departs and arrives on time is <span class="arithmatex">\(0.78\)</span>. Find the probability that a plane. State your answers as correct to four decimal places.</p>
-<p class="annotate">a. Arrives on time, given that it departed on time (1)</p>
-<ol>
-<li>0.9398</li>
-</ol>
-<p class="annotate">b. Departed on time, given that it has arrived on time (1)</p>
-<ol>
-<li>0.9512</li>
-</ol>
-<p class="annotate">c. Arrives on time, given that it did not depart on time (1)</p>
-<ol>
-<li>0.2353</li>
-</ol>
-<p></details>
-<br></p>
-<h4 id="exercises-5-independence-and-contingency-tables">Exercises 5: Independence and Contingency Tables<a class="headerlink" href="#exercises-5-independence-and-contingency-tables" title="Permanent link">&para;</a></h4>
-<p>A survey was conducted to determine the employment rate of recently graduated engineering students. The survey was conducted one year after graduation and was made for ICT Engineers, Civil Engineers, Mechanical Engineers, and Global Business Engineers. The graduates were classified in one of two employment categories: (1) employed/studying and (2) unemployed. 40% of the respondents had studied ICT Engineering and of these 85% were employed/studying. Of all the respondents, 20% were unemployed. Of the 100 former civil engineering students who took part in the survey, 20% were unemployed. The proportion of unemployed Mechanical and Civil engineering students was the same and the survey included exactly 9 unemployed mechanical engineering students. 300 students took part in the survey.</p>
-<p>a. Based on this information, construct a 2 x 4 contingency table for the survey results.</p>
+</li>
+<li>
+<p>Explain what the outliers represent in this context.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
-<p><img src="src/contingency.png" width = "300"></p>
-<p>Technically, the sums and totals are not part of the contingency tables. They are added to make it easier to calculate the probabilities.</p>
+<p>The outliers represent bags that are significantly underfilled or overfilled compared to the majority of bags.</p>
 </details>
-<p class="annotate">b. What is the probability that an unemployed respondent is a former ICT student? State your answer as an irreducible fraction. (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{3}{10}\)</span></li>
-</ol>
-<p class="annotate">c. If a respondent is unemployed, what is the probability that the respondent was a GBE student? State your answer as an irreducible fraction. (1)</p>
-<ol>
-<li><span class="arithmatex">\(\dfrac{13}{60}\)</span></li>
-</ol>
-<p class="annotate">d. Is being unemployed independent from being a former ICT student? (1)</p>
+</li>
+<li>
+<p>What could the outliers indicate about the factory's filling process?</p>
 <details class="answer">
 <summary>&nbsp;</summary>
-<p>You can compare any a priori probability with the corresponding a posteriori probability. E.g. you found an aposteriori probability of <span class="arithmatex">\(\dfrac{3}{10}\)</span> in (b). The a priori probability is <span class="arithmatex">\(\dfrac{2}{5}\)</span>. Since the two probabilities are not equal, the two events are dependent:</p>
-<p><span class="arithmatex">\(P(\text{ICT} \mid \text{Unemployed}) = \dfrac{3}{10} \neq \dfrac{2}{5} = P(\text{ICT})\)</span></p>
+<p>The outliers could indicate inconsistencies in the filling process, such as equipment malfunctions or human error. They do not suggest inaccuaracy of the scale, rather issues in the filling process itself.</p>
 </details>
-<h4 id="exercise-6-bayes-theorem">Exercise 6: Bayes' Theorem<a class="headerlink" href="#exercise-6-bayes-theorem" title="Permanent link">&para;</a></h4>
-<p>Disease <span class="arithmatex">\(A\)</span> occurs with probability 0.1, and disease <span class="arithmatex">\(B\)</span> occurs with probability 0.2. It is not possible to have both diseases. You have a single test. This test reports positive with probability 0.8 for a patient with disease <span class="arithmatex">\(A\)</span>, with probability 0.5 for a patient with disease <span class="arithmatex">\(B\)</span>, and with probability 0.01 for a patient with no disease - call the latter event <span class="arithmatex">\(W\)</span>. Stating your answer as correct to four decimal places, if the test comes back positive, what is the probability you have either:</p>
-<p>a. Disease <span class="arithmatex">\(A\)</span></p>
-<p>b. Disease <span class="arithmatex">\(B\)</span> or</p>
-<p>c. No disease</p>
-<p>Note: You need to calculate three probabilities; one for each of the three events stated in a-c.</p>
+</li>
+<li>
+<p class="annotate">Based on the box plot, discuss the symmetry or skewness of the weight distribution. (1)</p>
+<ol>
+<li>The box plot appears slightly right skewed.</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Based on the determined skewness, discuss the values of mean, mode, and median. (1)</p>
+<ol>
+<li>In a right-skewed distribution, the mean is typically greater than the median, which is greater than the mode.</li>
+</ol>
+</li>
+</ol>
+<h4 id="exercise-6-empirical-rule-python">Exercise 6: Empirical Rule (Python)<a class="headerlink" href="#exercise-6-empirical-rule-python" title="Permanent link">&para;</a></h4>
+<p>For each dataset below, determine whether the data appear approximately normal, or not.</p>
+<p>Use the Empirical Rule (68.3–95.4–99.7%) to justify your answer.</p>
+<ol>
+<li>
+<p class="annotate">Response Times (ms) - Mean = 300, SD = 50, within 1 SD: 55%, within 2 SD: 78%, within 3 SD: 90% (1)</p>
+<ol>
+<li>Not Normal</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Bug Reports per Week - Mean = 12, SD = 4, within 1 SD: 68%, within 2 SD: 94%, within 3 SD: 99% (1)</p>
+<ol>
+<li>Approximately Normal</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Exam Scores: {55, 60, 62, 65, 68, 70, 72, 75, 78, 80, 82, 85, 88, 90, 92, 95} (1)</p>
+<ol>
+<li>Approximately Normal</li>
+</ol>
+</li>
+<li>
+<p class="annotate">Daily Step Counts (in thousands): {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15} (1)</p>
+<ol>
+<li>Not Normal</li>
+</ol>
+</li>
+</ol>
+<h3 id="challenge-exercises">Challenge Exercises<a class="headerlink" href="#challenge-exercises" title="Permanent link">&para;</a></h3>
+<h4 id="challenge-1-the-german-tank-problem-build-numbers">Challenge 1: The “German Tank” Problem (Build Numbers)<a class="headerlink" href="#challenge-1-the-german-tank-problem-build-numbers" title="Permanent link">&para;</a></h4>
+<p>A military intelligence unit intercepts serial numbers from enemy tanks. The numbers are sequential from 1 to an unknown maximum <span class="arithmatex">\(N\)</span>. In one skirmish they observe (unordered):
+<span class="arithmatex">\(\{12, 38, 71, 5, 44, 73, 29, 55\}\)</span>.</p>
+<p class="annotate">Let <span class="arithmatex">\(n\)</span> be the sample size and <span class="arithmatex">\(m\)</span> the maximum observed number. Compute <span class="arithmatex">\(n\)</span> and <span class="arithmatex">\(m\)</span>. (1)<br /></p>
+<ol>
+<li><span class="arithmatex">\(n=8,\ m=73\)</span></li>
+</ol>
+<p>Two estimators for <span class="arithmatex">\(N\)</span>:  </p>
+<p>MLE: <span class="arithmatex">\(\hat N_{\text{MLE}} = m\)</span>  </p>
+<p>Unbiased: <span class="arithmatex">\(\hat N_{\text{U}} = m\cdot\frac{n+1}{n}-1\)</span>  </p>
+<p>Compute both and give an integer estimate.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
-<p>a. Disease <span class="arithmatex">\(A\)</span>: 0.4278</p>
-<p>b. Disease <span class="arithmatex">\(B\)</span>: 0.5348</p>
-<p>c. No disease: 0.0374</p>
+<p>MLE: <span class="arithmatex">\(\hat N_{\text{MLE}} = 73\)</span></p>
+<p>Unbiased: <span class="arithmatex">\(\hat N_{\text{U}} = 73 \cdot \frac{9}{8} - 1 = 81.125 \approx 81\)</span></p>
 </details>
-<h4 id="exercise-7-challenge-exercise">Exercise 7: Challenge Exercise<a class="headerlink" href="#exercise-7-challenge-exercise" title="Permanent link">&para;</a></h4>
-<p>Only use time on this exercise if you have time left after completing the other exercises and you found them too easy. The problem is taken from the exam in Stochastic Modelling and Processes (IT-SMP1) on the 6<sup>th</sup>/7<sup>th</sup> semester.</p>
-<p>You choose a point <span class="arithmatex">\((A, B)\)</span> uniformly at random in the unit square ${(x, y): 0 \leq x, y \leq 1}.</p>
-<p align="center">
-    <img src="src/challenge.png" width="200">
-</p>
+<p>Suppose the unit later observes a new sample with <span class="arithmatex">\(n=10\)</span> and <span class="arithmatex">\(m=79\)</span>. Without recomputing from scratch, explain which estimator you’d trust more for bias and why.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>The unbiased estimator reduces the systematic underestimation of <span class="arithmatex">\(N\)</span> inherent in <span class="arithmatex">\(m\)</span>; prefer <span class="arithmatex">\(\hat N_{\text{U}}\)</span> for lower bias.</p>
+</details>
+<p>Estimate the fraction of unseen tanks using your chosen <span class="arithmatex">\(\hat N\)</span>: <span class="arithmatex">\((\hat N - m)/\hat N\)</span>. Interpret it. </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Using <span class="arithmatex">\(\hat N_{\text{U}} = 81\)</span>: Fraction unseen = <span class="arithmatex">\((81 - 79)/81 \approx 0.0247\)</span> or about 2.47%. This suggests that approximately 2.47% of the total tank production has not been observed in the sample.</p>
+</details>
+<p>Derive a one‐sided 95% upper bound for <span class="arithmatex">\(N\)</span> from <span class="arithmatex">\( \mathbb{P}(M\le m)=(m/N)^n \)</span> and compare to your point estimates.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Solving <span class="arithmatex">\( (m/N)^n = 0.95 \)</span> for <span class="arithmatex">\(N\)</span> gives <span class="arithmatex">\( N = m / (0.95^{1/n}) \)</span>. For <span class="arithmatex">\(m=79\)</span> and <span class="arithmatex">\(n=10\)</span>, this yields <span class="arithmatex">\( N \approx 79 / (0.95^{0.1}) \approx 79.4 \)</span>. Thus, a one-sided 95% upper bound for <span class="arithmatex">\(N\)</span> is approximately 80, which aligns closely with the unbiased estimate of 81.</p>
+</details>
+<p>Try to think about how descriptive statistics can help analysing other aspects of the data, e.g., what if the enemy is intentionally skipping numbers?</p>
+<p><a href="https://www.youtube.com/watch?v=WLCwMRJBhuI">3 min YT Video</a></p>
+<h4 id="challenge-2-simpsons-paradox-in-admissions">Challenge 2: Simpson’s Paradox in Admissions<a class="headerlink" href="#challenge-2-simpsons-paradox-in-admissions" title="Permanent link">&para;</a></h4>
+<p>A university runs an admissions process for two departments. Each department admits students under <strong>Program A</strong> and <strong>Program B</strong>. Within each department, Program A has a higher admission rate than Program B, yet overall Program B has a higher admission rate.</p>
+<p>Data:</p>
+<table>
+<thead>
+<tr>
+<th>Department</th>
+<th>Program</th>
+<th>Admitted</th>
+<th>Applicants</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>X</td>
+<td>A</td>
+<td>10</td>
+<td>50</td>
+</tr>
+<tr>
+<td>X</td>
+<td>B</td>
+<td>171</td>
+<td>950</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>A</td>
+<td>19</td>
+<td>950</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>B</td>
+<td>1</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>
+<p>Compute per-department admission rates for A and B. Decide the winner <strong>within each department</strong>.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>Dept. X: A <span class="arithmatex">\(=10/50=20\%\)</span>, B <span class="arithmatex">\(=171/950=18\%\)</span> → A wins<br />
+Dept. Y: A <span class="arithmatex">\(=19/950=2.0\%\)</span>, B <span class="arithmatex">\(=1/50=2.0\%\)</span> → tie</p>
+</details>
+</li>
+<li>
+<p>Compute <strong>overall</strong> admission rates for A and B. Who wins overall?</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>A <span class="arithmatex">\(=(10+19)/(50+950)=29/1000=2.9\%\)</span><br />
+B <span class="arithmatex">\(=(171+1)/(950+50)=172/1000=17.2\%\)</span> → <strong>B wins overall</strong></p>
+</details>
+</li>
+<li>
+<p>Explain precisely why this does <strong>not</strong> contradict the results from before. Use weighted averages language.  </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>The overall rate is a weighted average of department-specific rates with <strong>different weights</strong>. A’s applicants are mostly in the tougher department, B’s in the easier one. This imbalance flips the aggregate outcome—<strong>Simpson’s paradox</strong>.</p>
+</details>
+</li>
+<li>
+<p>Give a statistically sound decision rule to avoid being misled here, and compute the appropriate aggregate under that rule. </p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><strong>Stratify</strong> by department and compare programs within each stratum; then combine with <strong>common weights</strong> (e.g., equal mix) or use a regression with department as a covariate. If applicants were equally split across departments, Program A would be favored since A ≥ B in both strata.</p>
+</details>
+</li>
+</ol>
+<p><a href="https://www.youtube.com/watch?v=ebEkn-BiW5k">5 min YT video</a></p>
 
-<p>What is the probability that the equation</p>
-<div class="arithmatex">\[
-A X^2+X+B=0
-\]</div>
-<p>has real solutions?</p>
-<p><a href="Solution7.pdf">solution</a></p>
-<h3 id="additional-solutions">Additional Solutions<a class="headerlink" href="#additional-solutions" title="Permanent link">&para;</a></h3>
-<p><a href="https://github.com/RBrooksDK/MSE1/blob/main/06_Conditional_Probability_and_Bayes_Theorem/some_solutions.ipynb">Some Python Solutions</a></p>
-<p><a href="https://drive.google.com/open?id=1lCgiFIzOLAuDSEQjUyeZiyWsWt63Ex8d&amp;usp=drive_fs">Solutions made in class</a></p>
 
 
 
 
 
 
+  
+  
 
 
 
