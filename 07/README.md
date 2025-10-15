@@ -1,68 +1,31 @@
+---
+tags:
+    - Linear algebra
+    - Systems of linear equations
+    - Row reduction
+    - Echelon form
+    - Reduced row echelon form
+    - Matrix operations
+    - Matrices
+---
+
 <h1 align="center">Introduction to Linear Algebra</h1>
 
-### Session Preparation
+### Session Preparation:
 
-Brooks: [Chapter 7](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing). You should begin reading before class as it will aid your understanding as the topics get more complex.
+Brooks: [Chapter 7](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
 
-Note: Please make sure you have a working version of Python 3.7 (or higher) and Jupyter Notebook installed **before** this session. I recommend using VS code with the Jupyter Notebook plugin.
+Some of the exercises may require you to use Python. You may also need to install the `numpy` and `sympy` libraries if you haven't already.
 
-[”Visual Studio Code” (Frontpage)](https://code.visualstudio.com/)
+### Resources Danish Class:
 
-[”Visual Studio Code” (YouTube)](https://www.youtube.com/@code)
+[Session notes](MISSING_LINK)
 
-[“Learn Visual Studio Code in 7min (Official Beginner Tutorial)”](https://www.youtube.com/watch?v=B-s71n0dHUk)
+[Session Resources](MISSING_LINK)
 
-[”Get started with Jupyter Notebooks in less than 4 minutes”](https://www.youtube.com/watch?v=h1sAzPojKMg)
+### Exercises
 
-### Session Material
-
-[Session notes](https://drive.google.com/file/d/1sCxNPidcijgYbLLYf5Y51u1fOjVbV59Y/view?usp=sharing)
-
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EkjUOJhNa7lFscFUs9rWtwsB_2p-THcKaRcRj3M3LYR99g?e=EEL3eg)
-
---------------------------
-
-### Topic Description
-This session introduces the fundamental concepts of linear algebra, focusing on systems of linear equations and their solutions. We will learn how to represent these systems using coefficient matrices and augmented matrices, and how to manipulate them using elementary row operations. We will explore the concepts of echelon forms, pivot positions, and the row reduction algorithm, which are essential for solving linear systems. By the end of this session, students should be able to solve linear systems using row reduction and understand the geometric interpretation of span in $\mathbb{R}^2$ and $\mathbb{R}^3$.
-
-#### Key Concepts
-- Coefficient Matrix and Augmented Matrix
-- Elementary Row Operations: Replacement, Interchange, Scaling
-- Echelon Form and Reduced Echelon Form
-- Pivot Positions and Pivot Columns
-- Basic Variables and Free Variables
-- Introduction to Python for Linear Algebra
-- Working with Matrices in Python using NumPy
-- Symbolic Computation with SymPy
-- Handling Data with Pandas DataFrames
-
---------------------------
-
-### Exercises for recitation
-
-#### Exercise 1: Recap Conditional Probability
-In a town of 20,000 people, a crime was committed. Evidence suggests that the perpetrator must be someone from the town. The police have found blood at the crime scene, and they are sure that this blood belongs to the perpetrator. The probability that a random innocent person matches the blood type of the evidence is 0.01. 
-
-a. What is the probability that a random person from town is guilty?
-
-??? answer "&nbsp;"
-    $\frac{1}{20000}=0.00005$
-
-b. What is the probability that a random person from town is guilty given that the person matches the blood type of the evidence?
-
-??? answer "&nbsp;"
-    $0.00498 = 0.498$%
-
-
-From the blood sample it is possible to extract a DNA profile such that the probability that a random innocent person will match the DNA profile is 0.0001.
-
-c. What is the probability that a random person from town is guilty given that the person matches the DNA-profile of the evidence?
-
-??? answer "&nbsp;"
-    $0.333 = 33.3$%
-
-
-#### Exercise 2: Echelon and Reduced Echelon Form
+#### Exercise 1: Echelon and Reduced Echelon Form
 Determine whether the following matrices are in reduced echelon form, echelon form, or neither.
 
 a. $\begin{bmatrix} 1 & 0 & 2 & 1\\ 
@@ -110,7 +73,7 @@ $\begin{bmatrix} 1 & 0 & 0 & 1\\
 
 
 
-#### Exercise 3: Row operations
+#### Exercise 2: Row operations
 Explain which row operations are used in the calculations below.
 
 a.
@@ -209,7 +172,7 @@ g. The reduced matrix from (f)  is the augmented matrix for a system of linear e
 ??? answer "&nbsp;"
     The system has a unique solution, since there is a pivot in each column of the coefficient part of the reduced matrix.
 
-#### Exercise 4: System of linear equations
+#### Exercise 3: System of linear equations
 Given the following system of linear equations:
 
 $$
@@ -246,7 +209,7 @@ b. Use row operations to get the reduced row echelon form of the matrix and writ
         x_3 = 2
     \end{cases}$
 
-#### Exercise 5: Row Reduction
+#### Exercise 4: Row Reduction
 Solve the systems whose augmented matrices are given below. Write down the general solution, i.e. write the basic variables in terms of the free variables. 
 
 a. $\begin{bmatrix} 1 & 2 & 3 & 4\\
@@ -267,7 +230,7 @@ b. $\begin{bmatrix} 1 & -1 & -2 & 3\\
         x_1 = -2+2x_3\\
         x_2 = -5\\
         x_3 \text{ free}
-\end{cases}$
+    \end{cases}$
 
 c. $\begin{bmatrix} -2 & 4 & -3 & 0\\
                     4 & -8 & 6& 0\\
@@ -280,7 +243,7 @@ c. $\begin{bmatrix} -2 & 4 & -3 & 0\\
         x_3 \text{ free}
     \end{cases}$
 
-#### Exercise 6: Consistency of the system
+#### Exercise 5: Consistency of the system
 Which of the augmented matrices below represent an inconsistent system of equations?
 
 a. $\begin{bmatrix}
@@ -343,7 +306,7 @@ g. For the consistent systems find the general solution.
     \end{cases}$
 
 
-#### Exercise 7: Plan a diet
+#### Exercise 6: Plan a diet
 Use Python to solve this exercise. 
 
 For a week you decide to eat only butter, apples, and oats.
