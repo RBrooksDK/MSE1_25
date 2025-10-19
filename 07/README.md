@@ -19,9 +19,9 @@ Some of the exercises may require you to use Python. You may also need to instal
 
 ### Resources Danish Class:
 
-[Session notes](MISSING_LINK)
+[Session notes](https://drive.google.com/file/d/1pfrbRf2fb2jAqhIg1xhlJw0KHmDjXqds/view?usp=sharing)
 
-[Session Resources](MISSING_LINK)
+[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EkjUOJhNa7lFscFUs9rWtwsB_2p-THcKaRcRj3M3LYR99g?e=LzRrSp)
 
 ### Exercises
 
