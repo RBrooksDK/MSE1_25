@@ -1,39 +1,27 @@
+---
+tags:
+    - Linear algebra
+    - Systems of linear equations
+    - Matrix operations
+    - Matrices
+    - Linear transformations    
+---
+
 <h1 align="center">Vectors and Matrices</h1>
 
-### Session Preparation
+### Session Preparation:
 
-Brooks: [Chapter 8](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing). You should begin reading before class as it will aid your understanding as the topics get more complex.
+Brooks: [Chapter 8](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RBrooksDK/MSE_book_v2/master/main.pdf)
 
-### Session Material
+Some of the exercises may require you to use Python. You may also need to install the `numpy` and `sympy` libraries if you haven't already.
 
-[Session notes](https://drive.google.com/file/d/1FCAtAWjoSxS66AdYO0L3W7tjd4ZHPaxJ/view?usp=sharing)
+### Resources Danish Class:
 
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/Ep-kuPOC2r5NsJOp-SzZ1U8BsPWE1ZL0SEZTvJ8NXxrsHQ?e=SrV1vE)
+[Session notes](MISSING LINK)
 
---------------------------
+[Session Resources](MISSING LINK)
 
-### Topic Description
-Today, we will explore the fundamental concepts that form the backbone of linear algebra. We'll start with **vectors**, understanding how these entities with magnitude and direction are essential for representing data and physical quantities in multiple dimensions.
-
-Next, we'll delve into **vector equations** to see how relationships between vectors are expressed and solved. This will naturally lead us to **matrix equations**, where we'll discover powerful methods for handling multiple equations and unknowns simultaneously.
-
-We'll examine the **solution set of a linear system**, exploring scenarios with unique solutions, infinitely many solutions, or no solution at all. By connecting algebraic methods to geometric interpretations, we'll visualize how lines and planes intersect in space.
-
-To better understand complex solution sets, we'll introduce the **parametric vector form**, which uses parameters to describe all possible solutions of a system clearly. Finally, we'll tackle **linear independence and dependence**, learning how these concepts determine the minimal set of vectors needed to span a space.
-
-By the end of the session, we'll have built a strong foundation in these core concepts, preparing us for more advanced topics in linear algebra.
-
-#### Key Concepts
-- Vectors
-- Vector Equations
-- Matrix Equations
-- Solution Set of a Linear System
-- Parametric Vector Form
-- Linear Independence and Dependence
-
---------------------------
-
-### Exercises for recitation
+### Exercises
 
 #### Exercise 1: Recap
 
@@ -43,65 +31,66 @@ $A =\begin{bmatrix}
     1 &  -2 &  0 &  -1 & 1\\
     -4 &  8 &  2 &  4 & -8\\
     -2 &  4 &  0 &  1 &  -2
-\end{bmatrix}$
-​
+\end{bmatrix}$​
 
-a. What is the size of the matrix? (1)
+1. What is the size of the matrix? (1)
 { .annotate }
 
-1. $3\times5$
+    1. $3\times5$
 
-b. Reduce the matrix to echelon form (either by hand or by doing seperate row operations in Python)
+2. Reduce the matrix to echelon form (either by hand or by doing seperate row operations in Python)
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    Note. There are many ways to reduce the matrix to echelon form. Here is one way to do it.
+        Note. There are many ways to reduce the matrix to echelon form. Here is one way to do it.
 
-    $\begin{bmatrix}
-        1 &  -2 &  0 &  -1 & 1 \\\
-        0 &  0 &  2 &  0 & -4 \\\
-        0 &  0 &  0 &  -1 &  0
-    \end{bmatrix}$
+        $\begin{bmatrix}
+            1 &  -2 &  0 &  -1 & 1 \\
+            0 &  0 &  2 &  0 & -4 \\
+            0 &  0 &  0 &  -1 &  0
+        \end{bmatrix}$
 
-c. Use the echelon form to find the basic variables and free variables
+3. Use the echelon form to find the basic variables and free variables
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    The basic variables are $x_1$, $x_3$ and $x_4$ and the free variable is $x_2$
+        The basic variables are $x_1$, $x_3$ and $x_4$ and the free variable is $x_2$
 
-d. Find the general solution to the system and write the basic variables in terms of the free variables
+4. Find the general solution to the system and write the basic variables in terms of the free variables
 
-??? answer "&nbsp;"
-    Express $x_1, x_3$, and $x_4$ in terms of the free variable $x_2$ :
-    1. From Row 1: $x_1-2 x_2=1 \Rightarrow x_1=2 x_2+1$
-    2. From Row 2: $x_3=-2$
-    3. From Row 3: $x_4=0$
+    ??? answer "&nbsp;"
+        Express $x_1, x_3$, and $x_4$ in terms of the free variable $x_2$ :
+        1. From Row 1: $x_1-2 x_2=1 \Rightarrow x_1=2 x_2+1$
+        2. From Row 2: $x_3=-2$
+        3. From Row 3: $x_4=0$
 
-e. Mark each of the following statements as TRUE or FALSE
+5. Mark each of the following statements as TRUE or FALSE
 
-(i)  The matrix A describes a system of five equations and three variables (1)
-{ .annotate }
+    (i)  The matrix A describes a system of five equations and three variables (1)
+    { .annotate }
 
-1. FALSE
+    1. FALSE
 
-(ii)  The matrix A describes a consistent system of equations (1)
-{ .annotate }
+    (ii)  The matrix A describes a consistent system of equations (1)
+    { .annotate }
 
-1. TRUE
+    1. TRUE
 
-(iii)  A 3x5 augmented matrix can not have a unique solution (1)
-{ .annotate }
+    (iii)  A 3x5 augmented matrix can not have a unique solution (1)
+    { .annotate }
 
-1. TRUE
-(iv)  A 3x5 augmented matrix will always be consistent (1)
-{ .annotate }
+    1. TRUE
 
-1. FALSE
+    (iv)  A 3x5 augmented matrix will always be consistent (1)
+    { .annotate }
+
+    1. FALSE
 
 #### Exercise 2: Matrix and vector equations
+
 For each of the following systems of linear equations write it as (i) an augmented matrix (ii) a vector equation and (iii) a matrix equation.
 
-a. $\begin{cases}
+1. $\begin{cases}
     2x_1 +3x_2 - 4x_3 =8\\
     -x_2 +x_3 + 2x_4 = -2\\
     -x_1 + 2x_4 = 3
@@ -133,7 +122,7 @@ a. $\begin{cases}
         8\\-2\\3
     \end{bmatrix}$
 
-b. $\begin{cases}
+2. $\begin{cases}
     x_1 + x_2 = 2\\
     x_1 -x_2 = 4
 \end{cases}$
@@ -163,7 +152,7 @@ b. $\begin{cases}
     \end{bmatrix}$
 
 
-c.$\begin{cases}
+3.$\begin{cases}
     x_1 = 4\\
     x_2 = -1\\
     x_3 = 10
@@ -202,26 +191,26 @@ $\mathbf{v}_1=\begin{bmatrix}1\\ -2\\ 4\end{bmatrix}$, $\mathbf{v}_2=\begin{bmat
 
 Calculate the linear combinations below.
 
-a. $2\mathbf{v}_1+3\mathbf{v}_2+\mathbf{v}_3$
+1. $2\mathbf{v}_1+3\mathbf{v}_2+\mathbf{v}_3$
 
 
 ??? answer "&nbsp;"
 
     $\begin{bmatrix}10\\1\\15\end{bmatrix}$
 
-b. $\mathbf{v}_1-\mathbf{v}_3$
+2. $\mathbf{v}_1-\mathbf{v}_3$
 
 ??? answer "&nbsp;"
 
     $\begin{bmatrix}2\\-7\\3\end{bmatrix}$
 
-c. $\frac{1}{2}\mathbf{v}_1+\frac{3}{2}\mathbf{v}_2+\mathbf{v}_3$
+3. $\frac{1}{2}\mathbf{v}_1+\frac{3}{2}\mathbf{v}_2+\mathbf{v}_3$
 
 ??? answer "&nbsp;"
 
     $\begin{bmatrix}4\\4\\6\end{bmatrix}$
 
-d. Find the solution to the linear system described by the augmented matrix
+4. Find the solution to the linear system described by the augmented matrix
 
 \[
 \begin{bmatrix}
@@ -244,12 +233,12 @@ d. Find the solution to the linear system described by the augmented matrix
 In the following exercises, the solution to a set of linear equations has already been found. Your job
 is to write the solution on parametric vector form.
 
-a. A system has been found to have the solution
+1. A system has been found to have the solution
 
 $$
 \begin{aligned}
-x_1 &= 4 - x_2 \\\
-x_2 &= x_2 \\\
+x_1 &= 4 - x_2 \\
+x_2 &= x_2 \\
 x_3 &= -1 + 3x_2
 \end{aligned}
 $$
@@ -271,7 +260,7 @@ where $x_2$ is a free variable. Write the solution in parametric vector form.
     3
     \end{array}\right]$
 
-b. A system of equations has been found to have the solution
+2. A system of equations has been found to have the solution
 
 $$
 \begin{aligned}
@@ -316,23 +305,23 @@ where $x_3$ and $x_4$ are free variables. Write the solution in parametric vecto
 #### Exercise 5: Homogenous equation
 Solve the homogenous equation $A\mathbf{x}=\mathbf{0}$ for the following matrices. Write the solution in parametric vector form.
 
-a. $\begin{bmatrix}
+1. $\begin{bmatrix}
     4 & -8\\
     -3 & 6\end{bmatrix}$
 
 ??? answer "&nbsp;"
     $\mathbf{x}=x_2\left[\begin{array}{l}2 \\ 1\end{array}\right]$
 
-b. $\begin{bmatrix}
-    4 & -9 & 1 \\\
-    2 & -5 & 1 \\\
+2. $\begin{bmatrix}
+    4 & -9 & 1 \\
+    2 & -5 & 1 \\
     -3 & 1 & 5 \end{bmatrix}$
 
 ??? answer "&nbsp;"
     $\mathbf{x}=x_3\left[\begin{array}{l}2 \\ 1 \\ 1\end{array}\right]$
 
-c.$\begin{bmatrix}
-2 & -10 & 6 \\\
+3.$\begin{bmatrix}
+2 & -10 & 6 \\
 1 & -5 & 3
 \end{bmatrix}$
 
@@ -341,7 +330,7 @@ c.$\begin{bmatrix}
 
 $\mathbf{x}=x_2\left[\begin{array}{l}5 \\\ 1 \\\ 0\end{array}\right]+x_3\left[\begin{array}{c}-3 \\\ 0 \\\ 1\end{array}\right]$
 
-d. For the exercises (a)-(c) give a geometric interpretation of the solution set.
+4. For the exercises (a)-(c) give a geometric interpretation of the solution set.
 
 ??? answer "&nbsp;"
     (a) The solution set is a line in $\mathbb{R}^2$, as it has one free variable, representing a one-dimensional subspace.  
@@ -350,28 +339,28 @@ d. For the exercises (a)-(c) give a geometric interpretation of the solution set
 
 #### Exercise 6: Linear Independence
 
-a. For $\mathbf{a}_1 = 
+1. For $\mathbf{a}_1 = 
         \begin{bmatrix}
-            2 \\\
-            3 \\\
+            2 \\
+            3 \\
             0
         \end{bmatrix}$,
     $\mathbf{a}_2 = 
         \begin{bmatrix}
-            1\\\
-            2\\\
+            1\\
+            2\\
             -5
         \end{bmatrix}$,
     $\mathbf{a}_3 = 
         \begin{bmatrix}
-            4\\\
-            1\\\
+            4\\
+            1\\
             2
         \end{bmatrix}$, and
     $\mathbf{b} = 
         \begin{bmatrix}
-            8\\\
-            6\\\
+            8\\
+            6\\
             12
         \end{bmatrix}$ 
 determine if $\mathbf{b}$ is a linear combination of $\mathbf{a}_1,\mathbf{a}_2$ and $\mathbf{a}_3$.
@@ -379,7 +368,7 @@ determine if $\mathbf{b}$ is a linear combination of $\mathbf{a}_1,\mathbf{a}_2$
 ??? answer "&nbsp;"
     Yes, since $\mathbf{b}=3\mathbf{a}_1-2\mathbf{a}_2+\mathbf{a}_3$
 
-b.
+2.
 Let $A = \begin{bmatrix}1  & -2 & 4 \\
                         0  & 4  & -5 \\
                         -3 & 6  & -12 \end{bmatrix}$ and
@@ -390,8 +379,8 @@ Let $A = \begin{bmatrix}1  & -2 & 4 \\
 
     No $\mathbf{b}$ is not a linear combination of the columns of $A$
 
-c. For $A = \begin{bmatrix}2  & -6 & 5 \\\
-                        1  & -5  & 1 \\\
+3. For $A = \begin{bmatrix}2  & -6 & 5 \\
+                        1  & -5  & 1 \\
                         -2 & 6  & p \end{bmatrix}$ and
         $\mathbf{b}= \begin{bmatrix}3 \\\ 0 \\\ q\end{bmatrix}$ 
     determine the values of $p$ and $q$ such that $\mathbf{b}$ is not a linear combination of the columns of $A$.
