@@ -94,95 +94,95 @@ For each of the following systems of linear equations write it as (i) an augment
     2x_1 +3x_2 - 4x_3 =8\\
     -x_2 +x_3 + 2x_4 = -2\\
     -x_1 + 2x_4 = 3
-\end{cases}$
+    \end{cases}$
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    (i) Augmented matrix:
-    $\begin{bmatrix}
-        2 & 3 & -4 & 0 &  8\\
-        0 & -1&  1 & 2 & -2\\
-        -1& 0 & 0 & 2 & 3 
-    \end{bmatrix}$
+        (i) Augmented matrix:
+        $\begin{bmatrix}
+            2 & 3 & -4 & 0 &  8\\
+            0 & -1&  1 & 2 & -2\\
+            -1& 0 & 0 & 2 & 3 
+        \end{bmatrix}$
 
-    (ii) Vector equation:
-    $x_1\begin{bmatrix}2\\\ 0\\\ -1\end{bmatrix} + x_2\begin{bmatrix}3\\\ -1\\\ 0\end{bmatrix}+ x_3\begin{bmatrix}-4\\\ 1\\\ 0\end{bmatrix}+ x_4\begin{bmatrix}0\\\ 2\\\ 2\end{bmatrix}=\begin{bmatrix}8\\\ -2\\\ 3\end{bmatrix}$
+        (ii) Vector equation:
+        $x_1\begin{bmatrix}2\\\ 0\\\ -1\end{bmatrix} + x_2\begin{bmatrix}3\\\ -1\\\ 0\end{bmatrix}+ x_3\begin{bmatrix}-4\\\ 1\\\ 0\end{bmatrix}+ x_4\begin{bmatrix}0\\\ 2\\\ 2\end{bmatrix}=\begin{bmatrix}8\\\ -2\\\ 3\end{bmatrix}$
 
-    (iii) Matrix equation:
-    $\begin{bmatrix}
-        2 & 3 & -4 & 0 \\
-        0 & -1&  1 & 2 \\
-        -1& 0 & 0 & 2 
-    \end{bmatrix}
-    \begin{bmatrix}
-        x_1\\x_2\\x_3\\x_4
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-        8\\-2\\3
-    \end{bmatrix}$
+        (iii) Matrix equation:
+        $\begin{bmatrix}
+            2 & 3 & -4 & 0 \\
+            0 & -1&  1 & 2 \\
+            -1& 0 & 0 & 2 
+        \end{bmatrix}
+        \begin{bmatrix}
+            x_1\\x_2\\x_3\\x_4
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            8\\-2\\3
+        \end{bmatrix}$
 
 2. $\begin{cases}
     x_1 + x_2 = 2\\
     x_1 -x_2 = 4
-\end{cases}$
+    \end{cases}$
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    (i) Augmented matrix:
-    $\begin{bmatrix}
-        1 & 1 & 2\\
-        1 & -1& 4
-    \end{bmatrix}$
+        (i) Augmented matrix:
+        $\begin{bmatrix}
+            1 & 1 & 2\\
+            1 & -1& 4
+        \end{bmatrix}$
 
-    (ii) Vector equation:
-    $x_1\begin{bmatrix}1\\1\end{bmatrix}+ x_2\begin{bmatrix}1\\-1\end{bmatrix}=\begin{bmatrix}2\\4\end{bmatrix}$
+        (ii) Vector equation:
+        $x_1\begin{bmatrix}1\\1\end{bmatrix}+ x_2\begin{bmatrix}1\\-1\end{bmatrix}=\begin{bmatrix}2\\4\end{bmatrix}$
 
-    (iii) Matrix equation:
-    $\begin{bmatrix}
-        1 & 1 \\
-        1 & -1
-    \end{bmatrix}
-    \begin{bmatrix}
-        x_1\\x_2
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-        2\\4
-    \end{bmatrix}$
+        (iii) Matrix equation:
+        $\begin{bmatrix}
+            1 & 1 \\
+            1 & -1
+        \end{bmatrix}
+        \begin{bmatrix}
+            x_1\\x_2
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            2\\4
+        \end{bmatrix}$
 
 
-3.$\begin{cases}
+3. $\begin{cases}
     x_1 = 4\\
     x_2 = -1\\
     x_3 = 10
-\end{cases}$
+    \end{cases}$
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    (i) Augmented matrix:
-    $\begin{bmatrix}
-        1 & 0 & 0 & 4\\
-        0 & 1 & 0 & -1\\
-        0 & 0 & 1 & 10
-    \end{bmatrix}$
+        (i) Augmented matrix:
+        $\begin{bmatrix}
+            1 & 0 & 0 & 4\\
+            0 & 1 & 0 & -1\\
+            0 & 0 & 1 & 10
+        \end{bmatrix}$
 
-    (ii) Vector equation:
-    $x_1\begin{bmatrix}1\\0\\0\end{bmatrix}+ x_2\begin{bmatrix}0\\1\\0\end{bmatrix}+x_3\begin{bmatrix}0\\0\\1\end{bmatrix}=\begin{bmatrix}4\\-1\\10\end{bmatrix}$
+        (ii) Vector equation:
+        $x_1\begin{bmatrix}1\\0\\0\end{bmatrix}+ x_2\begin{bmatrix}0\\1\\0\end{bmatrix}+x_3\begin{bmatrix}0\\0\\1\end{bmatrix}=\begin{bmatrix}4\\-1\\10\end{bmatrix}$
 
-    (iii) Matrix equation:
-    $\begin{bmatrix}
-        1 & 0 & 0 \\
-        0 & 1 & 0\\
-        0 & 0 & 1
-    \end{bmatrix}
-    \begin{bmatrix}
-        x_1\\x_2\\x_3
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-        4\\-1\\10
-    \end{bmatrix}$
+        (iii) Matrix equation:
+        $\begin{bmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0\\
+            0 & 0 & 1
+        \end{bmatrix}
+        \begin{bmatrix}
+            x_1\\x_2\\x_3
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            4\\-1\\10
+        \end{bmatrix}$
 
 #### Exercise 3: Linear combinations
 Let
@@ -194,39 +194,39 @@ Calculate the linear combinations below.
 1. $2\mathbf{v}_1+3\mathbf{v}_2+\mathbf{v}_3$
 
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    $\begin{bmatrix}10\\1\\15\end{bmatrix}$
+        $\begin{bmatrix}10\\1\\15\end{bmatrix}$
 
 2. $\mathbf{v}_1-\mathbf{v}_3$
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    $\begin{bmatrix}2\\-7\\3\end{bmatrix}$
+        $\begin{bmatrix}2\\-7\\3\end{bmatrix}$
 
 3. $\frac{1}{2}\mathbf{v}_1+\frac{3}{2}\mathbf{v}_2+\mathbf{v}_3$
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    $\begin{bmatrix}4\\4\\6\end{bmatrix}$
+        $\begin{bmatrix}4\\4\\6\end{bmatrix}$
 
 4. Find the solution to the linear system described by the augmented matrix
 
-\[
-\begin{bmatrix}
-     1 & 3 & -1 & 10 \\
-     -2 & 0 & 5 & 1 \\
-     4 & 2 & 1 & 15
-\end{bmatrix}
-\]
+    \[
+    \begin{bmatrix}
+        1 & 3 & -1 & 10 \\
+        -2 & 0 & 5 & 1 \\
+        4 & 2 & 1 & 15
+    \end{bmatrix}
+    \]
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
 
-    $\begin{cases}
-    x_1 = 2\\
-    x_2 = 3\\
-    x_3 = 1
-    \end{cases}$
+        $\begin{cases}
+        x_1 = 2\\
+        x_2 = 3\\
+        x_3 = 1
+        \end{cases}$
 
 
 #### Exercise 4: Parametric vector form
@@ -235,71 +235,71 @@ is to write the solution on parametric vector form.
 
 1. A system has been found to have the solution
 
-$$
-\begin{aligned}
-x_1 &= 4 - x_2 \\
-x_2 &= x_2 \\
-x_3 &= -1 + 3x_2
-\end{aligned}
-$$
+    $$
+    \begin{aligned}
+    x_1 &= 4 - x_2 \\
+    x_2 &= x_2 \\
+    x_3 &= -1 + 3x_2
+    \end{aligned}
+    $$
 
-where $x_2$ is a free variable. Write the solution in parametric vector form.
+    where $x_2$ is a free variable. Write the solution in parametric vector form.
 
-??? answer "&nbsp;"
-    $\left[\begin{array}{l}
-    x_1 \\
-    x_2 \\
-    x_3
-    \end{array}\right]=\left[\begin{array}{c}
-    4 \\
-    0 \\
-    -1
-    \end{array}\right]+x_2\left[\begin{array}{c}
-    -1 \\
-    1 \\
-    3
-    \end{array}\right]$
+    ??? answer "&nbsp;"
+        $\left[\begin{array}{l}
+        x_1 \\
+        x_2 \\
+        x_3
+        \end{array}\right]=\left[\begin{array}{c}
+        4 \\
+        0 \\
+        -1
+        \end{array}\right]+x_2\left[\begin{array}{c}
+        -1 \\
+        1 \\
+        3
+        \end{array}\right]$
 
 2. A system of equations has been found to have the solution
 
-$$
-\begin{aligned}
-x_1 &= 5 + 4x_4 \\
-x_2 &= 2 \\
-x_3 &= x_3 \\
-x_4 &= x_4 \\
-x_5 &= -8 + x_3 - 7x_4
-\end{aligned}
-$$
+    $$
+    \begin{aligned}
+    x_1 &= 5 + 4x_4 \\
+    x_2 &= 2 \\
+    x_3 &= x_3 \\
+    x_4 &= x_4 \\
+    x_5 &= -8 + x_3 - 7x_4
+    \end{aligned}
+    $$
 
-where $x_3$ and $x_4$ are free variables. Write the solution in parametric vector form.
+    where $x_3$ and $x_4$ are free variables. Write the solution in parametric vector form.
 
-??? answer "&nbsp;"
-    $\left[\begin{array}{l}
-    x_1 \\
-    x_2 \\
-    x_3 \\
-    x_4 \\
-    x_5
-    \end{array}\right]=\left[\begin{array}{c}
-    5 \\
-    2 \\
-    0 \\
-    0 \\
-    -8
-    \end{array}\right]+x_3\left[\begin{array}{l}
-    0 \\
-    0 \\
-    1 \\
-    0 \\
-    1
-    \end{array}\right]+x_4\left[\begin{array}{c}
-    4 \\
-    0 \\
-    0 \\
-    1 \\
-    -7
-    \end{array}\right]$
+    ??? answer "&nbsp;"
+        $\left[\begin{array}{l}
+        x_1 \\
+        x_2 \\
+        x_3 \\
+        x_4 \\
+        x_5
+        \end{array}\right]=\left[\begin{array}{c}
+        5 \\
+        2 \\
+        0 \\
+        0 \\
+        -8
+        \end{array}\right]+x_3\left[\begin{array}{l}
+        0 \\
+        0 \\
+        1 \\
+        0 \\
+        1
+        \end{array}\right]+x_4\left[\begin{array}{c}
+        4 \\
+        0 \\
+        0 \\
+        1 \\
+        -7
+        \end{array}\right]$
 
 
 #### Exercise 5: Homogenous equation
@@ -309,81 +309,79 @@ Solve the homogenous equation $A\mathbf{x}=\mathbf{0}$ for the following matrice
     4 & -8\\
     -3 & 6\end{bmatrix}$
 
-??? answer "&nbsp;"
-    $\mathbf{x}=x_2\left[\begin{array}{l}2 \\ 1\end{array}\right]$
+    ??? answer "&nbsp;"
+        $\mathbf{x}=x_2\left[\begin{array}{l}2 \\ 1\end{array}\right]$
 
 2. $\begin{bmatrix}
     4 & -9 & 1 \\
     2 & -5 & 1 \\
     -3 & 1 & 5 \end{bmatrix}$
 
-??? answer "&nbsp;"
-    $\mathbf{x}=x_3\left[\begin{array}{l}2 \\ 1 \\ 1\end{array}\right]$
+    ??? answer "&nbsp;"
+        $\mathbf{x}=x_3\left[\begin{array}{l}2 \\ 1 \\ 1\end{array}\right]$
 
-3.$\begin{bmatrix}
-2 & -10 & 6 \\
-1 & -5 & 3
-\end{bmatrix}$
+3. $\begin{bmatrix}
+    2 & -10 & 6 \\
+    1 & -5 & 3
+    \end{bmatrix}$
 
-??? answer "&nbsp;"
-    $\mathbf{x}=x_2\left[\begin{array}{l}5 \\ 1 \\ 0\end{array}\right]+x_3\left[\begin{array}{c}-3 \\ 0 \\ 1\end{array}\right]$
+    ??? answer "&nbsp;"
+        $\mathbf{x}=x_2\left[\begin{array}{l}5 \\ 1 \\ 0\end{array}\right]+x_3\left[\begin{array}{c}-3 \\ 0 \\ 1\end{array}\right]$
 
-$\mathbf{x}=x_2\left[\begin{array}{l}5 \\\ 1 \\\ 0\end{array}\right]+x_3\left[\begin{array}{c}-3 \\\ 0 \\\ 1\end{array}\right]$
+        $\mathbf{x}=x_2\left[\begin{array}{l}5 \\\ 1 \\\ 0\end{array}\right]+x_3\left[\begin{array}{c}-3 \\\ 0 \\\ 1\end{array}\right]$
 
-4. For the exercises (a)-(c) give a geometric interpretation of the solution set.
+4. For the exercises a)-c) give a geometric interpretation of the solution set.
 
-??? answer "&nbsp;"
-    (a) The solution set is a line in $\mathbb{R}^2$, as it has one free variable, representing a one-dimensional subspace.  
-    (b) The solution set is a line in $\mathbb{R}^3$, as it has one free variable, representing a one-dimensional subspace.  
-    (c) The solution set is a plane in $\mathbb{R}^3$, as it has two free variables, representing a two-dimensional subspace.
-
+    ??? answer "&nbsp;"
+        a) The solution set is a line in $\mathbb{R}^2$, as it has one free variable, representing a one-dimensional subspace.  
+        b) The solution set is a line in $\mathbb{R}^3$, as it has one free variable, representing a one-dimensional subspace.  
+        c) The solution set is a plane in $\mathbb{R}^3$, as it has two free variables, representing a two-dimensional subspace.
+        
 #### Exercise 6: Linear Independence
 
 1. For $\mathbf{a}_1 = 
-        \begin{bmatrix}
-            2 \\
-            3 \\
-            0
-        \end{bmatrix}$,
+    \begin{bmatrix}
+        2 \\
+        3 \\
+        0
+    \end{bmatrix}$,
     $\mathbf{a}_2 = 
-        \begin{bmatrix}
-            1\\
-            2\\
-            -5
-        \end{bmatrix}$,
+    \begin{bmatrix}
+        1\\
+        2\\
+        -5
+    \end{bmatrix}$,
     $\mathbf{a}_3 = 
-        \begin{bmatrix}
-            4\\
-            1\\
-            2
-        \end{bmatrix}$, and
+    \begin{bmatrix}
+        4\\
+        1\\
+        2
+    \end{bmatrix}$, and
     $\mathbf{b} = 
-        \begin{bmatrix}
-            8\\
-            6\\
-            12
-        \end{bmatrix}$ 
-determine if $\mathbf{b}$ is a linear combination of $\mathbf{a}_1,\mathbf{a}_2$ and $\mathbf{a}_3$.
+    \begin{bmatrix}
+        8\\
+        6\\
+        12
+    \end{bmatrix}$ 
+    determine if $\mathbf{b}$ is a linear combination of $\mathbf{a}_1,\mathbf{a}_2$ and $\mathbf{a}_3$.
 
-??? answer "&nbsp;"
-    Yes, since $\mathbf{b}=3\mathbf{a}_1-2\mathbf{a}_2+\mathbf{a}_3$
+    ??? answer "&nbsp;"
+        Yes, since $\mathbf{b}=3\mathbf{a}_1-2\mathbf{a}_2+\mathbf{a}_3$
 
-2.
-Let $A = \begin{bmatrix}1  & -2 & 4 \\
-                        0  & 4  & -5 \\
-                        -3 & 6  & -12 \end{bmatrix}$ and
-    $\mathbf{b}=\begin{bmatrix}1 \\\ -4 \\\ -1\end{bmatrix}$ be given.
-     Determine whether $\mathbf{b}$ is a linear combination of the columns in $A$.
+2. Let $A = \begin{bmatrix}1 & -2 & 4 \\
+                0 & 4 & -5 \\
+                -3 & 6 & -12 \end{bmatrix}$ and
+    $\mathbf{b}=\begin{bmatrix}1 \\ -4 \\ -1\end{bmatrix}$ be given.
+    Determine whether $\mathbf{b}$ is a linear combination of the columns in $A$.
 
-??? answer "&nbsp;"
+    ??? answer "&nbsp;"
+        No, $\mathbf{b}$ is not a linear combination of the columns of $A$
 
-    No $\mathbf{b}$ is not a linear combination of the columns of $A$
-
-3. For $A = \begin{bmatrix}2  & -6 & 5 \\
-                        1  & -5  & 1 \\
-                        -2 & 6  & p \end{bmatrix}$ and
-        $\mathbf{b}= \begin{bmatrix}3 \\\ 0 \\\ q\end{bmatrix}$ 
+3. For $A = \begin{bmatrix}2 & -6 & 5 \\
+            1 & -5 & 1 \\
+            -2 & 6 & p \end{bmatrix}$ and
+    $\mathbf{b}= \begin{bmatrix}3 \\ 0 \\ q\end{bmatrix}$ 
     determine the values of $p$ and $q$ such that $\mathbf{b}$ is not a linear combination of the columns of $A$.
 
-??? answer "&nbsp;"
-    $p=-5$ and $q\neq-3$
+    ??? answer "&nbsp;"
+        $p=-5$ and $q\neq-3$
