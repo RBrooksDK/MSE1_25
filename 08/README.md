@@ -6,9 +6,9 @@ Brooks: [Chapter 8](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FF
 
 ### Session Material
 
-[Session notes](https://drive.google.com/file/d/1FCAtAWjoSxS66AdYO0L3W7tjd4ZHPaxJ/view?usp=sharing)
+[Session notes](https://drive.google.com/file/d/1-oUrgA9oSCvoJXn-CHBLynj6iMy45aFx/view?usp=sharing)
 
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/Ep-kuPOC2r5NsJOp-SzZ1U8BsPWE1ZL0SEZTvJ8NXxrsHQ?e=SrV1vE)
+[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/Ep-kuPOC2r5NsJOp-SzZ1U8BsPWE1ZL0SEZTvJ8NXxrsHQ?e=GhUBsA)
 
 --------------------------
 
