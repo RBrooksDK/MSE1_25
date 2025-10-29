@@ -5,6 +5,12 @@ tags:
     - Matrix operations
     - Matrices
     - Linear transformations    
+    - Determinants
+    - Matrix inverses
+    - Vector spaces
+    - Span
+    - Linear independence
+    - Invertible matrices
 ---
 
 <h1 align="center">Matrix Algebra and Determinants</h1>
