@@ -29,7 +29,8 @@ Some of the exercises may require you to use Python. You may also need to instal
 
 ### Exercises
 
-**[Python]** Means that you are advised to use Python to solve the exercise. You can find the Python solutions [here](https://github.com/RBrooksDK/MSE1_25/blob/main/09/Python_solutions_for_exercises_09.ipynb) or download them [here](Python_solutions_for_exercises_09.ipynb)
+Python solutions will be available after the session.
+<!--**[Python]** Means that you are advised to use Python to solve the exercise. You can find the Python solutions [here](https://github.com/RBrooksDK/MSE1_25/blob/main/09/Python_solutions_for_exercises_09.ipynb) or download them [here](Python_solutions_for_exercises_09.ipynb)-->
 
 #### Exercise 1
 1. Determine *by inspection* whether the following sets of vectors are linearly independent or dependent. Justify each answer.
