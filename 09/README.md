@@ -4,9 +4,9 @@
 
 Brooks: [Chapter 9](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing). You should begin reading before class as it will aid your understanding as the topics get more complex.
 
-### Session Material
+### Resources Danish Class:
 
-[Session notes](https://drive.google.com/file/d/15CCNWA5N8duTAW79d_YJX1kgOVmDVvju/view?usp=sharing)
+[Session notes](https://drive.google.com/file/d/1RLzR80FeGefbyzGPFUZVl9VEfhV6mubz/view?usp=sharing)
 
 [Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EpGNNUp8hjpPn6niIxD8hT4BdSOLqNwtdY91GTRCdj7D_g?e=2DwW6Q)
 
