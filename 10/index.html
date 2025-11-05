@@ -1031,7 +1031,7 @@
 <p>Python solutions will be available after the session.</p>
 <!--**[Python]** Means that you are advised to use Python to solve the exercise. You can find the Python solutions [here](https://github.com/RBrooksDK/MSE1_25/blob/main/10/Python_solutions_for_exercises_10.ipynb) or download them [here](Python_solutions_for_exercises_10.ipynb)-->
 
-<h4 id="exercise-1">Exercise 1<a class="headerlink" href="#exercise-1" title="Permanent link">&para;</a></h4>
+<h4 id="exercise-1-recap">Exercise 1 (Recap)<a class="headerlink" href="#exercise-1-recap" title="Permanent link">&para;</a></h4>
 <p><strong>[Python]</strong> Given</p>
 <p><span class="arithmatex">\(A=\left[\begin{array}{ccc}1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \\ 7 &amp; 8 &amp; 9\end{array}\right]\)</span> and <span class="arithmatex">\(B=\left[\begin{array}{ccc}9 &amp; 8 &amp; 7 \\ 6 &amp; 5 &amp; 4 \\ 3 &amp; 2 &amp; 1\end{array}\right]\)</span>.</p>
 <p>Solve the matrix equation <span class="arithmatex">\(X-A=6(X+B)\)</span>.</p>
@@ -1039,7 +1039,122 @@
 <summary>&nbsp;</summary>
 <p><span class="arithmatex">\(X=\left[\begin{array}{ccc}-11 &amp; -10 &amp; -9 \\ -8 &amp; -7 &amp; -6 \\ -5 &amp; -4 &amp; -3\end{array}\right]\)</span></p>
 </details>
-<h4 id="exercise">Exercise ?<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h4>
+<h4 id="exercise-2">Exercise 2<a class="headerlink" href="#exercise-2" title="Permanent link">&para;</a></h4>
+<p>Find the limits of the following functions:</p>
+<ol>
+<li><span class="arithmatex">\(\lim\limits_{x \to 0} \frac{x^4-4 x^3+x^2}{x^3+x^2+x}\)</span></li>
+<li><span class="arithmatex">\(\lim\limits_{x \to \infty} \frac{x^2+1}{x^2-1}\)</span></li>
+<li><span class="arithmatex">\(\lim\limits_{x \to 2} \frac{x-2}{x^2-3 x+2}\)</span></li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(\lim\limits_{x \to 0} \frac{x^4-4 x^3+x^2}{x^3+x^2+x} = 0\)</span></li>
+<li><span class="arithmatex">\(\lim\limits_{x \to \infty} \frac{x^2+1}{x^2-1} = 1\)</span></li>
+<li><span class="arithmatex">\(\lim\limits_{x \to 2} \frac{x-2}{x^2-3 x+2} = 1\)</span></li>
+</ol>
+</details>
+<h4 id="exercise-3-simple-derivatives">Exercise 3: Simple Derivatives<a class="headerlink" href="#exercise-3-simple-derivatives" title="Permanent link">&para;</a></h4>
+<p>Find the derivatives of the following functions:</p>
+<ol>
+<li><span class="arithmatex">\(f(x)=x^4\)</span></li>
+<li><span class="arithmatex">\(f(t)=t^{-\frac{1}{3}}\)</span></li>
+<li><span class="arithmatex">\(y=t^{-3.8}\)</span></li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(f'(x)=4x^3\)</span></li>
+<li><span class="arithmatex">\(f'(t)=-\frac{1}{3}t^{-\frac{4}{3}}\)</span></li>
+<li><span class="arithmatex">\(y'=-3.8t^{-4.8}\)</span></li>
+</ol>
+</details>
+<h4 id="exercise-4-derivatives-of-powers">Exercise 4: Derivatives of Powers<a class="headerlink" href="#exercise-4-derivatives-of-powers" title="Permanent link">&para;</a></h4>
+<p>Express the following as powers and then differentiate:</p>
+<ol>
+<li><span class="arithmatex">\(\frac{1}{x^2}\)</span></li>
+<li><span class="arithmatex">\(\sqrt[3]{x}\)</span></li>
+<li><span class="arithmatex">\(\frac{1}{x \sqrt[4]{x}}\)</span></li>
+<li><span class="arithmatex">\(x^{\frac{1}{2}} \frac{\sqrt{x}}{x}\)</span></li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(\frac{1}{x^2} = x^{-2}\)</span>, derivative: <span class="arithmatex">\(\frac{d}{dx}x^{-2} = -2x^{-3}\)</span></li>
+<li><span class="arithmatex">\(\sqrt[3]{x} = x^{1/3}\)</span>, derivative: <span class="arithmatex">\(\frac{d}{dx}x^{1/3} = \frac{1}{3}x^{-2/3}\)</span></li>
+<li><span class="arithmatex">\(\frac{1}{x \sqrt[4]{x}} = x^{-5/4}\)</span>, derivative: <span class="arithmatex">\(\frac{d}{dx}x^{-5/4} = -\frac{5}{4}x^{-9/4}\)</span></li>
+<li><span class="arithmatex">\(x^{\frac{1}{2}} \cdot \frac{\sqrt{x}}{x} = x^{-1/2}\)</span>, derivative: <span class="arithmatex">\(\frac{d}{dx}x^{-1/2} = -\frac{1}{2}x^{-3/2}\)</span></li>
+</ol>
+</details>
+<h4 id="exercise-5-derivatives-of-sums-and-differences">Exercise 5: Derivatives of Sums and Differences<a class="headerlink" href="#exercise-5-derivatives-of-sums-and-differences" title="Permanent link">&para;</a></h4>
+<p>Find the derivatives of the following functions:</p>
+<ol>
+<li><span class="arithmatex">\(y=2 x^{-7}+\frac{3}{x^2}\)</span></li>
+<li><span class="arithmatex">\(f(t)=2.5 t^{2.3}+\frac{t}{\sqrt{t}}\)</span></li>
+<li><span class="arithmatex">\(f(u)=u^{\frac{5}{3}}-3 u^{-7}\)</span></li>
+<li><span class="arithmatex">\(g(z)=8 z^{-2}-\frac{5}{z}\)</span></li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(\frac{d}{dx}(2 x^{-7}+\frac{3}{x^2}) = -14x^{-8} - 6x^{-3}\)</span></li>
+<li><span class="arithmatex">\(\frac{d}{dx}(2.5 t^{2.3}+\frac{t}{\sqrt{t}}) = 5.75t^{1.3} - \frac{1}{2}t^{-1/2}\)</span></li>
+<li><span class="arithmatex">\(\frac{d}{dx}(u^{\frac{5}{3}}-3 u^{-7}) = \frac{5}{3}u^{2/3} + 21u^{-8}\)</span></li>
+<li><span class="arithmatex">\(\frac{d}{dx}(8 z^{-2}-\frac{5}{z}) = -16z^{-3} + \frac{5}{z^2}\)</span></li>
+</ol>
+</details>
+<h4 id="exercises-6-derivatives-of-products-and-quotients">Exercises 6: Derivatives of Products and Quotients<a class="headerlink" href="#exercises-6-derivatives-of-products-and-quotients" title="Permanent link">&para;</a></h4>
+<p>Use the product rule to differentiate the functions below:  </p>
+<ol>
+<li><span class="arithmatex">\(f(x)=\left(4 x^3+2\right)(1-3 x)\)</span></li>
+<li><span class="arithmatex">\(g(x)=\left(x^2+x+2\right)\left(x^2+1\right)\)</span></li>
+<li><span class="arithmatex">\(h(x)=\left(3 x^3-2 x^2+8 x-5\right)\left(x^2-2 x+4\right)\)</span></li>
+<li><span class="arithmatex">\(h(x)=\frac{x^2-1}{x^3+4}\)</span></li>
+<li><span class="arithmatex">\(g(t)=\frac{t(t+6)}{t^2+3 t+1}\)</span></li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(-48x^3 + 12x^2 - 6\)</span></li>
+<li><span class="arithmatex">\( 4x^3 + 3x^2 + 6x + 1\)</span></li>
+<li><span class="arithmatex">\(15 x^4-40 x^3+94 x^2-68 x+32\)</span></li>
+<li><span class="arithmatex">\(h^{\prime}(x)=\frac{-x^4+3 x^2+8 x}{\left(x^3+4\right)^2}\)</span></li>
+<li><span class="arithmatex">\(\frac{-3 t^2+2 t+6}{\left(t^2+3 t+1\right)^2}\)</span></li>
+</ol>
+</details>
+<h4 id="exercise-7-derivatives-using-the-chain-rule">Exercise 7: Derivatives using the Chain Rule<a class="headerlink" href="#exercise-7-derivatives-using-the-chain-rule" title="Permanent link">&para;</a></h4>
+<ol>
+<li><span class="arithmatex">\((2 x+3)^2\)</span></li>
+<li><span class="arithmatex">\(\left(x^2+2 x+1\right)^{12}\)</span></li>
+<li><span class="arithmatex">\(f(t)=\sqrt{t^2-5 t+7}\)</span></li>
+<li><span class="arithmatex">\(z=\left(x+\frac{1}{x}\right)^{\frac{3}{7}}\)</span></li>
+<li><span class="arithmatex">\(\frac{x}{\sqrt{1-x^2}}\)</span></li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(8 x+12\)</span></li>
+<li><span class="arithmatex">\(12(2 x+2)\left(x^2+2 x+1\right)^{11}\)</span></li>
+<li><span class="arithmatex">\(\frac{2 t-5}{2 \sqrt{t^2-5 t+7}}\)</span></li>
+<li><span class="arithmatex">\(\frac{3}{7}\left(x+\frac{1}{x}\right)^{-4 / 7}\left(1-\frac{1}{x^2}\right)\)</span></li>
+<li><span class="arithmatex">\(\frac{1}{\left(1-x^2\right)^{3 / 2}}\)</span></li>
+</ol>
+</details>
+<h4 id="exercise-8-derivatives-of-exponential-and-logarithmic-functions">Exercise 8: Derivatives of Exponential and Logarithmic Functions<a class="headerlink" href="#exercise-8-derivatives-of-exponential-and-logarithmic-functions" title="Permanent link">&para;</a></h4>
+<ol>
+<li><span class="arithmatex">\(f(x)=\ln \left(2 x^3\right)\)</span></li>
+<li><span class="arithmatex">\(f(x)=e^{x^2+x^3}\)</span></li>
+<li><span class="arithmatex">\(f(x)=\ln \left(e^x+x^3\right)\)</span></li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(\frac{3}{x}\)</span></li>
+<li><span class="arithmatex">\(e^{x^2+x^3} (2x+3x^2)\)</span></li>
+<li><span class="arithmatex">\(\frac{e^x+3x^2}{e^x+x^3}\)</span></li>
+</ol>
+</details>
+<h4 id="exercise-9-applications-of-derivatives">Exercise 9: Applications of Derivatives<a class="headerlink" href="#exercise-9-applications-of-derivatives" title="Permanent link">&para;</a></h4>
 <p>Velocity is the rate of change of position with respect to time. </p>
 <p>Acceleration is the rate of change of velocity with respect to time.</p>
 <ol>
