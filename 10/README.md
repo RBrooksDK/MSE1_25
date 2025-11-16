@@ -14,8 +14,7 @@ Some of the exercises may require you to use Python. You may also need to instal
 
 ### Exercises
 
-Python solutions will be available after the session.
-<!--**[Python]** Means that you are advised to use Python to solve the exercise. You can find the Python solutions [here](https://github.com/RBrooksDK/MSE1_25/blob/main/10/Python_solutions_for_exercises_10.ipynb) or download them [here](Python_solutions_for_exercises_10.ipynb)-->
+**[Python]** Means that you are advised to use Python to solve the exercise. You can find the Python solutions [here](https://github.com/RBrooksDK/MSE1_25/blob/main/10/Python_solutions_for_exercises_10.ipynb) or download them [here](Python_solutions_for_exercises_10.ipynb)
 
 #### Exercise 1 (Recap)
 
