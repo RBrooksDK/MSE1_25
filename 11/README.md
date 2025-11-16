@@ -4,11 +4,13 @@
 
 Brooks: [Section 10.5. + Chapter 11](https://drive.google.com/file/d/1P9eidJb5qtlZgvHCtqu4uuPa5FFU0Zpn/view?usp=sharing). You should begin reading before class as it will aid your understanding as the topics get more complex
 
-### Resources Danish Class:
+### Resources:
 
-[Session notes](https://drive.google.com/file/d/1TBKqEzJ85hpuwXKSoilDalk2qwhHruod/view?usp=sharing)
+[Session notes DK](https://drive.google.com/file/d/1_H8debXMq4hjruRW1ALZTlinzRa1tWKj/view?usp=sharing)
 
-[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/IgCpfSdLLHdeR7pslljlUrhKAXJzbe5-r_AD2M2xDyqvJL8?e=4m0Pmf)
+[Session notes EN]()
+
+[Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/IgB8BiMdzzbiR5g5Y49K-TzrAdo-Z-ufFcXKq8NLNolXM50?e=O0FY6T)
 
 
 ### Exercises
