@@ -8,7 +8,7 @@ Brooks: [Section 10.5. + Chapter 11](https://drive.google.com/file/d/1P9eidJb5qt
 
 [Session notes DK](https://drive.google.com/file/d/1_H8debXMq4hjruRW1ALZTlinzRa1tWKj/view?usp=sharing)
 
-[Session notes EN]()
+[Session notes EN](https://drive.google.com/file/d/16s5bLzISjTxl1tpbwGTu5YndUaxoi9fq/view?usp=sharing)
 
 [Session Resources](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/IgB8BiMdzzbiR5g5Y49K-TzrAdo-Z-ufFcXKq8NLNolXM50?e=O0FY6T)
 
