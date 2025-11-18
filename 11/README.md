@@ -52,6 +52,8 @@ $$
 
     \(\begin{aligned} & 3 x^2-12=0 \Rightarrow x= \pm 2 \\ & f^{\prime \prime}(-2)=-12 \Rightarrow \text { local max local max of } 16 \text { at } x=-2 \\ & f^{\prime \prime}(2)=12 \Rightarrow \text { local min local min of }-16 \text { at } x=2\end{aligned}\)
 
+    $f^{\prime \prime}(x) = 6x$ $\Rightarrow$ concave down on \((-\infty, 0)\) and concave up on \((0, \infty)\).
+
     
 
 #### Exercise 4: Functions of Two Variables
